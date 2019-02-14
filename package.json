@@ -1,0 +1,38 @@
+{
+  "name": "easysnap",
+  "version": "0.1.0",
+  "description": "EOS token snapshot tool",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src",
+    ".bin"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "start": "ts-node .bin/easysnap.ts"
+  },
+  "bin": {
+    "easysnap": ".bin/easysnap.js"
+  },
+  "contributors": [
+    "Nathan Rempel",
+    "Denis Carriere <denis@eosnation.io>"
+  ],
+  "devDependencies": {
+    "@types/debug": "*",
+    "@types/dotenv": "*",
+    "@types/ora": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "axios": "*",
+    "commander": "*",
+    "debug": "*",
+    "dotenv": "*",
+    "ora": "*"
+  }
+}
