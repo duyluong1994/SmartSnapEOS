@@ -23,7 +23,7 @@ program
 program.on('--help', () => {
   console.log('')
   console.log('Examples:');
-  console.log('  $ easysnap -o "snapshot.csv" --code <TOKEN_CODE> --block_num <BLOCK_NUMBER>');
+  console.log('  $ easysnap --code "eosio.token"');
 });
 
 program.parse(process.argv);
@@ -48,7 +48,7 @@ async function cli() {
     // CLI params
     const headers = program.headers;
     const json = program.json;
-    const filepath = program.out || `snapshot-${code}-${table}-${Date.now()}-${block_num}.csv`;
+    const filepath = program.out || `snapshot-${code}-${table}-${Date.now()}-${block_num}.${json ? "json" : "csv"}`;
 
     spinner.start(`downloading [${code}] token snapshot`);
     const accounts = await snapshot(code, block_num);

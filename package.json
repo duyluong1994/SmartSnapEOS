@@ -2,13 +2,10 @@
   "name": "easysnap",
   "version": "0.1.0",
   "description": "EOS token snapshot tool",
-  "main": "index.ts",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "index.js",
-    "index.d.ts",
-    "src",
-    ".bin"
+    "dist"
   ],
   "scripts": {
     "prepare": "tsc",
@@ -34,6 +31,6 @@
     "debug": "*",
     "dotenv": "*",
     "ora": "*",
-    "write-json-file": "^3.1.0"
+    "write-json-file": "*"
   }
 }

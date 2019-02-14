@@ -5,14 +5,13 @@
 ## Install
 
 ```
-$ npm install -g easysnap
+$ sudo npm install -g easysnap
 ```
 
 ## How to use
 
 ```bash
-$ easysnap --contract "<TOKEN CONTRACT>" --block_num <BLOCK NUMBER> --dfuse_api_key "<DFUSE API KEY>"
-$ easysnap --contract "eosio.token" --block_num 42300000 --dfuse_api_key "eyJ...lug"
+$ easysnap --code "eosio.token"
 ```
 
 ## Configure
@@ -26,6 +25,7 @@ DFUSE_API_KEY="<API KEY>"
 EOSIO_ENDPOINT="https://eos.greymass.com"
 DFUSE_ENDPOINT="https://mainnet.eos.dfuse.io"
 TOKEN_CODE="eosio.token"
+TOKEN_TABLE="accounts"
 BLOCK_NUMBER=42300000
 ```
 
@@ -50,5 +50,5 @@ Options:
   -h, --help                output usage information
 
 Examples:
-  $ easysnap -o "snapshot.csv" --code <TOKEN_CODE> --block_num <BLOCK_NUMBER>
+  $ easysnap --code "eosio.token"
 ```
