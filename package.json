@@ -15,7 +15,7 @@
     "start": "ts-node .bin/easysnap.ts"
   },
   "bin": {
-    "easysnap": ".bin/easysnap.js"
+    "easysnap": "dist/.bin/easysnap.js"
   },
   "contributors": [
     "Nathan Rempel",

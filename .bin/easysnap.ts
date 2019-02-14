@@ -5,7 +5,8 @@ import { snapshot } from "../src/snapshot"
 import { settings, spinner, config } from "../src/config"
 import { getInfo } from "../src/eos";
 import { csv } from "../src/csv";
-const pkg = require("../package.json");
+import * as pkg from "../package.json"
+
 const {version, description} = pkg;
 
 program
