@@ -36,8 +36,8 @@ export function config(options: {
     settings.TOKEN_CODE = options.TOKEN_CODE || process.env.TOKEN_CODE || settings.TOKEN_CODE
     settings.TOKEN_TABLE = options.TOKEN_TABLE || process.env.TOKEN_TABLE || settings.TOKEN_TABLE
 
-    if (!settings.DFUSE_API_KEY) throw new Error("[DFUSE_API_KEY] is required in .env");
-
     axios.defaults.headers = {'Authorization': `Bearer ${settings.DFUSE_API_KEY}`}
     axios.defaults.paramsSerializer = (params) => Object.keys(params).map(key => key + "=" + params[key]).join("&")
 }
+
+config()
