@@ -17,7 +17,7 @@ Define `DFUSE_API_KEY` in your environment variables or create a `.env` file
 DFUSE_API_KEY="<API KEY>"
 EOSIO_ENDPOINT="https://eos.greymass.com"
 DFUSE_ENDPOINT="https://mainnet.eos.dfuse.io"
-TOKEN_CONTRACT="eosio.token"
+TOKEN_CODE="eosio.token"
 BLOCK_NUMBER=42300000
 ```
 

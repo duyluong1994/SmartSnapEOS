@@ -41,3 +41,29 @@ export async function * getTableScopes(code: string, table: string, limit = 1000
         yield response.data.rows.map(row => row.scope)
     } while (more);
 }
+
+interface Info {
+  server_version: string;
+  chain_id: string;
+  head_block_num: number;
+  last_irreversible_block_num: number;
+  last_irreversible_block_id: string;
+  head_block_id: string;
+  head_block_time: string;
+  head_block_producer: string;
+  virtual_block_cpu_limit: number;
+  virtual_block_net_limit: number;
+  block_cpu_limit: number;
+  block_net_limit: number;
+  server_version_string: string;
+}
+
+export async function getInfo() {
+    debug("snapshot:eos")(`eos.getInfo`)
+    const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_info`;
+    try {
+        return await axios.post<Info>(url);
+    } catch (e) {
+        throw new Error(e)
+    }
+}

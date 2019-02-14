@@ -33,6 +33,7 @@
     "commander": "*",
     "debug": "*",
     "dotenv": "*",
-    "ora": "*"
+    "ora": "*",
+    "write-json-file": "^3.1.0"
   }
 }
