@@ -12,7 +12,14 @@ program
   .option('-c, --contract', 'token contract')
   .option('-b, --block_num', 'block number')
   .option('-u, --url', 'http/https URL where nodeos is running')
-  .parse(process.argv);
+
+program.on('--help', () => {
+  console.log('')
+  console.log('Examples:');
+  console.log('  $ easysnap --contract <TOKEN CONTRACT> --block_num <BLOCK NUMBER>');
+});
+
+program.parse(process.argv);
 
 if (program.contract) settings.TOKEN_CONTRACT = program.contract;
 if (program.block_num) settings.BLOCK_NUMBER = program.block_num;
