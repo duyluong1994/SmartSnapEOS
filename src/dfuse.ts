@@ -2,6 +2,8 @@ import axios from "axios";
 import debug from "debug";
 import { settings } from "./config"
 
+const log = debug("easysnap:dfuse")
+
 export interface StateTable<T> {
     last_irreversible_block_id: string;
     last_irreversible_block_num: number;
@@ -33,7 +35,7 @@ export interface TableScopesRow<T> {
 }
 
 export async function getStateTable<T>(account: string, scope: string, table: string, block_num: number) {
-    debug("snapshot:dfuse")(`dfuse.getTableByScope    ${JSON.stringify({account, scope, table, block_num})}`)
+    log(`getTableByScope    ${JSON.stringify({account, scope, table, block_num})}`)
     const params = {
         account,
         table,
@@ -50,7 +52,7 @@ export async function getStateTable<T>(account: string, scope: string, table: st
 }
 
 export async function getStateTableScopes<T>(account: string, scopes: string[], table: string, block_num: number) {
-    debug("snapshot:dfuse")(`dfuse.getTableByScope    ${JSON.stringify({account, scopes: scopes.length, table, block_num})}`)
+    log(`getTableByScope    ${JSON.stringify({account, scopes: scopes.length, table, block_num})}`)
     const params = {
         account,
         table,

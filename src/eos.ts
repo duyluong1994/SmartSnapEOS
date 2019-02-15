@@ -2,6 +2,8 @@ import axios from "axios";
 import debug from "debug";
 import { settings } from "./config"
 
+const log = debug("easysnap:eos")
+
 export interface Table<T> {
     rows: T[],
     more: string
@@ -16,7 +18,7 @@ export interface Scope {
 }
 
 export async function getTableByScope(code: string, table: string, limit = 1000, more = "") {
-    debug("snapshot:eos")(`eos.getTableByScope    ${code},${table},${limit},${more}`)
+    log(`getTableByScope    ${code},${table},${limit},${more}`)
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_table_by_scope`;
     const data = {
         json: true,
@@ -33,7 +35,7 @@ export async function getTableByScope(code: string, table: string, limit = 1000,
 }
 
 export async function * getTableScopes(code: string, table: string, limit = 1000) {
-    debug("snapshot:eos")(`eos.getTableScopes    ${code},${table}`)
+    log(`getTableScopes    ${code},${table}`)
     let more = '';
     do {
         const response = await getTableByScope(code, table, limit, more);
@@ -59,7 +61,7 @@ interface Info {
 }
 
 export async function getInfo() {
-    debug("snapshot:eos")(`eos.getInfo`)
+    log(`getInfo`)
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_info`;
     try {
         return await axios.post<Info>(url);
