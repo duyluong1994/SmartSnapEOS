@@ -1,18 +1,19 @@
 {
   "name": "easysnap",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "EOS token snapshot tool",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "files": [
-    "dist"
+    "**/*.js",
+    "**/*.d.ts"
   ],
   "scripts": {
     "prepare": "tsc",
     "start": "ts-node .bin/easysnap.ts"
   },
   "bin": {
-    "easysnap": "dist/.bin/easysnap.js"
+    "easysnap": ".bin/easysnap.js"
   },
   "contributors": [
     "Nathan Rempel",
