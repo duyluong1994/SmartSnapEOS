@@ -14,6 +14,18 @@ $ sudo npm install -g easysnap
 $ easysnap --code "eosio.token"
 ```
 
+## Javascript
+
+```js
+import { snapshot } from "easysnap"
+
+snapshot("eosio.token", 43000000).then(accounts => {
+    for (const account of accounts) {
+        console.log(account)
+    }
+})
+```
+
 ## Configure
 
 Define your environment variables or create a `.env` file
