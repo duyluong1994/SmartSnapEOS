@@ -13,7 +13,7 @@ export interface Account {
     balance: string
 }
 
-export async function snapshot(account: string, block_num: number) {
+export async function snapshot(account: string, block_num: number, min_balance = 0) {
     const table = "accounts";
     const tableScopes = getTableScopes(account, table, 1000)
     const accounts: Account[] = [];
@@ -25,11 +25,20 @@ export async function snapshot(account: string, block_num: number) {
 
         for (const table of stateTableScopes.tables) {
             for (const row of table.rows) {
-                accounts.push({account_name: table.scope, balance: row.json.balance})
-                stats.accounts += 1
-                if (stats.accounts % 100 === 0) spinner.start(`downloading [${account}] token snapshot (${stats.accounts})`);
+                const balance = row.json.balance;
+                const account_name = table.scope;
+                const amount = Number(balance.split(" ")[0])
+
+                if (amount >= min_balance) {
+                    accounts.push({account_name, balance})
+                    stats.accounts += 1;
+                } else {
+                    stats.skipped += 1;
+                }
+                stats.total += 1;
             }
         }
+        spinner.start(`downloading [${account}] token snapshot (${stats.accounts})`);
     }
     return accounts
 }
