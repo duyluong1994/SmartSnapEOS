@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "axios": "*",
+    "bignumber.js": "*",
     "commander": "*",
     "debug": "*",
     "dotenv": "*",

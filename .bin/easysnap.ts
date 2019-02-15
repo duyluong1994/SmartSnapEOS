@@ -2,7 +2,7 @@
 import program from "commander";
 import * as write from "write-json-file";
 import { snapshot } from "../src/snapshot"
-import { settings, spinner, config } from "../src/config"
+import { settings, spinner, config, stats } from "../src/config"
 import { getInfo } from "../src/eos";
 import { csv } from "../src/csv";
 import * as pkg from "../package.json"
@@ -58,5 +58,10 @@ async function cli() {
     if (json) write.sync(filepath, accounts)
     else csv(filepath, accounts, headers)
     spinner.stop()
+    console.log(`${filepath}`)
+    console.log("accounts:", stats.accounts)
+    console.log("skipped:", stats.skipped)
+    console.log("balance:", stats.balance)
+    console.log("total:", stats.total)
 }
 cli()

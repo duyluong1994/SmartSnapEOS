@@ -1,6 +1,7 @@
 import axios from "axios";
 import * as dotenv from "dotenv";
 import ora from "ora";
+import BigNumber from "bignumber.js"
 
 class Settings {
     public BLOCK_NUMBER: number | undefined;
@@ -16,6 +17,7 @@ class Stats {
     public accounts = 0;
     public skipped = 0;
     public total = 0;
+    public balance = new BigNumber(0);
 }
 
 export const settings = new Settings()

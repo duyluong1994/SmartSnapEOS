@@ -32,6 +32,7 @@ export async function snapshot(account: string, block_num: number, min_balance =
                 if (amount >= min_balance) {
                     accounts.push({account_name, balance})
                     stats.accounts += 1;
+                    stats.balance = stats.balance.plus(amount)
                 } else {
                     stats.skipped += 1;
                 }
