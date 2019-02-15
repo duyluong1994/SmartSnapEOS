@@ -1,12 +1,17 @@
 import { getTableScopes } from "./eos"
-import { getStateTableScopes } from "./dfuse"
+import { getStateTableScopes, getStateTable } from "./dfuse"
 import { stats, spinner } from "./config"
 import debug from "debug";
 
-const log = debug("easysnap:snapshot")
+const log = debug("easysnap:eosdac")
 
 export interface Balance {
     balance: string;
+}
+
+export interface Member {
+    sender: string,
+    agreedtermsversion: number
 }
 
 export interface Account {
@@ -16,16 +21,18 @@ export interface Account {
     balance: string
 }
 
-export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = []) {
-    log(`snapshot    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
-    const table = "accounts";
-    const tableScopes = getTableScopes(code, table, 1000)
+export async function eosdac(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = []) {
+    log(`eosdac    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
+    const tableScopes = (await getStateTable<Member>(code, code, "members", block_num)).rows.map(row => row.json.sender)
     const accounts: Account[] = [];
+    let chunks = 0
 
     while (true) {
-        const {done, value} = await tableScopes.next()
-        if (done) break;
-        const stateTableScopes = await getStateTableScopes<Balance>(code, value, table, block_num)
+        const scopes = tableScopes.slice(chunks, chunks + 1000)
+        chunks += 1000
+        if (!scopes.length) break;
+
+        const stateTableScopes = await getStateTableScopes<Balance>(code, scopes, "accounts", block_num)
 
         for (const table of stateTableScopes.tables) {
             for (const row of table.rows) {
@@ -39,9 +46,9 @@ export async function snapshot(code: string, block_num: number, min_balance = 0,
 
                 // Account name must not belong to excluded accounts
                 if (exclude_accounts.indexOf(account_name) !== -1) {
-                    log(`excluded    ${account_name}    account has been flaged as an excluded account`)
-                    stats.accounts_excluded = stats.accounts_excluded.plus(1)
-                    stats.balance_excluded = stats.balance_excluded.plus(amount)
+                    log(`skipped    ${account_name}    account has been flaged as an excluded account`)
+                    stats.accounts_skipped = stats.accounts_skipped.plus(1)
+                    stats.balance_skipped = stats.balance_skipped.plus(amount)
                     continue;
                 }
                 // Must have at least the minimum balance

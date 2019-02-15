@@ -34,10 +34,10 @@ export interface TableScopesRow<T> {
     json: T;
 }
 
-export async function getStateTable<T>(account: string, scope: string, table: string, block_num: number) {
-    log(`getTableByScope    ${JSON.stringify({account, scope, table, block_num})}`)
+export async function getStateTable<T>(code: string, scope: string, table: string, block_num: number) {
+    log(`getTableByScope    ${JSON.stringify({code, scope, table, block_num})}`)
     const params = {
-        account,
+        account: code,
         table,
         scope,
         block_num,
@@ -51,10 +51,10 @@ export async function getStateTable<T>(account: string, scope: string, table: st
     }
 }
 
-export async function getStateTableScopes<T>(account: string, scopes: string[], table: string, block_num: number) {
-    log(`getTableByScope    ${JSON.stringify({account, scopes: scopes.length, table, block_num})}`)
+export async function getStateTableScopes<T>(code: string, scopes: string[], table: string, block_num: number) {
+    log(`getTableByScope    ${JSON.stringify({code, scopes: scopes.length, table, block_num})}`)
     const params = {
-        account,
+        account: code,
         table,
         scopes: scopes.join('|'),
         block_num,

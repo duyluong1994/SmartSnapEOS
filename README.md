@@ -46,21 +46,23 @@ BLOCK_NUMBER=42300000
 ```bash
 $ easysnap --help
 
-Usage: easysnap [options]
+Usage: easysnap.ts [options]
 
 EOS token snapshot tool
 
 Options:
-  -V, --version               output the version number
-  -c, --code <string>         token code
-  -b, --block_num [number]    block number
-  -m, --min_balance [number]  mininum token balance
-  -o, --out [string]          filepath to save csv/json
-  -u, --url [string]          http/https URL where nodeos is running
-  --dfuse_api_key [string]    dfuse.io API key
-  --headers [false]           allow csv headers
-  --json [false]              save as JSON file
-  -h, --help                  output usage information
+  -V, --version                    output the version number
+  -c, --code <string>              token code
+  -b, --block_num [number]         block number
+  -m, --min_balance [number]       mininum token balance
+  -o, --out [string]               filepath to save csv/json
+  -e, --exclude_accounts [string]  exclude accounts (default: "")
+  -u, --url [string]               http/https URL where nodeos is running
+  --dfuse_api_key [string]         dfuse.io API key
+  --eosdac [false]                 use eosDAC active members
+  --json [false]                   save as JSON file
+  --headers [false]                allow csv headers
+  -h, --help                       output usage information
 
 Examples:
   $ easysnap --code "eosio.token"
