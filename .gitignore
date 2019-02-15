@@ -4,3 +4,4 @@ yarn.lock
 *.js
 *.d.ts
 dist
+.DS_STORE
