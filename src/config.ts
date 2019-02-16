@@ -13,7 +13,8 @@ class Settings {
     public MIN_BALANCE = 0;
     public HEADERS = false;
     public EOSDAC = false;
-    public JSON = false
+    public JSON = false;
+    public BALANCE_INTEGER = false;
 }
 
 export const stats: {[key: string]: BigNumber} = {
@@ -41,6 +42,7 @@ export function config(options: {
     EXCLUDE_ACCOUNTS?: string[],
     JSON?: boolean,
     HEADERS?: boolean,
+    BALANCE_INTEGER?: boolean,
 } = {}) {
     dotenv.config()
 
@@ -54,6 +56,7 @@ export function config(options: {
     settings.JSON = options.JSON || Boolean(process.env.JSON) || settings.JSON;
     settings.HEADERS = options.HEADERS || Boolean(process.env.HEADERS) || settings.HEADERS;
     settings.EOSDAC = options.EOSDAC || Boolean(process.env.EOSDAC) || settings.EOSDAC;
+    settings.BALANCE_INTEGER = options.BALANCE_INTEGER || Boolean(process.env.BALANCE_INTEGER) || settings.BALANCE_INTEGER;
     axios.defaults.headers = {'Authorization': `Bearer ${settings.DFUSE_API_KEY}`}
     axios.defaults.paramsSerializer = (params) => Object.keys(params).map(key => key + "=" + params[key]).join("&")
 }

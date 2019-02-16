@@ -17,14 +17,15 @@ program
   .description(description)
   .option('-c, --code <string>', 'token code')
   .option('-b, --block_num [number]', 'block number')
-  .option('-m, --min_balance [number]', 'mininum token balance')
+  .option('-m, --min_balance [number]', 'mininum token balance', 0)
   .option('-o, --out [string]', 'filepath to save csv/json')
   .option('-e, --exclude_accounts [string]', 'exclude accounts', list, "")
   .option('-u, --url [string]', 'http/https URL where nodeos is running')
   .option('--dfuse_api_key [string]', 'dfuse.io API key')
-  .option('--eosdac [false]', 'use eosDAC active members')
-  .option('--json [false]', 'save as JSON file')
-  .option('--headers [false]', 'allow csv headers')
+  .option('--balance_integer [false]', 'token balance as integer', false)
+  .option('--eosdac [false]', 'use eosDAC active members', false)
+  .option('--json [false]', 'save as JSON file', false)
+  .option('--headers [false]', 'allow csv headers', false)
 
 program.on('--help', () => {
   console.log('')
@@ -42,6 +43,7 @@ async function cli() {
       EOSIO_ENDPOINT: program.url,
       DFUSE_API_KEY: program.dfuse_api_key,
       MIN_BALANCE: program.min_balance,
+      BALANCE_INTEGER: program.balance_integer,
       EXCLUDE_ACCOUNTS: program.exclude_accounts,
       HEADERS: program.headers,
       JSON: program.json,
@@ -66,7 +68,8 @@ async function cli() {
 
     // Download Snapshot
     spinner.start(`downloading [${code}] token snapshot`);
-    const accounts = dac ? await eosdac(code, block_num, min_balance, exclude_accounts)
+    const accounts = dac
+      ? await eosdac(code, block_num, min_balance, exclude_accounts)
       : await snapshot(code, block_num, min_balance, exclude_accounts);
 
     // Save Snapshot

@@ -54,14 +54,15 @@ Options:
   -V, --version                    output the version number
   -c, --code <string>              token code
   -b, --block_num [number]         block number
-  -m, --min_balance [number]       mininum token balance
+  -m, --min_balance [number]       mininum token balance (default: 0)
   -o, --out [string]               filepath to save csv/json
   -e, --exclude_accounts [string]  exclude accounts (default: "")
   -u, --url [string]               http/https URL where nodeos is running
   --dfuse_api_key [string]         dfuse.io API key
-  --eosdac [false]                 use eosDAC active members
-  --json [false]                   save as JSON file
-  --headers [false]                allow csv headers
+  --balance_integer [false]        token balance as integer (default: false)
+  --eosdac [false]                 use eosDAC active members (default: false)
+  --json [false]                   save as JSON file (default: false)
+  --headers [false]                allow csv headers (default: false)
   -h, --help                       output usage information
 
 Examples:

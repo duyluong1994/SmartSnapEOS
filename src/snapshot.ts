@@ -16,7 +16,7 @@ export interface Account {
     balance: string
 }
 
-export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = []) {
+export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = false) {
     log(`snapshot    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
     const table = "accounts";
     const tableScopes = getTableScopes(code, table, 1000)
@@ -51,7 +51,7 @@ export async function snapshot(code: string, block_num: number, min_balance = 0,
                     stats.accounts_skipped = stats.accounts_skipped.plus(1)
                     continue;
                 }
-                accounts.push({account_name, balance})
+                accounts.push({account_name, balance: String(amount)})
                 stats.accounts_active = stats.accounts_active.plus(1);
                 stats.balance_active = stats.balance_active.plus(amount)
             }
