@@ -14,7 +14,7 @@ class Settings {
     public HEADERS = false;
     public EOSDAC = false;
     public JSON = false;
-    public BALANCE_INTEGER = false;
+    public BALANCE_INTEGER = true;
 }
 
 export const stats: {[key: string]: BigNumber} = {

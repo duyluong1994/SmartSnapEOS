@@ -22,10 +22,10 @@ program
   .option('-e, --exclude_accounts [string]', 'exclude accounts', list, "")
   .option('-u, --url [string]', 'http/https URL where nodeos is running')
   .option('--dfuse_api_key [string]', 'dfuse.io API key')
-  .option('--balance_integer [false]', 'token balance as integer', false)
-  .option('--eosdac [false]', 'use eosDAC active members', false)
-  .option('--json [false]', 'save as JSON file', false)
-  .option('--headers [false]', 'allow csv headers', false)
+  .option('--balance_integer [boolean]', 'token balance as integer', true)
+  .option('--eosdac [boolean]', 'use eosDAC active members', false)
+  .option('--json [boolean]', 'save as JSON file', false)
+  .option('--headers [boolean]', 'allow csv headers', false)
 
 program.on('--help', () => {
   console.log('')
