@@ -1,4 +1,3 @@
-import { getTableScopes } from "./eos"
 import { getStateTableScopes, getStateTable } from "./dfuse"
 import { stats, spinner } from "./config"
 import debug from "debug";
@@ -21,7 +20,7 @@ export interface Account {
     balance: string
 }
 
-export async function eosdac(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = true) {
+export async function eosdac(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = false) {
     log(`eosdac    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
     const tableScopes = (await getStateTable<Member>(code, code, "members", block_num)).rows.map(row => row.json.sender)
     const accounts: Account[] = [];

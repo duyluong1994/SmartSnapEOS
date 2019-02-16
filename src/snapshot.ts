@@ -16,7 +16,7 @@ export interface Account {
     balance: string
 }
 
-export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = true) {
+export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = false) {
     log(`snapshot    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
     const table = "accounts";
     const tableScopes = getTableScopes(code, table, 1000)

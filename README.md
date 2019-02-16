@@ -59,10 +59,10 @@ Options:
   -e, --exclude_accounts [string]  exclude accounts (default: "")
   -u, --url [string]               http/https URL where nodeos is running
   --dfuse_api_key [string]         dfuse.io API key
-  --balance_integer [false]        token balance as integer (default: false)
-  --eosdac [false]                 use eosDAC active members (default: false)
-  --json [false]                   save as JSON file (default: false)
-  --headers [false]                allow csv headers (default: false)
+  --balance_integer [boolean]      token balance as integer (default: false)
+  --eosdac [boolean]               use eosDAC active members (default: false)
+  --json [boolean]                 save as JSON file (default: false)
+  --csv_headers [boolean]          allow csv headers (default: false)
   -h, --help                       output usage information
 
 Examples:

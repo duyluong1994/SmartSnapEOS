@@ -11,10 +11,10 @@ class Settings {
     public EOSIO_ENDPOINT= "https://eos.greymass.com";
     public DFUSE_ENDPOINT = "https://mainnet.eos.dfuse.io";
     public MIN_BALANCE = 0;
-    public HEADERS = false;
+    public CSV_HEADERS = false;
     public EOSDAC = false;
     public JSON = false;
-    public BALANCE_INTEGER = true;
+    public BALANCE_INTEGER = false;
 }
 
 export const stats: {[key: string]: BigNumber} = {
@@ -41,7 +41,7 @@ export function config(options: {
     EOSDAC?: boolean,
     EXCLUDE_ACCOUNTS?: string[],
     JSON?: boolean,
-    HEADERS?: boolean,
+    CSV_HEADERS?: boolean,
     BALANCE_INTEGER?: boolean,
 } = {}) {
     dotenv.config()
@@ -53,10 +53,10 @@ export function config(options: {
     settings.DFUSE_ENDPOINT = options.DFUSE_ENDPOINT || process.env.DFUSE_ENDPOINT || settings.DFUSE_ENDPOINT
     settings.TOKEN_CODE = options.TOKEN_CODE || process.env.TOKEN_CODE || settings.TOKEN_CODE
     settings.EXCLUDE_ACCOUNTS = options.EXCLUDE_ACCOUNTS || (process.env.EXCLUDE_ACCOUNTS || "").split(",") || settings.EXCLUDE_ACCOUNTS;
-    settings.JSON = options.JSON || Boolean(process.env.JSON) || settings.JSON;
-    settings.HEADERS = options.HEADERS || Boolean(process.env.HEADERS) || settings.HEADERS;
-    settings.EOSDAC = options.EOSDAC || Boolean(process.env.EOSDAC) || settings.EOSDAC;
-    settings.BALANCE_INTEGER = options.BALANCE_INTEGER || Boolean(process.env.BALANCE_INTEGER) || settings.BALANCE_INTEGER;
+    settings.JSON = options.JSON || JSON.parse(process.env.JSON || "false") || settings.JSON;
+    settings.CSV_HEADERS = options.CSV_HEADERS || JSON.parse(process.env.CSV_HEADERS || "false") || settings.CSV_HEADERS;
+    settings.EOSDAC = options.EOSDAC || JSON.parse(process.env.EOSDAC || "false") || settings.EOSDAC;
+    settings.BALANCE_INTEGER = options.BALANCE_INTEGER || JSON.parse(process.env.BALANCE_INTEGER || "false") || settings.BALANCE_INTEGER;
     axios.defaults.headers = {'Authorization': `Bearer ${settings.DFUSE_API_KEY}`}
     axios.defaults.paramsSerializer = (params) => Object.keys(params).map(key => key + "=" + params[key]).join("&")
 }

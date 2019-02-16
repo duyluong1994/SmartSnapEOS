@@ -22,10 +22,10 @@ program
   .option('-e, --exclude_accounts [string]', 'exclude accounts', list, "")
   .option('-u, --url [string]', 'http/https URL where nodeos is running')
   .option('--dfuse_api_key [string]', 'dfuse.io API key')
-  .option('--balance_integer [boolean]', 'token balance as integer', true)
+  .option('--balance_integer [boolean]', 'token balance as integer', false)
   .option('--eosdac [boolean]', 'use eosDAC active members', false)
   .option('--json [boolean]', 'save as JSON file', false)
-  .option('--headers [boolean]', 'allow csv headers', false)
+  .option('--csv_headers [boolean]', 'allow csv headers', false)
 
 program.on('--help', () => {
   console.log('')
@@ -45,7 +45,7 @@ async function cli() {
       MIN_BALANCE: program.min_balance,
       BALANCE_INTEGER: program.balance_integer,
       EXCLUDE_ACCOUNTS: program.exclude_accounts,
-      HEADERS: program.headers,
+      CSV_HEADERS: program.csv_headers,
       JSON: program.json,
       EOSDAC: program.eosdac,
     })
@@ -59,22 +59,26 @@ async function cli() {
     const block_num = settings.BLOCK_NUMBER || (await getInfo()).data.last_irreversible_block_num;
     const min_balance = settings.MIN_BALANCE;
     const exclude_accounts = settings.EXCLUDE_ACCOUNTS;
-    const headers = settings.HEADERS;
+    const csv_headers = settings.CSV_HEADERS;
     const json = settings.JSON;
     const dac = settings.EOSDAC;
+    const balance_integer = settings.BALANCE_INTEGER;
 
     // Dynamic filepath name
     const filepath = program.out || `snapshot-${code}-${dac ? "members" : "accounts"}-${Date.now()}-${block_num}.${json ? "json" : "csv"}`;
 
+    // Print settings
+    console.log(settings)
+
     // Download Snapshot
     spinner.start(`downloading [${code}] token snapshot`);
     const accounts = dac
-      ? await eosdac(code, block_num, min_balance, exclude_accounts)
-      : await snapshot(code, block_num, min_balance, exclude_accounts);
+      ? await eosdac(code, block_num, min_balance, exclude_accounts, balance_integer)
+      : await snapshot(code, block_num, min_balance, exclude_accounts, balance_integer);
 
     // Save Snapshot
     if (json) write.sync(filepath, accounts)
-    else csv(filepath, accounts, headers)
+    else csv(filepath, accounts, csv_headers)
     spinner.stop()
 
     // Print Statistics
