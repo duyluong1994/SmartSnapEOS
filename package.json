@@ -9,7 +9,8 @@
     "**/*.d.ts"
   ],
   "scripts": {
-    "start": "ts-node .bin/easysnap.ts"
+    "start": "ts-node .bin/easysnap.ts",
+    "clean": "rimraf logs/* && rimraf db/*"
   },
   "bin": {
     "easysnap": ".bin/easysnap.js"
@@ -22,7 +23,9 @@
   "devDependencies": {
     "@types/debug": "^4.1.4",
     "@types/dotenv": "*",
+    "@types/lowdb": "^1.0.9",
     "@types/node-fetch": "^2.3.4",
+    "rimraf": "^2.6.3",
     "ts-node": "*",
     "typescript": "*"
   },
@@ -31,11 +34,12 @@
     "axios": "*",
     "bignumber.js": "*",
     "commander": "*",
+    "csv-writer": "^1.3.0",
     "date-fns": "^2.0.0-alpha.29",
     "dotenv": "*",
     "eosjs": "^20.0.0",
+    "lowdb": "^1.0.0",
     "node-fetch": "^2.6.0",
-    "winston": "^3.2.1",
-    "write-json-file": "*"
+    "winston": "^3.2.1"
   }
 }

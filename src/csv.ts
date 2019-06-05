@@ -1,14 +1,21 @@
 import * as fs from "fs";
+import { createObjectCsvWriter } from "csv-writer";
+
 import { ExtendedRow } from "./snapshot";
 
-export function csv(filepath: string, rows: ExtendedRow[], headers = false) {
-    if (!rows.length) throw new Error("[rows] has no entries")
+const initCsv = (fileName: string, headers: string[]) => {
+  const csvWriter = createObjectCsvWriter({
+    path: `snapshots/${fileName}.csv`,
+    header: headers.map(header => ({
+      id: header,
+      title: header
+    })),
+    append: true,
+  });
 
-    const writer = fs.createWriteStream(filepath);
-    if (headers) writer.write(Object.keys(rows[0]).join(",") + "\n")
+  return csvWriter
+};
 
-    for (const row of rows) {
-        const rowValues = Object.values(row).join(",")
-        writer.write(rowValues + "\n")
-    }
+export {
+    initCsv
 }

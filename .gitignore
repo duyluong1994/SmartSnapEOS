@@ -8,6 +8,6 @@ dist
 
 # exclude logs / snapshots / db
 *.log
-snapshots/*.csv
-snapshots/*.json
-db/*.json
+snapshots/
+db/
+logs/

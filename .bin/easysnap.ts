@@ -1,12 +1,13 @@
 #! /usr/bin/env node
 import program from "commander";
-import * as write from "write-json-file";
+import * as fs from "fs";
 import { snapshot } from "../src/snapshot"
 import { settings, config, stats } from "../src/config"
 import { getInfo } from "../src/eos";
-import { csv } from "../src/csv";
+import { initCsv } from "../src/csv";
 import * as pkg from "../package.json"
 import { logger, addLogFile } from "../src/logger";
+import { initDatabase } from "../src/db";
 import { format } from 'date-fns';
 
 const {version, description} = pkg;
@@ -36,6 +37,8 @@ program.on('--help', () => {
 
 program.parse(process.argv);
 
+const directoriesToCreate = ['db', 'logs', 'snapshots']
+
 async function cli() {
     // Configure
     config({
@@ -60,19 +63,25 @@ async function cli() {
     const csv_headers = settings.CSV_HEADERS;
     const json = settings.JSON;
 
+    
+    directoriesToCreate.forEach(dir => {
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir);
+    })
+
     // Dynamic filepath name
     const filepath = program.out || `snapshots/${code}-${table}_${format(new Date(), `yyyy-MM-dd_HH:mm:ss`)}.${json ? "json" : "csv"}`;
     addLogFile(`${code}-${table}`)
+    initDatabase(`${code}-${table}-${block_num}`)
+    let csvWriter
 
     // Print settings
     logger.info(`Settings: ${JSON.stringify(settings, null, 2)}`)
 
     // Download Snapshot
-    const rows = await snapshot(code, table, block_num);
-
-    // Save Snapshot
-    if (json) write.sync(filepath, rows)
-    else csv(filepath, rows, csv_headers)
+    for await (const rows of snapshot(code, table, block_num)) {
+      if(!csvWriter) csvWriter = initCsv(`${code}-${table}-${block_num}`, Object.keys(rows[0]))
+      await csvWriter.writeRecords(rows)
+    }
 
     // Print Statistics
     console.log(`${filepath}`)
