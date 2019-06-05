@@ -1,8 +1,6 @@
 import axios from "axios";
-import debug from "debug";
 import { settings } from "./config"
-
-const log = debug("easysnap:eos")
+import { logger } from "./logger"
 
 export interface Table<T> {
     rows: T[],
@@ -17,15 +15,16 @@ export interface Scope {
     count: number;
 }
 
-export async function getTableByScope(code: string, table: string, limit = 1000, more = "") {
-    log(`getTableByScope    ${code},${table},${limit},${more}`)
+export async function getTableByScope(code: string, table: string, limit = 1000, lowerBound = '') {
+    logger.debug(`getTableByScope    ${code},${table},${limit},${lowerBound}`)
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_table_by_scope`;
     const data = {
         json: true,
         code: code,
         table: table,
         limit: limit,
-        lower_bound: more,
+        lower_bound: ` ${lowerBound}`,
+        key_type: `name`
     }
     try {
         return await axios.post<Table<Scope>>(url, data);
@@ -34,14 +33,16 @@ export async function getTableByScope(code: string, table: string, limit = 1000,
     }
 }
 
-export async function * getTableScopes(code: string, table: string, limit = 1000) {
-    log(`getTableScopes    ${code},${table}`)
-    let more = '';
+export async function * getTableScopesBroken(code: string, table: string, limit = 1000) {
+    logger.debug(`getTableScopes    ${code},${table}`)
+    let hasMore = false;
     do {
-        const response = await getTableByScope(code, table, limit, more);
-        more = response.data.more;
+        let lowerBound = ''
+        const response = await getTableByScope(code, table, limit, lowerBound);
+        hasMore = Boolean(response.data.more);
+        lowerBound = hasMore ? response.data.more : lowerBound
         yield response.data.rows.map(row => row.scope)
-    } while (more);
+    } while (hasMore);
 }
 
 interface Info {
@@ -61,7 +62,7 @@ interface Info {
 }
 
 export async function getInfo() {
-    log(`getInfo`)
+    logger.debug(`getInfo`)
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_info`;
     try {
         return await axios.post<Info>(url);

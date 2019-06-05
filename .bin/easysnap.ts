@@ -2,11 +2,12 @@
 import program from "commander";
 import * as write from "write-json-file";
 import { snapshot } from "../src/snapshot"
-import { eosdac } from "../src/eosdac"
-import { settings, spinner, config, stats } from "../src/config"
+import { settings, config, stats } from "../src/config"
 import { getInfo } from "../src/eos";
 import { csv } from "../src/csv";
 import * as pkg from "../package.json"
+import { logger, addLogFile } from "../src/logger";
+import { format } from 'date-fns';
 
 const {version, description} = pkg;
 
@@ -15,7 +16,8 @@ const list = (value: string) => value.split(",")
 program
   .version(version)
   .description(description)
-  .option('-c, --code <string>', 'token code')
+  .option('-c, --code <string>', 'contract account')
+  .option('-t, --table <string>', 'table name')
   .option('-b, --block_num [number]', 'block number')
   .option('-m, --min_balance [number]', 'mininum token balance', 0)
   .option('-o, --out [string]', 'filepath to save csv/json')
@@ -23,7 +25,6 @@ program
   .option('-u, --url [string]', 'http/https URL where nodeos is running')
   .option('--dfuse_api_key [string]', 'dfuse.io API key')
   .option('--balance_integer [boolean]', 'token balance as integer', false)
-  .option('--eosdac [boolean]', 'use eosDAC active members', false)
   .option('--json [boolean]', 'save as JSON file', false)
   .option('--csv_headers [boolean]', 'allow csv headers', false)
 
@@ -38,48 +39,40 @@ program.parse(process.argv);
 async function cli() {
     // Configure
     config({
-      TOKEN_CODE: program.code,
+      CODE: program.code,
+      TABLE: program.table,
       BLOCK_NUMBER: program.block_num,
       EOSIO_ENDPOINT: program.url,
       DFUSE_API_KEY: program.dfuse_api_key,
-      MIN_BALANCE: program.min_balance,
-      BALANCE_INTEGER: program.balance_integer,
-      EXCLUDE_ACCOUNTS: program.exclude_accounts,
       CSV_HEADERS: program.csv_headers,
       JSON: program.json,
-      EOSDAC: program.eosdac,
     })
 
     // Error handling
-    if (!settings.TOKEN_CODE) throw new Error("--code is required");
+    if (!settings.CODE) throw new Error("--code is required");
+    if (!settings.TABLE) throw new Error("--table is required");
     if (!settings.DFUSE_API_KEY) throw new Error("--dfuse_api_key is required");
 
     // CLI params
-    const code = settings.TOKEN_CODE;
+    const code = settings.CODE;
+    const table = settings.TABLE;
     const block_num = settings.BLOCK_NUMBER || (await getInfo()).data.last_irreversible_block_num;
-    const min_balance = settings.MIN_BALANCE;
-    const exclude_accounts = settings.EXCLUDE_ACCOUNTS;
     const csv_headers = settings.CSV_HEADERS;
     const json = settings.JSON;
-    const dac = settings.EOSDAC;
-    const balance_integer = settings.BALANCE_INTEGER;
 
     // Dynamic filepath name
-    const filepath = program.out || `snapshot-${code}-${dac ? "members" : "accounts"}-${Date.now()}-${block_num}.${json ? "json" : "csv"}`;
+    const filepath = program.out || `snapshots/${code}-${table}_${format(new Date(), `yyyy-MM-dd_HH:mm:ss`)}.${json ? "json" : "csv"}`;
+    addLogFile(`${code}-${table}`)
 
     // Print settings
-    console.log(settings)
+    logger.info(`Settings: ${JSON.stringify(settings, null, 2)}`)
 
     // Download Snapshot
-    spinner.start(`downloading [${code}] token snapshot`);
-    const accounts = dac
-      ? await eosdac(code, block_num, min_balance, exclude_accounts, balance_integer)
-      : await snapshot(code, block_num, min_balance, exclude_accounts, balance_integer);
+    const rows = await snapshot(code, table, block_num);
 
     // Save Snapshot
-    if (json) write.sync(filepath, accounts)
-    else csv(filepath, accounts, csv_headers)
-    spinner.stop()
+    if (json) write.sync(filepath, rows)
+    else csv(filepath, rows, csv_headers)
 
     // Print Statistics
     console.log(`${filepath}`)

@@ -9,7 +9,6 @@
     "**/*.d.ts"
   ],
   "scripts": {
-    "prepare": "tsc",
     "start": "ts-node .bin/easysnap.ts"
   },
   "bin": {
@@ -17,22 +16,26 @@
   },
   "contributors": [
     "Nathan Rempel",
-    "Denis Carriere <denis@eosnation.io>"
+    "Denis Carriere <denis@eosnation.io>",
+    "Christoph Michel"
   ],
   "devDependencies": {
-    "@types/debug": "*",
+    "@types/debug": "^4.1.4",
     "@types/dotenv": "*",
-    "@types/ora": "*",
+    "@types/node-fetch": "^2.3.4",
     "ts-node": "*",
     "typescript": "*"
   },
   "dependencies": {
+    "@dfuse/client": "^0.2.6",
     "axios": "*",
     "bignumber.js": "*",
     "commander": "*",
-    "debug": "*",
+    "date-fns": "^2.0.0-alpha.29",
     "dotenv": "*",
-    "ora": "*",
+    "eosjs": "^20.0.0",
+    "node-fetch": "^2.6.0",
+    "winston": "^3.2.1",
     "write-json-file": "*"
   }
 }

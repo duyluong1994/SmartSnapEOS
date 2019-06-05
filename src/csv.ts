@@ -1,14 +1,14 @@
 import * as fs from "fs";
-import { Account } from "./snapshot";
+import { ExtendedRow } from "./snapshot";
 
-export function csv(filepath: string, accounts: Account[], headers = false) {
-    if (!accounts.length) throw new Error("[accounts] has no entries")
+export function csv(filepath: string, rows: ExtendedRow[], headers = false) {
+    if (!rows.length) throw new Error("[rows] has no entries")
 
     const writer = fs.createWriteStream(filepath);
-    if (headers) writer.write(Object.keys(accounts[0]).join(",") + "\n")
+    if (headers) writer.write(Object.keys(rows[0]).join(",") + "\n")
 
-    for (const account of accounts) {
-        const row = Object.values(account).join(",")
-        writer.write(row + "\n")
+    for (const row of rows) {
+        const rowValues = Object.values(row).join(",")
+        writer.write(rowValues + "\n")
     }
 }

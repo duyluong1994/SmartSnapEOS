@@ -1,62 +1,53 @@
-import { getTableScopes } from "./eos"
-import { getStateTableScopes } from "./dfuse"
-import { stats, spinner } from "./config"
-import debug from "debug";
-
-const log = debug("easysnap:snapshot")
+import { getTablesByScopes, getTableScopes } from "./dfuse"
+import { stats } from "./config"
+import { sleep } from "./utils"
+import { logger } from "./logger"
 
 export interface Balance {
     balance: string;
 }
 
-export interface Account {
-    // account name
-    account_name: string
-    // token balance
-    balance: string
+export type ExtendedRow = {
+    scope: string
+    [key: string]: any;
 }
 
-export async function snapshot(code: string, block_num: number, min_balance = 0, exclude_accounts: string[] = [], balance_integer = false) {
-    log(`snapshot    ${JSON.stringify({code, block_num, min_balance, exclude_accounts})}`)
-    const table = "accounts";
-    const tableScopes = getTableScopes(code, table, 1000)
-    const accounts: Account[] = [];
 
-    while (true) {
-        const {done, value} = await tableScopes.next()
-        if (done) break;
-        const stateTableScopes = await getStateTableScopes<Balance>(code, value, table, block_num)
+const MAX_SCOPES_TO_PROCESS = 1e2
 
-        for (const table of stateTableScopes.tables) {
-            for (const row of table.rows) {
-                const balance = row.json.balance;
-                const account_name = table.scope;
-                const amount = Number(balance.split(" ")[0])
+export async function snapshot(code: string, table: string, block_num: number) {
+    let tableScopes: string[] = []
+    // while (true) {
+    //     const tableScopesIterator = getTableScopes(code, table, 1000)
+    //     const {done, value} = await tableScopesIterator.next()
+    //     tableScopes.push(...value)
+    //     logger.info(`Fetched scopes ${tableScopes.length} ${tableScopes.slice(-1)}`)
+    //     if (done) break;
+    // }
+    tableScopes = (await getTableScopes(code, table, block_num)).scopes
+    logger.info(`Fetched scopes ${tableScopes.length} ${tableScopes.slice(0,1)}-${tableScopes.slice(-1)}`)
+    
+    const rows: ExtendedRow[] = [];
+    let currentScopes = tableScopes.splice(0, MAX_SCOPES_TO_PROCESS)
 
-                // Total stats
-                stats.accounts_total = stats.accounts_total.plus(1)
-                stats.balance_total = stats.balance_total.plus(amount)
-
-                // Account name must not belong to excluded accounts
-                if (exclude_accounts.indexOf(account_name) !== -1) {
-                    log(`excluded    ${account_name}    account has been flaged as an excluded account`)
-                    stats.accounts_excluded = stats.accounts_excluded.plus(1)
-                    stats.balance_excluded = stats.balance_excluded.plus(amount)
-                    continue;
+    while(currentScopes.length > 0) {
+        try {
+            const profiler = logger.startTimer();
+            const stateTableScopes = await getTablesByScopes<Balance>(code, table, currentScopes, block_num)
+            for (const table of stateTableScopes.tables) {
+                for (const row of table.rows) {
+                    // Total stats
+                    stats.accounts_total = stats.accounts_total.plus(1)
+                    rows.push({scope: table.scope, ...row.json})
+                    stats.accounts_active = stats.accounts_active.plus(1);
                 }
-                // Must have at least the minimum balance
-                if (amount < min_balance) {
-                    log(`skipped    ${account_name}    account does not have the minimum balance`)
-                    stats.balance_skipped = stats.balance_skipped.plus(amount)
-                    stats.accounts_skipped = stats.accounts_skipped.plus(1)
-                    continue;
-                }
-                accounts.push({account_name, balance: balance_integer ? String(amount) : balance})
-                stats.accounts_active = stats.accounts_active.plus(1);
-                stats.balance_active = stats.balance_active.plus(amount)
             }
+            profiler.done({ message: `downloading [${code}] token snapshot (${stats.accounts_active})` });
+            currentScopes = tableScopes.splice(0, MAX_SCOPES_TO_PROCESS)
+        } catch (error) {
+            sleep(1000)
+            logger.error(`Could not fetch scopes. ${error.message}`)
         }
-        spinner.start(`downloading [${code}] token snapshot (${stats.accounts_active})`);
     }
-    return accounts
+    return rows
 }

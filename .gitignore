@@ -5,3 +5,9 @@ yarn.lock
 *.d.ts
 dist
 .DS_STORE
+
+# exclude logs / snapshots / db
+*.log
+snapshots/*.csv
+snapshots/*.json
+db/*.json

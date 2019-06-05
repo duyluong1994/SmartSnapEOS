@@ -1,69 +1,114 @@
-import axios from "axios";
-import debug from "debug";
-import { settings } from "./config"
+import { createDfuseClient, OnDiskApiTokenStore } from '@dfuse/client';
+import fetch from 'node-fetch';
+import { settings } from "./config";
+import { logger } from "./logger"
 
-const log = debug("easysnap:dfuse")
-
-export interface StateTable<T> {
-    last_irreversible_block_id: string;
-    last_irreversible_block_num: number;
-    rows: StateTableRow<T>[];
+export interface SingleTableScopeResult<T> {
+  last_irreversible_block_id: string;
+  last_irreversible_block_num: number;
+  rows: TableScopeRowResult<T>[];
 }
 
-export interface StateTableRow<T> {
-    key: string;
-    payer: string;
-    json: T;
+export interface TableScopesResult<T> {
+  last_irreversible_block_id: string;
+  last_irreversible_block_num: number;
+  tables: TableScopeResult<T>[];
 }
 
-export interface StateTableScopes<T> {
-    last_irreversible_block_id: string;
-    last_irreversible_block_num: number;
-    tables: TableScopes<T>[];
+export interface TableScopeResult<T> {
+  account: string;
+  scope: string;
+  rows: TableScopeRowResult<T>[];
 }
 
-export interface TableScopes<T> {
-    account: string;
-    scope: string;
-    rows: TableScopesRow<T>[];
+export interface TableScopeRowResult<T> {
+  key: string;
+  payer: string;
+  json: T;
 }
 
-export interface TableScopesRow<T> {
-    key: string;
-    payer: string;
-    json: T;
+export interface TableScopes {
+  block_num: number;
+  scopes: string[];
 }
 
-export async function getStateTable<T>(code: string, scope: string, table: string, block_num: number) {
-    log(`getTableByScope    ${JSON.stringify({code, scope, table, block_num})}`)
-    const params = {
-        account: code,
-        table,
-        scope,
-        block_num,
-        json: true
-    }
-    try {
-        const response = await axios.get<StateTable<T>>(`${settings.DFUSE_ENDPOINT}/v0/state/table`, {params})
-        return response.data
-    } catch (e) {
-        throw new Error(e)
-    }
+const client = createDfuseClient({
+    apiKey: settings.DFUSE_API_KEY,
+    network: `mainnet`,
+    httpClientOptions: {
+        fetch,
+    },
+    streamClientOptions: {
+        socketOptions: {
+            webSocketFactory: async () => null,
+        },
+    } as any,
+    apiTokenStore: new OnDiskApiTokenStore(settings.DFUSE_API_KEY),
+})
+
+export async function getTableScopes(
+  code: string,
+  table: string,
+  block_num: number
+) {
+  logger.debug(`getTableScopes ${JSON.stringify({ code, table, block_num })}`);
+  try {
+    const response = await client.stateTableScopes(code, table, { blockNum: block_num })
+    return response as unknown as TableScopes;
+  } catch (e) {
+    throw e;
+  }
 }
 
-export async function getStateTableScopes<T>(code: string, scopes: string[], table: string, block_num: number) {
-    log(`getTableByScope    ${JSON.stringify({code, scopes: scopes.length, table, block_num})}`)
-    const params = {
-        account: code,
-        table,
-        scopes: scopes.join('|'),
-        block_num,
-        json: true
-    }
-    try {
-        const response = await axios.get<StateTableScopes<T>>(`${settings.DFUSE_ENDPOINT}/v0/state/tables/scopes`, {params})
-        return response.data
-    } catch (e) {
-        throw new Error(e)
-    }
+// export async function getTableRowsByScope<T>(
+//   code: string,
+//   table: string,
+//   scope: string,
+//   block_num: number
+// ): Promise<SingleTableScopeResult<T>> {
+//   log(
+//     `getTableRowsByScope    ${JSON.stringify({
+//       code,
+//       scope,
+//       table,
+//       block_num
+//     })}`
+//   );
+//   const params = {
+//     account: code,
+//     table,
+//     scope,
+//     block_num
+//   };
+//   try {
+//     const response = await axios.get<SingleTableScopeResult<T>>(
+//       `${settings.DFUSE_ENDPOINT}/v0/state/table`,
+//       { params }
+//     );
+//     return response.data;
+//   } catch (e) {
+//     throw e;
+//   }
+// }
+
+export async function getTablesByScopes<T>(
+  code: string,
+  table: string,
+  scopes: string[],
+  block_num: number
+) : Promise<TableScopesResult<T>> {
+  logger.debug(
+    `getTablesByScopes    ${JSON.stringify({
+      code,
+      scopes: scopes.length,
+      table,
+      block_num
+    })}`
+  );
+  try {
+    const response = await client.stateTablesForScopes<T>(code, scopes, table, { blockNum: block_num})
+    return response as unknown as TableScopesResult<T>;
+  } catch (e) {
+    throw e;
+  }
 }
