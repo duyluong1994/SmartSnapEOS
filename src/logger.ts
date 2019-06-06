@@ -12,16 +12,13 @@ const logger = winston.createLogger({
   format: winston.format.combine(winston.format.colorize(), logFormat),
   transports: [
     new winston.transports.Console({
-      level: "verbose"
+      level: "warn"
     })
   ]
 });
 
-const addLogFile = (fileNamePrefix: string) => {
-  const logFilePath = `logs/${fileNamePrefix}_${format(
-    new Date(),
-    `yyyy-MM-dd_HH:mm:ss`
-  )}.log`;
+const addLogFile = (fileName: string) => {
+  const logFilePath = `logs/${fileName}.log`;
   const fileTransport = new winston.transports.File({
     filename: logFilePath,
     level: "verbose"

@@ -16,9 +16,9 @@
     "easysnap": ".bin/easysnap.js"
   },
   "contributors": [
+    "Christoph Michel",
     "Nathan Rempel",
-    "Denis Carriere <denis@eosnation.io>",
-    "Christoph Michel"
+    "Denis Carriere <denis@eosnation.io>"
   ],
   "devDependencies": {
     "@types/debug": "^4.1.4",
@@ -38,8 +38,10 @@
     "date-fns": "^2.0.0-alpha.29",
     "dotenv": "*",
     "eosjs": "^20.0.0",
+    "ink": "^2.2.0",
     "lowdb": "^1.0.0",
     "node-fetch": "^2.6.0",
+    "react": "^16.8.6",
     "winston": "^3.2.1"
   }
 }

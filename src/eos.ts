@@ -1,6 +1,7 @@
 import axios from "axios";
 import { settings } from "./config"
 import { logger } from "./logger"
+import { Abi } from "@dfuse/client";
 
 export interface Table<T> {
     rows: T[],
@@ -66,6 +67,24 @@ export async function getInfo() {
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_info`;
     try {
         return await axios.post<Info>(url);
+    } catch (e) {
+        throw new Error(e)
+    }
+}
+
+export interface GetAbiResult {
+    account_name: string;
+    abi: Abi;
+}
+export async function getAbi(name: string) {
+    logger.debug(`getInfo`)
+    const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_abi`;
+    const data = {
+        account_name: name,
+    }
+
+    try {
+        return await axios.post<GetAbiResult>(url, data);
     } catch (e) {
         throw new Error(e)
     }

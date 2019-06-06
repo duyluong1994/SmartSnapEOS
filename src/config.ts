@@ -1,6 +1,5 @@
 import axios from "axios";
 import * as dotenv from "dotenv";
-import BigNumber from "bignumber.js"
 
 class Settings {
     public BLOCK_NUMBER: number | undefined;
@@ -14,17 +13,6 @@ class Settings {
     public CSV_HEADERS = false;
     public JSON = false;
     public BALANCE_INTEGER = false;
-}
-
-export const stats: {[key: string]: BigNumber} = {
-    accounts_active: new BigNumber(0),
-    accounts_total: new BigNumber(0),
-    accounts_skipped: new BigNumber(0),
-    accounts_excluded: new BigNumber(0),
-    balance_active: new BigNumber(0),
-    balance_total: new BigNumber(0),
-    balance_skipped: new BigNumber(0),
-    balance_excluded: new BigNumber(0),
 }
 
 export const settings = new Settings()
