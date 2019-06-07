@@ -5,6 +5,8 @@ import { any } from "prop-types";
 import flatten from "lodash/flatten";
 import isEmpty from "lodash/isEmpty";
 import { ExtendedRow } from "./snapshot";
+import { decomposeAsset, formatAsset } from "./asset";
+import BigNumber from "bignumber.js";
 
 type AbiStruct = {
   name: string;
@@ -74,7 +76,13 @@ class StatsAggregator {
       case "bool": {
         return (acc: number, val: string) => acc + (val ? 1 : 0);
       }
-      case "asset":
+      case "asset": {
+        return (acc: string, val: string) => {
+          const { amount: accAmount } = decomposeAsset(acc)
+          const { amount, symbol } = decomposeAsset(val)
+          return formatAsset({ amount: amount.plus(accAmount), symbol })
+        }
+      }
       case "name":
       case "symbol":
       case "string":
