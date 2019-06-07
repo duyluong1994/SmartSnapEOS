@@ -34,22 +34,26 @@ export async function* snapshot(
         scope => scope === lastScopeProcessed
       );
     }
-    
+
     store.dispatch({
       type: `SET_SCOPES`,
       payload: {
         scopesTotal: tableScopes.length,
         scopesProcessed: lastScopeIndex + 1,
         lastScopeProcessed,
+        rowStats: db
+          .get("rowStats")
+          .cloneDeep()
+          .value()
       }
     });
     logger.info(
       `Using scopes from db (#${tableScopes.length}): ${tableScopes.slice(
         0,
         1
-        )}-${tableScopes.slice(-1)}`
-        );
-  
+      )}-${tableScopes.slice(-1)}`
+    );
+
     tableScopes.splice(0, lastScopeIndex + 1);
   } else {
     // while (true) {
@@ -72,14 +76,15 @@ export async function* snapshot(
     db.set("scopes", tableScopes.slice())
       .cloneDeep()
       .write();
-      store.dispatch({
-        type: `SET_SCOPES`,
-        payload: {
-          scopesTotal: tableScopes.length,
-          scopesProcessed: 0,
-          lastScopeProcessed: '',
-        }
-      });
+    store.dispatch({
+      type: `SET_SCOPES`,
+      payload: {
+        scopesTotal: tableScopes.length,
+        scopesProcessed: 0,
+        lastScopeProcessed: "",
+        rowStats: {}
+      }
+    });
   }
 
   let currentScopes = tableScopes.splice(0, MAX_SCOPES_TO_PROCESS);
@@ -99,7 +104,7 @@ export async function* snapshot(
           rows.push({ scope: table.scope, ...row.json });
         }
       }
-      
+
       store.dispatch({
         type: `PROCESS_ROWS`,
         payload: {
@@ -111,6 +116,8 @@ export async function* snapshot(
       yield rows;
 
       db.set("lastScopeProcessed", currentScopes.slice(-1)[0]).write();
+      db.set("rowStats", store.getState().rowStats).cloneDeep().write();
+
       currentScopes = tableScopes.splice(0, MAX_SCOPES_TO_PROCESS);
     } catch (error) {
       sleep(1000);

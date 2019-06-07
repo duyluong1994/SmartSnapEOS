@@ -88,7 +88,7 @@ async function cli() {
 
   // fetch ABI
   const { abi } = (await getAbi(code)).data
-  store.setAbi(abi)
+  store.setAbi(abi, table)
   logger.info(JSON.stringify(abi))
 
   // Download Snapshot

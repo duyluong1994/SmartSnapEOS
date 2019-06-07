@@ -37,6 +37,11 @@ const Console = () => {
           </Box>
         </Box>
       </Color>
+      <Color yellow>
+        <Box>
+          {JSON.stringify(state.rowStats)}
+        </Box>
+      </Color>
     </Box>
   );
 };

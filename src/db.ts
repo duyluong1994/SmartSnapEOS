@@ -8,8 +8,8 @@ const initDatabase = async (fileName:string) => {
   db = low(adapter) as unknown as LowdbSync<any>;
   db.defaults({
     scopes: [],
-    stats: {},
-    lastScopeProcessed: ""
+    lastScopeProcessed: "",
+    rowStats: {},
   }).write();
 };
 
