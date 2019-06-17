@@ -34,6 +34,7 @@
     "axios": "*",
     "bignumber.js": "*",
     "commander": "*",
+    "csv-reader": "^1.0.3",
     "csv-writer": "^1.3.0",
     "date-fns": "^2.0.0-alpha.29",
     "dotenv": "*",

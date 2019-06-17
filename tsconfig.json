@@ -14,5 +14,8 @@
     "jsx": "react",
   },
   "exclude": ["node_modules"],
+  "include": [
+      "scripts/**/*.ts"
+  ],
   "files": [".bin/easysnap.ts", "index.ts"]
 }

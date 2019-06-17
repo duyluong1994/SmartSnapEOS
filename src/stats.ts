@@ -109,7 +109,8 @@ class StatsAggregator {
 
   getInitialStats = () => {
     const initialStats: ExtendedRow = {
-      scope: `NA`
+      scope: `NA`,
+      payer: `NA`,
     };
     this.tableStruct.fields.forEach(field => {
       initialStats[field.name] = this.getInitialValueForType(

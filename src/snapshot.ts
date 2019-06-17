@@ -10,6 +10,7 @@ export interface Balance {
 
 export type ExtendedRow = {
   scope: string;
+  payer: string;
   [key: string]: any;
 };
 
@@ -101,7 +102,7 @@ export async function* snapshot(
       for (const table of stateTableScopes.tables) {
         for (const row of table.rows) {
           // Total stats
-          rows.push({ scope: table.scope, ...row.json });
+          rows.push({ scope: table.scope, ram: row.payer, ...row.json });
         }
       }
 
