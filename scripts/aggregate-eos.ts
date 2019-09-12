@@ -2,7 +2,10 @@ import fs from "fs";
 // @ts-ignore
 import CsvReadableStream from "csv-reader";
 import { createObjectCsvWriter } from "csv-writer";
-import { settings } from "../src/config";
+// import { settings } from "../src/config";
+let settings ={
+  BLOCK_NUMBER: 72888888
+};
 
 import BigNumber from "bignumber.js";
 import { decomposeAsset, AssetSymbol, formatAsset } from "../src/asset";

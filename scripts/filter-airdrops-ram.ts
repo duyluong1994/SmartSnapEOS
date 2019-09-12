@@ -6,7 +6,7 @@ import { createObjectCsvWriter } from "csv-writer";
 import BigNumber from 'bignumber.js';
 import { decomposeAsset, AssetSymbol, formatAsset } from '../src/asset';
 
-const AIRDROPS_RAM_ACCOUNT = `airdropsdac1`
+const AIRDROPS_RAM_ACCOUNT = `eosio.token`
 
 type ClaimableTokenAccountExtendedRow = {
   scope: string
