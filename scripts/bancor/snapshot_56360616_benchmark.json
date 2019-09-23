@@ -1,0 +1,4031 @@
+{
+    "converters": [
+        {
+            "acct_name": "bancorc11111",
+            "bnt_balance": 21798.6786862345,
+            "share_of_bnt": 0.002639440530967412,
+            "to_drop": "57.5363160460",
+            "accts": [
+                {
+                    "acct_name": "blackbancorx",
+                    "relay_token_balance": 156276,
+                    "share_of_relays_bnt": 7.169058375023697,
+                    "to_drop": "1120351.7666152033"
+                }
+            ],
+            "token": "bancorr11111"
+        },
+        {
+            "acct_name": "bancorc11112",
+            "bnt_balance": 10965.8614875139,
+            "share_of_bnt": 0.0013277749391937348,
+            "to_drop": "14.5601960698",
+            "accts": [
+                {
+                    "acct_name": "karmareserve",
+                    "relay_token_balance": 31254,
+                    "share_of_relays_bnt": 2.850118071944175,
+                    "to_drop": "89077.5902205433"
+                }
+            ],
+            "token": "bancorr11112"
+        },
+        {
+            "acct_name": "bancorc11113",
+            "bnt_balance": 1.7166452599,
+            "share_of_bnt": 2.078558586734152e-7,
+            "to_drop": "0.0000003568",
+            "accts": [
+                {
+                    "acct_name": "prospectors2",
+                    "relay_token_balance": 133.8,
+                    "share_of_relays_bnt": 77.942719515501,
+                    "to_drop": "10428.7358711740"
+                }
+            ],
+            "token": "bancorr11113"
+        },
+        {
+            "acct_name": "bancorc11114",
+            "bnt_balance": 27765.9127268884,
+            "share_of_bnt": 0.003361968699365816,
+            "to_drop": "93.3481294971",
+            "accts": [
+                {
+                    "acct_name": "ha2tmmjygige",
+                    "relay_token_balance": 78138,
+                    "share_of_relays_bnt": 2.8141700497506594,
+                    "to_drop": "219893.6193474170"
+                }
+            ],
+            "token": "bancorr11114"
+        },
+        {
+            "acct_name": "bancorc11121",
+            "bnt_balance": 9390.8430971138,
+            "share_of_bnt": 0.001137067629063683,
+            "to_drop": "10.6780236953",
+            "accts": [
+                {
+                    "acct_name": "horusxbancor",
+                    "relay_token_balance": 31254,
+                    "share_of_relays_bnt": 3.328135682471967,
+                    "to_drop": "104017.5526199789"
+                }
+            ],
+            "token": "bancorr11121"
+        },
+        {
+            "acct_name": "bancorc11122",
+            "bnt_balance": 22654.8623785795,
+            "share_of_bnt": 0.0027431094721934585,
+            "to_drop": "62.1447675819",
+            "accts": [
+                {
+                    "acct_name": "meetmeetmore",
+                    "relay_token_balance": 31254,
+                    "share_of_relays_bnt": 1.3795713908000213,
+                    "to_drop": "43117.1242480639"
+                }
+            ],
+            "token": "bancorr11122"
+        },
+        {
+            "acct_name": "bancorc11123",
+            "bnt_balance": 63298.0638020861,
+            "share_of_bnt": 0.007664293672831192,
+            "to_drop": "485.1349499008",
+            "accts": [
+                {
+                    "acct_name": "guztoojqgege",
+                    "relay_token_balance": 140400,
+                    "share_of_relays_bnt": 2.2180773244342564,
+                    "to_drop": "311418.0563505696"
+                }
+            ],
+            "token": "bancorr11123"
+        },
+        {
+            "acct_name": "bancorc11124",
+            "bnt_balance": 24405.9887250888,
+            "share_of_bnt": 0.0029551403902298,
+            "to_drop": "72.1231230450",
+            "accts": [
+                {
+                    "acct_name": "epraofficial",
+                    "relay_token_balance": 49664,
+                    "share_of_relays_bnt": 2.034910388569775,
+                    "to_drop": "101061.7895379293"
+                }
+            ],
+            "token": "bancorr11124"
+        },
+        {
+            "acct_name": "bancorc11125",
+            "bnt_balance": 47808.4573945691,
+            "share_of_bnt": 0.005788771970382759,
+            "to_drop": "276.7522581129",
+            "accts": [
+                {
+                    "acct_name": "betdicesaver",
+                    "relay_token_balance": 156276,
+                    "share_of_relays_bnt": 3.2687940275971443,
+                    "to_drop": "510834.0554567713"
+                }
+            ],
+            "token": "bancorr11125"
+        },
+        {
+            "acct_name": "bancorc11131",
+            "bnt_balance": 8536.6472894619,
+            "share_of_bnt": 0.0010336393860701015,
+            "to_drop": "8.8238148634",
+            "accts": [
+                {
+                    "acct_name": "hirevibesdev",
+                    "relay_token_balance": 30096,
+                    "share_of_relays_bnt": 3.5255058548749147,
+                    "to_drop": "106103.6242083154"
+                }
+            ],
+            "token": "bancorr11131"
+        },
+        {
+            "acct_name": "bancorc11132",
+            "bnt_balance": 14535.3317747508,
+            "share_of_bnt": 0.0017599756558438879,
+            "to_drop": "25.5818300732",
+            "accts": [
+                {
+                    "acct_name": "bankofbancor",
+                    "relay_token_balance": 30968,
+                    "share_of_relays_bnt": 2.1305327239791145,
+                    "to_drop": "65978.3373961852"
+                }
+            ],
+            "token": "bancorr11132"
+        },
+        {
+            "acct_name": "bancorc11133",
+            "bnt_balance": 7.4420711919,
+            "share_of_bnt": 9.011052743600454e-7,
+            "to_drop": "0.0000067061",
+            "accts": [
+                {
+                    "acct_name": "bancorr11133",
+                    "relay_token_balance": 4000,
+                    "share_of_relays_bnt": 537.4847803597507,
+                    "to_drop": "2149939.1214390029"
+                }
+            ],
+            "token": "bancorr11133"
+        },
+        {
+            "acct_name": "bancorc11134",
+            "bnt_balance": 4075.7573416242,
+            "share_of_bnt": 0.0004935032658040978,
+            "to_drop": "2.0113995587",
+            "accts": [
+                {
+                    "acct_name": "eosvegascorp",
+                    "relay_token_balance": 28672,
+                    "share_of_relays_bnt": 7.034766203371208,
+                    "to_drop": "201700.8165830593"
+                }
+            ],
+            "token": "bancorr11134"
+        },
+        {
+            "acct_name": "bancorc11144",
+            "bnt_balance": 73174.6278513506,
+            "share_of_bnt": 0.008860173654069972,
+            "to_drop": "648.3399098349",
+            "accts": [
+                {
+                    "acct_name": "zksbntrelay1",
+                    "relay_token_balance": 361592,
+                    "share_of_relays_bnt": 4.9414942120997205,
+                    "to_drop": "1786804.7751415621"
+                }
+            ],
+            "token": "bancorr11142"
+        },
+        {
+            "acct_name": "bancorc11145",
+            "bnt_balance": 2756.6295472624,
+            "share_of_bnt": 0.0003337798524688275,
+            "to_drop": "0.9201074036",
+            "accts": [
+                {
+                    "acct_name": "coinflyerice",
+                    "relay_token_balance": 36848,
+                    "share_of_relays_bnt": 13.367048189914973,
+                    "to_drop": "492548.9917019869"
+                }
+            ],
+            "token": "bancorr11145"
+        },
+        {
+            "acct_name": "bancorc11151",
+            "bnt_balance": 97526.3732716592,
+            "share_of_bnt": 0.01180874612432484,
+            "to_drop": "1151.6641823912",
+            "accts": [
+                {
+                    "acct_name": "bancorzos222",
+                    "relay_token_balance": 287844,
+                    "share_of_relays_bnt": 2.9514478016957733,
+                    "to_drop": "849556.5410313181"
+                }
+            ],
+            "token": "bancorr11151"
+        },
+        {
+            "acct_name": "bancorc11152",
+            "bnt_balance": 20260.2972788719,
+            "share_of_bnt": 0.0024531693217292277,
+            "to_drop": "49.7019397336",
+            "accts": [
+                {
+                    "acct_name": "equareserve1",
+                    "relay_token_balance": 24964,
+                    "share_of_relays_bnt": 1.2321635589243438,
+                    "to_drop": "30759.7310849873"
+                }
+            ],
+            "token": "bancorr11152"
+        },
+        {
+            "acct_name": "bancorc11153",
+            "bnt_balance": 31283.9218292204,
+            "share_of_bnt": 0.0037879383623285095,
+            "to_drop": "118.5015676210",
+            "accts": [
+                {
+                    "acct_name": "bancorpeosst",
+                    "relay_token_balance": 34112,
+                    "share_of_relays_bnt": 1.09040037199358,
+                    "to_drop": "37195.7374894450"
+                }
+            ],
+            "token": "bancorr11153"
+        },
+        {
+            "acct_name": "bancorc11154",
+            "bnt_balance": 15497.6497014311,
+            "share_of_bnt": 0.0018764956053287374,
+            "to_drop": "29.0812715577",
+            "accts": [
+                {
+                    "acct_name": "chintaidevop",
+                    "relay_token_balance": 28058,
+                    "share_of_relays_bnt": 1.8104680735820888,
+                    "to_drop": "50798.1132085662"
+                }
+            ],
+            "token": "bancorr11154"
+        },
+        {
+            "acct_name": "bancorc11155",
+            "bnt_balance": 19594.1494668052,
+            "share_of_bnt": 0.002372510417577646,
+            "to_drop": "46.4873237336",
+            "accts": [
+                {
+                    "acct_name": "chintaidevop",
+                    "relay_token_balance": 28058,
+                    "share_of_relays_bnt": 1.4319580468411532,
+                    "to_drop": "40177.8788782691"
+                }
+            ],
+            "token": "bancorr11155"
+        },
+        {
+            "acct_name": "bancorc11211",
+            "bnt_balance": 24869.7385135894,
+            "share_of_bnt": 0.003011292416947319,
+            "to_drop": "74.8900549974",
+            "accts": [
+                {
+                    "acct_name": "finxbanking1",
+                    "relay_token_balance": 29878,
+                    "share_of_relays_bnt": 1.2013797404292759,
+                    "to_drop": "35894.8238845459"
+                }
+            ],
+            "token": "bancorr11211"
+        },
+        {
+            "acct_name": "bancorc11212",
+            "bnt_balance": 14891.6844759869,
+            "share_of_bnt": 0.0018031237647958417,
+            "to_drop": "26.8515501765",
+            "accts": [
+                {
+                    "acct_name": "eoslabeoslab",
+                    "relay_token_balance": 30062,
+                    "share_of_relays_bnt": 2.0187105124659,
+                    "to_drop": "60686.4754257499"
+                }
+            ],
+            "token": "bancorr11212"
+        },
+        {
+            "acct_name": "bnt2eoscnvrt",
+            "bnt_balance": 530463.2711160427,
+            "share_of_bnt": 0.06422986815514622,
+            "to_drop": "34071.5859649310",
+            "accts": [
+                {
+                    "acct_name": "guztoojqgege",
+                    "relay_token_balance": 735460,
+                    "share_of_relays_bnt": 1.386448487663744,
+                    "to_drop": "1019677.4047371771"
+                }
+            ],
+            "token": "bnt2eosrelay"
+        }
+    ],
+    "accts": [
+        {
+            "acct_name": "11111ooooooo",
+            "bnt_balance": 0.1208336777,
+            "share_of_bnt": 1.4630854971436142e-8,
+            "to_drop": "0.0000000018"
+        },
+        {
+            "acct_name": "111chaka1111",
+            "bnt_balance": 0.0405399584,
+            "share_of_bnt": 4.9086832676818734e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "12345liushun",
+            "bnt_balance": 0.0000495872,
+            "share_of_bnt": 6.004146736647727e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "14vkad3eosda",
+            "bnt_balance": 0.5610362386,
+            "share_of_bnt": 6.793172232211751e-8,
+            "to_drop": "0.0000000381"
+        },
+        {
+            "acct_name": "1crk5dtgeosd",
+            "bnt_balance": 0.1907063764,
+            "share_of_bnt": 2.3091222483220934e-8,
+            "to_drop": "0.0000000044"
+        },
+        {
+            "acct_name": "213warren213",
+            "bnt_balance": 0.2547784147,
+            "share_of_bnt": 3.084923099487945e-8,
+            "to_drop": "0.0000000079"
+        },
+        {
+            "acct_name": "2tdnx5ksbuwy",
+            "bnt_balance": 0.0764922426,
+            "share_of_bnt": 9.261879049142848e-9,
+            "to_drop": "0.0000000007"
+        },
+        {
+            "acct_name": "4w3kerkpbaud",
+            "bnt_balance": 1.3458966374,
+            "share_of_bnt": 1.629646542517093e-7,
+            "to_drop": "0.0000002193"
+        },
+        {
+            "acct_name": "5lisqkvt1n2q",
+            "bnt_balance": 2.6580999998,
+            "share_of_bnt": 3.218496394126407e-7,
+            "to_drop": "0.0000008555"
+        },
+        {
+            "acct_name": "abarthdario1",
+            "bnt_balance": 0.730696653,
+            "share_of_bnt": 8.847464516224684e-8,
+            "to_drop": "0.0000000646"
+        },
+        {
+            "acct_name": "afurmanczyk1",
+            "bnt_balance": 200.0001077107,
+            "share_of_bnt": 0.00002421653156541191,
+            "to_drop": "0.0048433089"
+        },
+        {
+            "acct_name": "alberdazizmu",
+            "bnt_balance": 0.3554970831,
+            "share_of_bnt": 4.3044508489744347e-8,
+            "to_drop": "0.0000000153"
+        },
+        {
+            "acct_name": "alisigumain1",
+            "bnt_balance": 23,
+            "share_of_bnt": 0.0000027848996302049264,
+            "to_drop": "0.0000640527"
+        },
+        {
+            "acct_name": "am1234512345",
+            "bnt_balance": 0.3608391214,
+            "share_of_bnt": 4.3691336336970894e-8,
+            "to_drop": "0.0000000158"
+        },
+        {
+            "acct_name": "amandat54321",
+            "bnt_balance": 0.0463790772,
+            "share_of_bnt": 5.615698910588075e-9,
+            "to_drop": "0.0000000003"
+        },
+        {
+            "acct_name": "angeleosnew1",
+            "bnt_balance": 3.0005567261,
+            "share_of_bnt": 3.6331518769238237e-7,
+            "to_drop": "0.0000010901"
+        },
+        {
+            "acct_name": "apollo151515",
+            "bnt_balance": 0.6218549708,
+            "share_of_bnt": 7.529581209660936e-8,
+            "to_drop": "0.0000000468"
+        },
+        {
+            "acct_name": "ar45pe14pa33",
+            "bnt_balance": 19.9998525332,
+            "share_of_bnt": 0.0000024216339966896406,
+            "to_drop": "0.0000484323"
+        },
+        {
+            "acct_name": "articulation",
+            "bnt_balance": 0.0923575732,
+            "share_of_bnt": 1.118289441092628e-8,
+            "to_drop": "0.0000000010"
+        },
+        {
+            "acct_name": "avinashp1111",
+            "bnt_balance": 217,
+            "share_of_bnt": 0.000026274922598020394,
+            "to_drop": "0.0057016582"
+        },
+        {
+            "acct_name": "ayellowtabby",
+            "bnt_balance": 0.0192881619,
+            "share_of_bnt": 2.3354606496801197e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "b1",
+            "bnt_balance": 0.0015850782,
+            "share_of_bnt": 1.919253779576474e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "babarimisato",
+            "bnt_balance": 0.169103363,
+            "share_of_bnt": 2.0475473612396064e-8,
+            "to_drop": "0.0000000035"
+        },
+        {
+            "acct_name": "badoeredra12",
+            "bnt_balance": 0.6955396959,
+            "share_of_bnt": 8.42177496480329e-8,
+            "to_drop": "0.0000000586"
+        },
+        {
+            "acct_name": "baishanshui5",
+            "bnt_balance": 0.032907067,
+            "share_of_bnt": 3.9844729878012496e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "bancorc11142",
+            "bnt_balance": 13351.0599576411,
+            "share_of_bnt": 0.0016165809538642828,
+            "to_drop": "21.5830692414"
+        },
+        {
+            "acct_name": "bancoretheos",
+            "bnt_balance": 0.0159997732,
+            "share_of_bnt": 1.9372940203496825e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bcrealestate",
+            "bnt_balance": 10,
+            "share_of_bnt": 0.0000012108259261760549,
+            "to_drop": "0.0000121083"
+        },
+        {
+            "acct_name": "bigbluewhale",
+            "bnt_balance": 4.0327991697,
+            "share_of_bnt": 4.883017789734028e-7,
+            "to_drop": "0.0000019692"
+        },
+        {
+            "acct_name": "bigmikeeosio",
+            "bnt_balance": 0.2081274691,
+            "share_of_bnt": 2.5200613553568573e-8,
+            "to_drop": "0.0000000052"
+        },
+        {
+            "acct_name": "binanceio111",
+            "bnt_balance": 0.0001748009,
+            "share_of_bnt": 2.1165346163890795e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "blackcrow.x",
+            "bnt_balance": 0.4831223328,
+            "share_of_bnt": 5.849770460688963e-8,
+            "to_drop": "0.0000000283"
+        },
+        {
+            "acct_name": "blockone1111",
+            "bnt_balance": 0.0000354597,
+            "share_of_bnt": 4.293552409442506e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bluevelvetus",
+            "bnt_balance": 0.7496033385,
+            "share_of_bnt": 9.076391566039253e-8,
+            "to_drop": "0.0000000680"
+        },
+        {
+            "acct_name": "bnr113353133",
+            "bnt_balance": 30.7070615235,
+            "share_of_bnt": 0.0000037180906209336987,
+            "to_drop": "0.0001141716"
+        },
+        {
+            "acct_name": "bnr114314124",
+            "bnt_balance": 5.5,
+            "share_of_bnt": 6.659542593968302e-7,
+            "to_drop": "0.0000036627"
+        },
+        {
+            "acct_name": "bnr114351441",
+            "bnt_balance": 2.3166068853,
+            "share_of_bnt": 2.8050076774791986e-7,
+            "to_drop": "0.0000006498"
+        },
+        {
+            "acct_name": "bnr115314145",
+            "bnt_balance": 353.1472274918,
+            "share_of_bnt": 0.00004275998188042647,
+            "to_drop": "0.0151005690"
+        },
+        {
+            "acct_name": "bnr121331234",
+            "bnt_balance": 0.1,
+            "share_of_bnt": 1.210825926176055e-8,
+            "to_drop": "0.0000000012"
+        },
+        {
+            "acct_name": "bnr122323115",
+            "bnt_balance": 0.3057288686,
+            "share_of_bnt": 3.701844404813524e-8,
+            "to_drop": "0.0000000113"
+        },
+        {
+            "acct_name": "bnr122434245",
+            "bnt_balance": 25.5124279198,
+            "share_of_bnt": 0.000003089110916499168,
+            "to_drop": "0.0000788107"
+        },
+        {
+            "acct_name": "bnr122531311",
+            "bnt_balance": 0.169681368,
+            "share_of_bnt": 2.0545459956342e-8,
+            "to_drop": "0.0000000035"
+        },
+        {
+            "acct_name": "bnr125443451",
+            "bnt_balance": 213.9380332909,
+            "share_of_bnt": 0.000025904171730373765,
+            "to_drop": "0.0055418876"
+        },
+        {
+            "acct_name": "bnr131315531",
+            "bnt_balance": 1.5388707145,
+            "share_of_bnt": 1.86330455814967e-7,
+            "to_drop": "0.0000002867"
+        },
+        {
+            "acct_name": "bnr131342412",
+            "bnt_balance": 0.5682552999,
+            "share_of_bnt": 6.880582498058693e-8,
+            "to_drop": "0.0000000391"
+        },
+        {
+            "acct_name": "bnr132113352",
+            "bnt_balance": 0.2877243623,
+            "share_of_bnt": 3.4838411746531223e-8,
+            "to_drop": "0.0000000100"
+        },
+        {
+            "acct_name": "bnr133314145",
+            "bnt_balance": 0.0000021803,
+            "share_of_bnt": 2.639963766841653e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr134421521",
+            "bnt_balance": 9.9163207808,
+            "share_of_bnt": 0.000001200693829367102,
+            "to_drop": "0.0000119065"
+        },
+        {
+            "acct_name": "bnr141234424",
+            "bnt_balance": 0.0000902588,
+            "share_of_bnt": 1.0928769510553931e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr141323444",
+            "bnt_balance": 1.323542365,
+            "share_of_bnt": 1.602579409934371e-7,
+            "to_drop": "0.0000002121"
+        },
+        {
+            "acct_name": "bnr144121214",
+            "bnt_balance": 0.301111742,
+            "share_of_bnt": 3.645939038896353e-8,
+            "to_drop": "0.0000000110"
+        },
+        {
+            "acct_name": "bnr144411451",
+            "bnt_balance": 9.2678256422,
+            "share_of_bnt": 0.0000011221723566855007,
+            "to_drop": "0.0000104001"
+        },
+        {
+            "acct_name": "bnr145324511",
+            "bnt_balance": 1.8354642126,
+            "share_of_bnt": 2.2224276551843984e-7,
+            "to_drop": "0.0000004079"
+        },
+        {
+            "acct_name": "bnr151224453",
+            "bnt_balance": 5,
+            "share_of_bnt": 6.054129630880274e-7,
+            "to_drop": "0.0000030271"
+        },
+        {
+            "acct_name": "bnr151312533",
+            "bnt_balance": 0.0776105311,
+            "share_of_bnt": 9.397284320017302e-9,
+            "to_drop": "0.0000000007"
+        },
+        {
+            "acct_name": "bnr151324145",
+            "bnt_balance": 15.1845991916,
+            "share_of_bnt": 0.0000018385906379781245,
+            "to_drop": "0.0000279183"
+        },
+        {
+            "acct_name": "bnr152122522",
+            "bnt_balance": 0.0000238068,
+            "share_of_bnt": 2.8825890659288107e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr152215415",
+            "bnt_balance": 0.324047139,
+            "share_of_bnt": 3.923646772043758e-8,
+            "to_drop": "0.0000000127"
+        },
+        {
+            "acct_name": "bnr152435511",
+            "bnt_balance": 22.2682494669,
+            "share_of_bnt": 0.000002696297378507863,
+            "to_drop": "0.0000600418"
+        },
+        {
+            "acct_name": "bnr155313331",
+            "bnt_balance": 0.1522521081,
+            "share_of_bnt": 1.8435079980243934e-8,
+            "to_drop": "0.0000000028"
+        },
+        {
+            "acct_name": "bnr155425324",
+            "bnt_balance": 5.7801871623,
+            "share_of_bnt": 6.99880047426284e-7,
+            "to_drop": "0.0000040454"
+        },
+        {
+            "acct_name": "bnr213254141",
+            "bnt_balance": 0.4425950609,
+            "share_of_bnt": 5.3590557453519e-8,
+            "to_drop": "0.0000000237"
+        },
+        {
+            "acct_name": "bnr215334143",
+            "bnt_balance": 0.0000125433,
+            "share_of_bnt": 1.5187752839804111e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr222144112",
+            "bnt_balance": 4.041794624,
+            "share_of_bnt": 4.893909719018199e-7,
+            "to_drop": "0.0000019780"
+        },
+        {
+            "acct_name": "bnr222511323",
+            "bnt_balance": 0.000008054,
+            "share_of_bnt": 9.751992009421945e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr223315535",
+            "bnt_balance": 1.9,
+            "share_of_bnt": 2.3005692597345044e-7,
+            "to_drop": "0.0000004371"
+        },
+        {
+            "acct_name": "bnr224145235",
+            "bnt_balance": 20.1395461233,
+            "share_of_bnt": 0.00000243854845875101,
+            "to_drop": "0.0000491113"
+        },
+        {
+            "acct_name": "bnr225234311",
+            "bnt_balance": 0.0000978743,
+            "share_of_bnt": 1.1850873994633306e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr232414544",
+            "bnt_balance": 322.3235201645,
+            "share_of_bnt": 0.000039027767483150706,
+            "to_drop": "0.0125795674"
+        },
+        {
+            "acct_name": "bnr232442315",
+            "bnt_balance": 0.0000529393,
+            "share_of_bnt": 6.410027695361203e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr233221352",
+            "bnt_balance": 0.6647490409,
+            "share_of_bnt": 8.048953731223867e-8,
+            "to_drop": "0.0000000535"
+        },
+        {
+            "acct_name": "bnr233411211",
+            "bnt_balance": 67.0953925869,
+            "share_of_bnt": 0.000008124084087117922,
+            "to_drop": "0.0005450886"
+        },
+        {
+            "acct_name": "bnr235535233",
+            "bnt_balance": 0.0006707175,
+            "share_of_bnt": 8.121221381399882e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr241415425",
+            "bnt_balance": 0.0000123981,
+            "share_of_bnt": 1.5011940915323348e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr241554555",
+            "bnt_balance": 5.2775860856,
+            "share_of_bnt": 6.390238060070481e-7,
+            "to_drop": "0.0000033725"
+        },
+        {
+            "acct_name": "bnr242142124",
+            "bnt_balance": 0.0000881519,
+            "share_of_bnt": 1.0673660596167897e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr251555242",
+            "bnt_balance": 0.080909643,
+            "share_of_bnt": 9.796749342204897e-9,
+            "to_drop": "0.0000000008"
+        },
+        {
+            "acct_name": "bnr255353222",
+            "bnt_balance": 13.6959291497,
+            "share_of_bnt": 0.0000016583386097527131,
+            "to_drop": "0.0000227125"
+        },
+        {
+            "acct_name": "bnr311432311",
+            "bnt_balance": 0.3229348245,
+            "share_of_bnt": 3.9101785796971423e-8,
+            "to_drop": "0.0000000126"
+        },
+        {
+            "acct_name": "bnr311435154",
+            "bnt_balance": 0.0060848885,
+            "share_of_bnt": 7.367740753690525e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr313342112",
+            "bnt_balance": 0.0000726913,
+            "share_of_bnt": 8.801651064744147e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr313431421",
+            "bnt_balance": 0.0000046496,
+            "share_of_bnt": 5.629856226348185e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr313513535",
+            "bnt_balance": 189,
+            "share_of_bnt": 0.00002288461000472744,
+            "to_drop": "0.0043251913"
+        },
+        {
+            "acct_name": "bnr315425453",
+            "bnt_balance": 4.853403193,
+            "share_of_bnt": 5.876626416270047e-7,
+            "to_drop": "0.0000028522"
+        },
+        {
+            "acct_name": "bnr321122343",
+            "bnt_balance": 0.0067563866,
+            "share_of_bnt": 8.180808062548487e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr321243313",
+            "bnt_balance": 5.242123536,
+            "share_of_bnt": 6.347299085606496e-7,
+            "to_drop": "0.0000033273"
+        },
+        {
+            "acct_name": "bnr321344321",
+            "bnt_balance": 30.661760162,
+            "share_of_bnt": 0.0000037126054146341716,
+            "to_drop": "0.0001138350"
+        },
+        {
+            "acct_name": "bnr321414155",
+            "bnt_balance": 2.443894328,
+            "share_of_bnt": 2.959130613177007e-7,
+            "to_drop": "0.0000007232"
+        },
+        {
+            "acct_name": "bnr323153515",
+            "bnt_balance": 0.1577872737,
+            "share_of_bnt": 1.910529218165972e-8,
+            "to_drop": "0.0000000030"
+        },
+        {
+            "acct_name": "bnr323435541",
+            "bnt_balance": 0.0405242995,
+            "share_of_bnt": 4.906787247472334e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "bnr323555134",
+            "bnt_balance": 1.0271817403,
+            "share_of_bnt": 1.2437382820498797e-7,
+            "to_drop": "0.0000001278"
+        },
+        {
+            "acct_name": "bnr324143414",
+            "bnt_balance": 1.0346636039,
+            "share_of_bnt": 1.2527975164728722e-7,
+            "to_drop": "0.0000001296"
+        },
+        {
+            "acct_name": "bnr325445554",
+            "bnt_balance": 0.0044166858,
+            "share_of_bnt": 5.347837674413631e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr332511251",
+            "bnt_balance": 10.0259413769,
+            "share_of_bnt": 0.0000012139669753471775,
+            "to_drop": "0.0000121712"
+        },
+        {
+            "acct_name": "bnr333233352",
+            "bnt_balance": 14.2045300895,
+            "share_of_bnt": 0.000001719921330151448,
+            "to_drop": "0.0000244307"
+        },
+        {
+            "acct_name": "bnr333451522",
+            "bnt_balance": 0.01,
+            "share_of_bnt": 1.210825926176055e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr334222455",
+            "bnt_balance": 0.0000952059,
+            "share_of_bnt": 1.1527777204492488e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr334323544",
+            "bnt_balance": 18.1904223445,
+            "share_of_bnt": 0.0000022025434982812815,
+            "to_drop": "0.0000400652"
+        },
+        {
+            "acct_name": "bnr343245151",
+            "bnt_balance": 0.9236172195,
+            "share_of_bnt": 1.1183396752332401e-7,
+            "to_drop": "0.0000001033"
+        },
+        {
+            "acct_name": "bnr343255554",
+            "bnt_balance": 0.0705545476,
+            "share_of_bnt": 8.542927544370255e-9,
+            "to_drop": "0.0000000006"
+        },
+        {
+            "acct_name": "bnr344311414",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "bnr352314513",
+            "bnt_balance": 0.0000416763,
+            "share_of_bnt": 5.046274454709112e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr353144234",
+            "bnt_balance": 0.0000204564,
+            "share_of_bnt": 2.476913947622785e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr353332251",
+            "bnt_balance": 0.999,
+            "share_of_bnt": 1.2096151002498789e-7,
+            "to_drop": "0.0000001208"
+        },
+        {
+            "acct_name": "bnr355252425",
+            "bnt_balance": 9.9995224276,
+            "share_of_bnt": 0.0000012107681004717004,
+            "to_drop": "0.0000121071"
+        },
+        {
+            "acct_name": "bnr355311252",
+            "bnt_balance": 36.0758654381,
+            "share_of_bnt": 0.000004368159318169017,
+            "to_drop": "0.0001575851"
+        },
+        {
+            "acct_name": "bnr355545245",
+            "bnt_balance": 0.5903606338,
+            "share_of_bnt": 7.148239611987679e-8,
+            "to_drop": "0.0000000422"
+        },
+        {
+            "acct_name": "bnr414344333",
+            "bnt_balance": 0.1009717569,
+            "share_of_bnt": 1.2225922106606597e-8,
+            "to_drop": "0.0000000012"
+        },
+        {
+            "acct_name": "bnr415334252",
+            "bnt_balance": 350.4759540538,
+            "share_of_bnt": 0.000042436537166962886,
+            "to_drop": "0.0148729859"
+        },
+        {
+            "acct_name": "bnr422244355",
+            "bnt_balance": 0.9433831334,
+            "share_of_bnt": 1.1422727562379238e-7,
+            "to_drop": "0.0000001078"
+        },
+        {
+            "acct_name": "bnr422413524",
+            "bnt_balance": 13.5301057543,
+            "share_of_bnt": 0.0000016382602831210267,
+            "to_drop": "0.0000221658"
+        },
+        {
+            "acct_name": "bnr425123424",
+            "bnt_balance": 0.0000436883,
+            "share_of_bnt": 5.289892631055734e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr425243254",
+            "bnt_balance": 0.0000057126,
+            "share_of_bnt": 6.916964185873332e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr425344541",
+            "bnt_balance": 6.1364577828,
+            "share_of_bnt": 7.43018217829907e-7,
+            "to_drop": "0.0000045595"
+        },
+        {
+            "acct_name": "bnr433122241",
+            "bnt_balance": 23.7293990484,
+            "share_of_bnt": 0.0000028732171580380128,
+            "to_drop": "0.0000681797"
+        },
+        {
+            "acct_name": "bnr433353311",
+            "bnt_balance": 429.7921899132,
+            "share_of_bnt": 0.00005204035264148853,
+            "to_drop": "0.0223665371"
+        },
+        {
+            "acct_name": "bnr434525153",
+            "bnt_balance": 2.9967182109,
+            "share_of_bnt": 3.628504103201643e-7,
+            "to_drop": "0.0000010874"
+        },
+        {
+            "acct_name": "bnr435544453",
+            "bnt_balance": 100.0242261662,
+            "share_of_bnt": 0.00001211119262877323,
+            "to_drop": "0.0012114127"
+        },
+        {
+            "acct_name": "bnr444152212",
+            "bnt_balance": 112.5316349013,
+            "share_of_bnt": 0.000013625622105347223,
+            "to_drop": "0.0015333135"
+        },
+        {
+            "acct_name": "bnr444211354",
+            "bnt_balance": 270.5602474551,
+            "share_of_bnt": 0.000032760136221124405,
+            "to_drop": "0.0088635906"
+        },
+        {
+            "acct_name": "bnr444332443",
+            "bnt_balance": 0.099,
+            "share_of_bnt": 1.1987176669142944e-8,
+            "to_drop": "0.0000000012"
+        },
+        {
+            "acct_name": "bnr444535154",
+            "bnt_balance": 49.1246252445,
+            "share_of_bnt": 0.0000059481369859723325,
+            "to_drop": "0.0002922000"
+        },
+        {
+            "acct_name": "bnr445553232",
+            "bnt_balance": 0.0511284775,
+            "share_of_bnt": 6.1907686122909085e-9,
+            "to_drop": "0.0000000003"
+        },
+        {
+            "acct_name": "bnr451242511",
+            "bnt_balance": 3.8260683957,
+            "share_of_bnt": 4.6327028088363854e-7,
+            "to_drop": "0.0000017725"
+        },
+        {
+            "acct_name": "bnr452144545",
+            "bnt_balance": 0.0000540626,
+            "share_of_bnt": 6.546039771648559e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr452445353",
+            "bnt_balance": 0.1,
+            "share_of_bnt": 1.210825926176055e-8,
+            "to_drop": "0.0000000012"
+        },
+        {
+            "acct_name": "bnr513251431",
+            "bnt_balance": 0.9335343203,
+            "share_of_bnt": 1.1303475579943816e-7,
+            "to_drop": "0.0000001055"
+        },
+        {
+            "acct_name": "bnr513313242",
+            "bnt_balance": 4.5355130597,
+            "share_of_bnt": 5.491716801194846e-7,
+            "to_drop": "0.0000024908"
+        },
+        {
+            "acct_name": "bnr522325244",
+            "bnt_balance": 5.1923385428,
+            "share_of_bnt": 6.287018125105437e-7,
+            "to_drop": "0.0000032644"
+        },
+        {
+            "acct_name": "bnr524112253",
+            "bnt_balance": 2.46804853,
+            "share_of_bnt": 2.988377147184701e-7,
+            "to_drop": "0.0000007375"
+        },
+        {
+            "acct_name": "bnr525513111",
+            "bnt_balance": 604.3104949108,
+            "share_of_bnt": 0.00007317148146982795,
+            "to_drop": "0.0442182942"
+        },
+        {
+            "acct_name": "bnr531323333",
+            "bnt_balance": 7.2560658852,
+            "share_of_bnt": 8.785832695841766e-7,
+            "to_drop": "0.0000063751"
+        },
+        {
+            "acct_name": "bnr532415423",
+            "bnt_balance": 2.3197636484,
+            "share_of_bnt": 2.8088299680834744e-7,
+            "to_drop": "0.0000006516"
+        },
+        {
+            "acct_name": "bnr533142445",
+            "bnt_balance": 6.0550786197,
+            "share_of_bnt": 7.33164617776708e-7,
+            "to_drop": "0.0000044394"
+        },
+        {
+            "acct_name": "bnr533224445",
+            "bnt_balance": 1.0896057918,
+            "share_of_bnt": 1.3193229420230286e-7,
+            "to_drop": "0.0000001438"
+        },
+        {
+            "acct_name": "bnr533523444",
+            "bnt_balance": 1.1,
+            "share_of_bnt": 1.3319085187936605e-7,
+            "to_drop": "0.0000001465"
+        },
+        {
+            "acct_name": "bnr541433421",
+            "bnt_balance": 49.0430658181,
+            "share_of_bnt": 0.000005938261559171415,
+            "to_drop": "0.0002912306"
+        },
+        {
+            "acct_name": "bnr542255142",
+            "bnt_balance": 0.2,
+            "share_of_bnt": 2.42165185235211e-8,
+            "to_drop": "0.0000000048"
+        },
+        {
+            "acct_name": "bnr543241143",
+            "bnt_balance": 0.0000324467,
+            "share_of_bnt": 3.928730557885661e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr544351443",
+            "bnt_balance": 0.89999,
+            "share_of_bnt": 1.0897312252991877e-7,
+            "to_drop": "0.0000000981"
+        },
+        {
+            "acct_name": "bnr544523512",
+            "bnt_balance": 0.6697748564,
+            "share_of_bnt": 8.109807608299642e-8,
+            "to_drop": "0.0000000543"
+        },
+        {
+            "acct_name": "bnr545311213",
+            "bnt_balance": 0.02,
+            "share_of_bnt": 2.42165185235211e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr551224114",
+            "bnt_balance": 3.2415332091,
+            "share_of_bnt": 3.924932450138947e-7,
+            "to_drop": "0.0000012723"
+        },
+        {
+            "acct_name": "bnr552323532",
+            "bnt_balance": 3.5516986338,
+            "share_of_bnt": 4.300488787769114e-7,
+            "to_drop": "0.0000015274"
+        },
+        {
+            "acct_name": "bnr553451232",
+            "bnt_balance": 0.0008587582,
+            "share_of_bnt": 1.0398066928762819e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "bnr555134324",
+            "bnt_balance": 1224.4632492553,
+            "share_of_bnt": 0.00014826118478480905,
+            "to_drop": "0.1815403721"
+        },
+        {
+            "acct_name": "bnr555245451",
+            "bnt_balance": 205.2753512123,
+            "share_of_bnt": 0.00002485527172527481,
+            "to_drop": "0.0051021746"
+        },
+        {
+            "acct_name": "bntbntbntbnt",
+            "bnt_balance": 415.3769493457,
+            "share_of_bnt": 0.000050294917940369146,
+            "to_drop": "0.0208913496"
+        },
+        {
+            "acct_name": "bohdanbohdan",
+            "bnt_balance": 833.5283997334,
+            "share_of_bnt": 0.0001009257796601239,
+            "to_drop": "0.0841245036"
+        },
+        {
+            "acct_name": "bohemianrhap",
+            "bnt_balance": 0.38148312,
+            "share_of_bnt": 4.6190965209453115e-8,
+            "to_drop": "0.0000000176"
+        },
+        {
+            "acct_name": "boqueronesia",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "butterflysun",
+            "bnt_balance": 0.0303727781,
+            "share_of_bnt": 3.67761471734723e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "carlosbejarm",
+            "bnt_balance": 0.0007884064,
+            "share_of_bnt": 9.546229094831292e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "cat2njskaowi",
+            "bnt_balance": 0.9526488514,
+            "share_of_bnt": 1.1534919278169599e-7,
+            "to_drop": "0.0000001099"
+        },
+        {
+            "acct_name": "chainceoneos",
+            "bnt_balance": 64.59,
+            "share_of_bnt": 0.000007820724657171139,
+            "to_drop": "0.0005051406"
+        },
+        {
+            "acct_name": "chainceout11",
+            "bnt_balance": 2357.1076350964,
+            "share_of_bnt": 0.0002854047035362249,
+            "to_drop": "0.6727296058"
+        },
+        {
+            "acct_name": "chorviecroin",
+            "bnt_balance": 0.5866226221,
+            "share_of_bnt": 7.102978797200585e-8,
+            "to_drop": "0.0000000417"
+        },
+        {
+            "acct_name": "cockblocksio",
+            "bnt_balance": 8.0681517479,
+            "share_of_bnt": 9.769127312679975e-7,
+            "to_drop": "0.0000078819"
+        },
+        {
+            "acct_name": "coffeeandeos",
+            "bnt_balance": 0.9688361551,
+            "share_of_bnt": 1.1730919348118055e-7,
+            "to_drop": "0.0000001137"
+        },
+        {
+            "acct_name": "coinflyerice",
+            "bnt_balance": 96,
+            "share_of_bnt": 0.000011623928891290128,
+            "to_drop": "0.0011158972"
+        },
+        {
+            "acct_name": "conceptskip1",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "cosmiccredit",
+            "bnt_balance": 239,
+            "share_of_bnt": 0.000028938739635607714,
+            "to_drop": "0.0069163588"
+        },
+        {
+            "acct_name": "cryptocoders",
+            "bnt_balance": 90,
+            "share_of_bnt": 0.000010897433335584495,
+            "to_drop": "0.0009807690"
+        },
+        {
+            "acct_name": "cryptomantis",
+            "bnt_balance": 3.8440292932,
+            "share_of_bnt": 4.654450329186776e-7,
+            "to_drop": "0.0000017892"
+        },
+        {
+            "acct_name": "cryptos4life",
+            "bnt_balance": 1.0466028176,
+            "share_of_bnt": 1.2672538259589888e-7,
+            "to_drop": "0.0000001326"
+        },
+        {
+            "acct_name": "cryptowolves",
+            "bnt_balance": 2.3513518252,
+            "share_of_bnt": 2.847077751513547e-7,
+            "to_drop": "0.0000006694"
+        },
+        {
+            "acct_name": "damianeosone",
+            "bnt_balance": 0.0000200999,
+            "share_of_bnt": 2.4337480033546086e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "darkiowallet",
+            "bnt_balance": 0.5763826295,
+            "share_of_bnt": 6.978990311961274e-8,
+            "to_drop": "0.0000000402"
+        },
+        {
+            "acct_name": "dasvidaniya1",
+            "bnt_balance": 0.2940936007,
+            "share_of_bnt": 3.560961564500284e-8,
+            "to_drop": "0.0000000105"
+        },
+        {
+            "acct_name": "davidthedude",
+            "bnt_balance": 4.0037203846,
+            "share_of_bnt": 4.847808442833247e-7,
+            "to_drop": "0.0000019409"
+        },
+        {
+            "acct_name": "deathbreathc",
+            "bnt_balance": 20.3895068974,
+            "share_of_bnt": 0.0000024688143573317416,
+            "to_drop": "0.0000503379"
+        },
+        {
+            "acct_name": "decentralize",
+            "bnt_balance": 0.1089775812,
+            "share_of_bnt": 1.3195288068891624e-8,
+            "to_drop": "0.0000000014"
+        },
+        {
+            "acct_name": "def3jusiasos",
+            "bnt_balance": 0.055202313,
+            "share_of_bnt": 6.684039176528548e-9,
+            "to_drop": "0.0000000004"
+        },
+        {
+            "acct_name": "dexeosincome",
+            "bnt_balance": 0.0470493955,
+            "share_of_bnt": 5.6968627882311015e-9,
+            "to_drop": "0.0000000003"
+        },
+        {
+            "acct_name": "dexeoswallet",
+            "bnt_balance": 78.962131434,
+            "share_of_bnt": 0.000009560939592640844,
+            "to_drop": "0.0007549522"
+        },
+        {
+            "acct_name": "dexonchaince",
+            "bnt_balance": 360.32501,
+            "share_of_bnt": 0.000043629086395764625,
+            "to_drop": "0.0157206510"
+        },
+        {
+            "acct_name": "dicetoken.x",
+            "bnt_balance": 0.7275559832,
+            "share_of_bnt": 8.809436472030703e-8,
+            "to_drop": "0.0000000641"
+        },
+        {
+            "acct_name": "dimitriskons",
+            "bnt_balance": 5.9959577261,
+            "share_of_bnt": 7.260061067017505e-7,
+            "to_drop": "0.0000043531"
+        },
+        {
+            "acct_name": "dinosaureos1",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "dluffyshanks",
+            "bnt_balance": 0.0018796513,
+            "share_of_bnt": 2.2759305262105257e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "dopeyfounded",
+            "bnt_balance": 0.3722090311,
+            "share_of_bnt": 4.506803448127495e-8,
+            "to_drop": "0.0000000168"
+        },
+        {
+            "acct_name": "duanbin12345",
+            "bnt_balance": 8.2631940786,
+            "share_of_bnt": 0.0000010005289623393337,
+            "to_drop": "0.0000082676"
+        },
+        {
+            "acct_name": "dw1hnjsiqosk",
+            "bnt_balance": 0.9088911419,
+            "share_of_bnt": 1.1005089586842797e-7,
+            "to_drop": "0.0000001000"
+        },
+        {
+            "acct_name": "ecececececec",
+            "bnt_balance": 5.8468451885,
+            "share_of_bnt": 7.079511740573522e-7,
+            "to_drop": "0.0000041393"
+        },
+        {
+            "acct_name": "efishtain111",
+            "bnt_balance": 7.9429687033,
+            "share_of_bnt": 9.61755243676064e-7,
+            "to_drop": "0.0000076392"
+        },
+        {
+            "acct_name": "efrds2gdsrwt",
+            "bnt_balance": 0.2890448296,
+            "share_of_bnt": 3.4998297350681995e-8,
+            "to_drop": "0.0000000101"
+        },
+        {
+            "acct_name": "emmycoins245",
+            "bnt_balance": 0.3694322501,
+            "share_of_bnt": 4.473181463866365e-8,
+            "to_drop": "0.0000000165"
+        },
+        {
+            "acct_name": "eos4bitforex",
+            "bnt_balance": 0.5692261932,
+            "share_of_bnt": 6.8923383258506e-8,
+            "to_drop": "0.0000000392"
+        },
+        {
+            "acct_name": "eosacawallet",
+            "bnt_balance": 0.8498408176,
+            "share_of_bnt": 1.0290092950727358e-7,
+            "to_drop": "0.0000000874"
+        },
+        {
+            "acct_name": "eosbandit123",
+            "bnt_balance": 0.9999098311,
+            "share_of_bnt": 1.2107167473342002e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "eosborec1234",
+            "bnt_balance": 1.0870554925,
+            "share_of_bnt": 1.31623497351108e-7,
+            "to_drop": "0.0000001431"
+        },
+        {
+            "acct_name": "eosio1eosio1",
+            "bnt_balance": 0.0456578054,
+            "share_of_bnt": 5.528365451062109e-9,
+            "to_drop": "0.0000000003"
+        },
+        {
+            "acct_name": "eosjamestown",
+            "bnt_balance": 100,
+            "share_of_bnt": 0.00001210825926176055,
+            "to_drop": "0.0012108259"
+        },
+        {
+            "acct_name": "eosmarusteel",
+            "bnt_balance": 0.7591376493,
+            "share_of_bnt": 9.191835473087858e-8,
+            "to_drop": "0.0000000698"
+        },
+        {
+            "acct_name": "eosmurfineos",
+            "bnt_balance": 1.0691492311,
+            "share_of_bnt": 1.2945536079670744e-7,
+            "to_drop": "0.0000001384"
+        },
+        {
+            "acct_name": "eosnovaevent",
+            "bnt_balance": 0.4182170727,
+            "share_of_bnt": 5.0638807439461607e-8,
+            "to_drop": "0.0000000212"
+        },
+        {
+            "acct_name": "eosnovatest4",
+            "bnt_balance": 1.4883277118,
+            "share_of_bnt": 1.8021057800937237e-7,
+            "to_drop": "0.0000002682"
+        },
+        {
+            "acct_name": "eosnovaxdapp",
+            "bnt_balance": 12.5951434336,
+            "share_of_bnt": 0.0000015250526213308979,
+            "to_drop": "0.0000192083"
+        },
+        {
+            "acct_name": "eospromdress",
+            "bnt_balance": 0.6740098982,
+            "share_of_bnt": 8.161086592398436e-8,
+            "to_drop": "0.0000000550"
+        },
+        {
+            "acct_name": "eosrepublic4",
+            "bnt_balance": 0.0598354847,
+            "share_of_bnt": 7.245035618007066e-9,
+            "to_drop": "0.0000000004"
+        },
+        {
+            "acct_name": "eosteseonico",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "eostrustfund",
+            "bnt_balance": 0.0731977841,
+            "share_of_bnt": 8.86297747269174e-9,
+            "to_drop": "0.0000000006"
+        },
+        {
+            "acct_name": "eosunipsycho",
+            "bnt_balance": 100,
+            "share_of_bnt": 0.00001210825926176055,
+            "to_drop": "0.0012108259"
+        },
+        {
+            "acct_name": "eosvbstreetz",
+            "bnt_balance": 2.9658,
+            "share_of_bnt": 3.591067531852944e-7,
+            "to_drop": "0.0000010650"
+        },
+        {
+            "acct_name": "eosyouthclub",
+            "bnt_balance": 0.003964384,
+            "share_of_bnt": 4.800178928517533e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "europecrypto",
+            "bnt_balance": 0.7305697953,
+            "share_of_bnt": 8.845928490303733e-8,
+            "to_drop": "0.0000000646"
+        },
+        {
+            "acct_name": "eyalshertzog",
+            "bnt_balance": 6,
+            "share_of_bnt": 7.26495555705633e-7,
+            "to_drop": "0.0000043590"
+        },
+        {
+            "acct_name": "eyvecoitab55",
+            "bnt_balance": 0.01,
+            "share_of_bnt": 1.210825926176055e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "fjsqlisfos1r",
+            "bnt_balance": 0.7683434374,
+            "share_of_bnt": 9.303301542111487e-8,
+            "to_drop": "0.0000000715"
+        },
+        {
+            "acct_name": "fluffystufff",
+            "bnt_balance": 0.2102115692,
+            "share_of_bnt": 2.545296179695119e-8,
+            "to_drop": "0.0000000054"
+        },
+        {
+            "acct_name": "foosp3lesiop",
+            "bnt_balance": 0.7248957563,
+            "share_of_bnt": 8.777225755030393e-8,
+            "to_drop": "0.0000000636"
+        },
+        {
+            "acct_name": "fordfalcongt",
+            "bnt_balance": 20,
+            "share_of_bnt": 0.0000024216518523521098,
+            "to_drop": "0.0000484330"
+        },
+        {
+            "acct_name": "forfunforeos",
+            "bnt_balance": 0.346016944,
+            "share_of_bnt": 4.189662866914081e-8,
+            "to_drop": "0.0000000145"
+        },
+        {
+            "acct_name": "frequencyhie",
+            "bnt_balance": 29.1652724283,
+            "share_of_bnt": 0.0000035314068000173306,
+            "to_drop": "0.0001029944"
+        },
+        {
+            "acct_name": "futureutopia",
+            "bnt_balance": 8.5390158412,
+            "share_of_bnt": 0.0000010339261764552995,
+            "to_drop": "0.0000088287"
+        },
+        {
+            "acct_name": "g42dcobtgene",
+            "bnt_balance": 0.0004807492,
+            "share_of_bnt": 5.821035953483975e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "g42dkojtgige",
+            "bnt_balance": 60,
+            "share_of_bnt": 0.00000726495555705633,
+            "to_drop": "0.0004358973"
+        },
+        {
+            "acct_name": "g43dinzvgqge",
+            "bnt_balance": 0.0277197759,
+            "share_of_bnt": 3.356382332751019e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "g43tgobrgene",
+            "bnt_balance": 0.7944896608,
+            "share_of_bnt": 9.619886793754598e-8,
+            "to_drop": "0.0000000764"
+        },
+        {
+            "acct_name": "g43tinrsgege",
+            "bnt_balance": 153.7588,
+            "share_of_bnt": 0.00001861751414177188,
+            "to_drop": "0.0028626066"
+        },
+        {
+            "acct_name": "g43tsobvgmge",
+            "bnt_balance": 0.1048591367,
+            "share_of_bnt": 1.2696616131279906e-8,
+            "to_drop": "0.0000000013"
+        },
+        {
+            "acct_name": "g44demjygege",
+            "bnt_balance": 0.1465352041,
+            "share_of_bnt": 1.7742862422177977e-8,
+            "to_drop": "0.0000000026"
+        },
+        {
+            "acct_name": "g44dinjqgige",
+            "bnt_balance": 0.1869887855,
+            "share_of_bnt": 2.264108693875732e-8,
+            "to_drop": "0.0000000042"
+        },
+        {
+            "acct_name": "g44dkmrrgmge",
+            "bnt_balance": 3.9381717222,
+            "share_of_bnt": 4.768440422973164e-7,
+            "to_drop": "0.0000018779"
+        },
+        {
+            "acct_name": "g44dqmzwg4ge",
+            "bnt_balance": 0.4777013709,
+            "share_of_bnt": 5.784132048555636e-8,
+            "to_drop": "0.0000000276"
+        },
+        {
+            "acct_name": "g44tcnjyhage",
+            "bnt_balance": 0.5140471034,
+            "share_of_bnt": 6.224215600724234e-8,
+            "to_drop": "0.0000000320"
+        },
+        {
+            "acct_name": "g44tinrxgyge",
+            "bnt_balance": 0.4010180427,
+            "share_of_bnt": 4.8556304296553626e-8,
+            "to_drop": "0.0000000195"
+        },
+        {
+            "acct_name": "g44tomjqgqge",
+            "bnt_balance": 0.8437728013,
+            "share_of_bnt": 1.0216619836162369e-7,
+            "to_drop": "0.0000000862"
+        },
+        {
+            "acct_name": "g44toobqhege",
+            "bnt_balance": 0.2801824676,
+            "share_of_bnt": 3.392521958300625e-8,
+            "to_drop": "0.0000000095"
+        },
+        {
+            "acct_name": "g44tqnrvgige",
+            "bnt_balance": 123.5533895167,
+            "share_of_bnt": 0.000014960164729374915,
+            "to_drop": "0.0018483791"
+        },
+        {
+            "acct_name": "g4ydgobuguge",
+            "bnt_balance": 229.1533687716,
+            "share_of_bnt": 0.000027746483997923562,
+            "to_drop": "0.0063582003"
+        },
+        {
+            "acct_name": "g4ydgobxgqge",
+            "bnt_balance": 709.2899366498,
+            "share_of_bnt": 0.00008588266444713494,
+            "to_drop": "0.0609157096"
+        },
+        {
+            "acct_name": "g4ydgojrgqge",
+            "bnt_balance": 117.8377522974,
+            "share_of_bnt": 0.00001426810055640039,
+            "to_drop": "0.0016813209"
+        },
+        {
+            "acct_name": "g4ydimbuguge",
+            "bnt_balance": 117.2436301419,
+            "share_of_bnt": 0.00001419616270548089,
+            "to_drop": "0.0016644096"
+        },
+        {
+            "acct_name": "g4ydmojshege",
+            "bnt_balance": 684.2165283888,
+            "share_of_bnt": 0.00008284671116913337,
+            "to_drop": "0.0566850891"
+        },
+        {
+            "acct_name": "g4ydomzzhege",
+            "bnt_balance": 0.4039157363,
+            "share_of_bnt": 4.8907164550253065e-8,
+            "to_drop": "0.0000000198"
+        },
+        {
+            "acct_name": "g4ydoojzgege",
+            "bnt_balance": 4.0500602329,
+            "share_of_bnt": 4.903917932569952e-7,
+            "to_drop": "0.0000019861"
+        },
+        {
+            "acct_name": "g4ydqnrshage",
+            "bnt_balance": 2909.6568430843,
+            "share_of_bnt": 0.00035230879418820437,
+            "to_drop": "1.0250976939"
+        },
+        {
+            "acct_name": "g4ydqnzwgige",
+            "bnt_balance": 1905.6804933739,
+            "share_of_bnt": 0.00023074473483850936,
+            "to_drop": "0.4397257401"
+        },
+        {
+            "acct_name": "g4ydsnjwg4ge",
+            "bnt_balance": 4.115219524,
+            "share_of_bnt": 4.982814491565084e-7,
+            "to_drop": "0.0000020505"
+        },
+        {
+            "acct_name": "g4ytanbrggge",
+            "bnt_balance": 0.8086151261,
+            "share_of_bnt": 9.7909215898e-8,
+            "to_drop": "0.0000000792"
+        },
+        {
+            "acct_name": "g4ytkmbzgqge",
+            "bnt_balance": 554.2815296074,
+            "share_of_bnt": 0.00006711384464491605,
+            "to_drop": "0.0371999645"
+        },
+        {
+            "acct_name": "g4ztcmrtguge",
+            "bnt_balance": 0.0023842195,
+            "share_of_bnt": 2.886874784294511e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gallivanting",
+            "bnt_balance": 1.0674234569,
+            "share_of_bnt": 1.292463995822989e-7,
+            "to_drop": "0.0000001380"
+        },
+        {
+            "acct_name": "gamerooteos1",
+            "bnt_balance": 3,
+            "share_of_bnt": 3.632477778528165e-7,
+            "to_drop": "0.0000010897"
+        },
+        {
+            "acct_name": "gaudiumswell",
+            "bnt_balance": 0.027584861,
+            "share_of_bnt": 3.3400464868762737e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "ge2agenesis1",
+            "bnt_balance": 0.0015853621,
+            "share_of_bnt": 1.9195975330569153e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ge2doojxg4ge",
+            "bnt_balance": 0.2382322379,
+            "share_of_bnt": 2.8845777010026178e-8,
+            "to_drop": "0.0000000069"
+        },
+        {
+            "acct_name": "ge2tanbrgige",
+            "bnt_balance": 606.4016571824,
+            "share_of_bnt": 0.0000734246848192574,
+            "to_drop": "0.0445248506"
+        },
+        {
+            "acct_name": "ge2temzrgene",
+            "bnt_balance": 0.2841741589,
+            "share_of_bnt": 3.4408543914539386e-8,
+            "to_drop": "0.0000000098"
+        },
+        {
+            "acct_name": "ge2tsnbrgege",
+            "bnt_balance": 0.1039499181,
+            "share_of_bnt": 1.2586525585935756e-8,
+            "to_drop": "0.0000000013"
+        },
+        {
+            "acct_name": "ge3dgmrqgqge",
+            "bnt_balance": 0.3294015832,
+            "share_of_bnt": 3.9884797706199884e-8,
+            "to_drop": "0.0000000131"
+        },
+        {
+            "acct_name": "ge3dmmbsgmge",
+            "bnt_balance": 6.5260981323,
+            "share_of_bnt": 7.901968815357969e-7,
+            "to_drop": "0.0000051569"
+        },
+        {
+            "acct_name": "ge3tsojshage",
+            "bnt_balance": 0.9486257022,
+            "share_of_bnt": 1.1486205944607255e-7,
+            "to_drop": "0.0000001090"
+        },
+        {
+            "acct_name": "ge4dmmbwgage",
+            "bnt_balance": 93.7303997373,
+            "share_of_bnt": 0.000011349119807276814,
+            "to_drop": "0.0010637575"
+        },
+        {
+            "acct_name": "ge4doobug4ge",
+            "bnt_balance": 0.7417050821,
+            "share_of_bnt": 8.980757429832193e-8,
+            "to_drop": "0.0000000666"
+        },
+        {
+            "acct_name": "ge4tcnbxgige",
+            "bnt_balance": 0.1826888334,
+            "share_of_bnt": 2.21204375903578e-8,
+            "to_drop": "0.0000000040"
+        },
+        {
+            "acct_name": "ge4tenrsgege",
+            "bnt_balance": 0.7263305398,
+            "share_of_bnt": 8.794598485632889e-8,
+            "to_drop": "0.0000000639"
+        },
+        {
+            "acct_name": "gegequstrlop",
+            "bnt_balance": 0.6625025689,
+            "share_of_bnt": 8.021752865823582e-8,
+            "to_drop": "0.0000000531"
+        },
+        {
+            "acct_name": "geostrategic",
+            "bnt_balance": 0.3393068638,
+            "share_of_bnt": 4.1084154761852755e-8,
+            "to_drop": "0.0000000139"
+        },
+        {
+            "acct_name": "geyagenesis1",
+            "bnt_balance": 0.0007925585,
+            "share_of_bnt": 9.596503798112049e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "geydeobsgene",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "geydgmzygyge",
+            "bnt_balance": 0.8143586342,
+            "share_of_bnt": 9.860465474946822e-8,
+            "to_drop": "0.0000000803"
+        },
+        {
+            "acct_name": "geydomjxgige",
+            "bnt_balance": 1.5695528977,
+            "share_of_bnt": 1.9004553410399133e-7,
+            "to_drop": "0.0000002983"
+        },
+        {
+            "acct_name": "geydonbqguge",
+            "bnt_balance": 0.0000265904,
+            "share_of_bnt": 3.219634570739177e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "geydqmjtkgp2",
+            "bnt_balance": 0.2319234444,
+            "share_of_bnt": 2.808189193675708e-8,
+            "to_drop": "0.0000000065"
+        },
+        {
+            "acct_name": "geydsnjshege",
+            "bnt_balance": 2.0001873234,
+            "share_of_bnt": 2.421878668381409e-7,
+            "to_drop": "0.0000004844"
+        },
+        {
+            "acct_name": "geydsnzzgene",
+            "bnt_balance": 204.7372943875,
+            "share_of_bnt": 0.00002479012240995243,
+            "to_drop": "0.0050754626"
+        },
+        {
+            "acct_name": "geytcnztgage",
+            "bnt_balance": 1e-10,
+            "share_of_bnt": 1.210825926176055e-17,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "geytgmrzgyge",
+            "bnt_balance": 2180.3252434376,
+            "share_of_bnt": 0.00026399943322503647,
+            "to_drop": "0.5756046285"
+        },
+        {
+            "acct_name": "geytgnbxhege",
+            "bnt_balance": 2.7201612954,
+            "share_of_bnt": 3.2936418198509625e-7,
+            "to_drop": "0.0000008959"
+        },
+        {
+            "acct_name": "geytoobzg4ge",
+            "bnt_balance": 0.7486647333,
+            "share_of_bnt": 9.065026690933217e-8,
+            "to_drop": "0.0000000679"
+        },
+        {
+            "acct_name": "geytqmjxhage",
+            "bnt_balance": 0.6504328254,
+            "share_of_bnt": 7.875609282302632e-8,
+            "to_drop": "0.0000000512"
+        },
+        {
+            "acct_name": "gezdinjygyge",
+            "bnt_balance": 0.9013074797,
+            "share_of_bnt": 1.0913264638771583e-7,
+            "to_drop": "0.0000000984"
+        },
+        {
+            "acct_name": "gezdmobrgege",
+            "bnt_balance": 20.110855799,
+            "share_of_bnt": 0.0000024350745599017258,
+            "to_drop": "0.0000489714"
+        },
+        {
+            "acct_name": "geztenbvgage",
+            "bnt_balance": 6.9701127668,
+            "share_of_bnt": 8.439593246412155e-7,
+            "to_drop": "0.0000058825"
+        },
+        {
+            "acct_name": "ghostbusters",
+            "bnt_balance": 106.4079,
+            "share_of_bnt": 0.000012884144406994904,
+            "to_drop": "0.0013709747"
+        },
+        {
+            "acct_name": "gi2dqnbwgage",
+            "bnt_balance": 4.2774189272,
+            "share_of_bnt": 5.179209734169927e-7,
+            "to_drop": "0.0000022154"
+        },
+        {
+            "acct_name": "gi2taobvgmge",
+            "bnt_balance": 23.1241588037,
+            "share_of_bnt": 0.0000027999331000532228,
+            "to_drop": "0.0000647461"
+        },
+        {
+            "acct_name": "gi2tkmzygqge",
+            "bnt_balance": 100.2442956498,
+            "share_of_bnt": 0.000012137839212403536,
+            "to_drop": "0.0012167491"
+        },
+        {
+            "acct_name": "gi2tsmbwgene",
+            "bnt_balance": 0.9118057939,
+            "share_of_bnt": 1.1040380948916606e-7,
+            "to_drop": "0.0000001007"
+        },
+        {
+            "acct_name": "gi3agenesis1",
+            "bnt_balance": 0.0007925585,
+            "share_of_bnt": 9.596503798112049e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gi3tanrtgmge",
+            "bnt_balance": 0.9322200785,
+            "share_of_bnt": 1.1287562399496771e-7,
+            "to_drop": "0.0000001052"
+        },
+        {
+            "acct_name": "gi3tanzwgqge",
+            "bnt_balance": 100,
+            "share_of_bnt": 0.00001210825926176055,
+            "to_drop": "0.0012108259"
+        },
+        {
+            "acct_name": "gi3tgojvgege",
+            "bnt_balance": 10.4001426648,
+            "share_of_bnt": 0.0000012592762374469565,
+            "to_drop": "0.0000130967"
+        },
+        {
+            "acct_name": "gi4domjugege",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "gi4tamjygqge",
+            "bnt_balance": 26.6990057778,
+            "share_of_bnt": 0.000003232784839888453,
+            "to_drop": "0.0000863121"
+        },
+        {
+            "acct_name": "giydqmbxg4ge",
+            "bnt_balance": 0.2372962234,
+            "share_of_bnt": 2.8732441947638505e-8,
+            "to_drop": "0.0000000068"
+        },
+        {
+            "acct_name": "giytcnjuguge",
+            "bnt_balance": 8.9999465509,
+            "share_of_bnt": 0.0000010897368618028484,
+            "to_drop": "0.0000098076"
+        },
+        {
+            "acct_name": "giytembqgyge",
+            "bnt_balance": 0.2141308235,
+            "share_of_bnt": 2.5927515268722887e-8,
+            "to_drop": "0.0000000056"
+        },
+        {
+            "acct_name": "giytgmzug4ge",
+            "bnt_balance": 0.9370203677,
+            "share_of_bnt": 1.13456855456618e-7,
+            "to_drop": "0.0000001063"
+        },
+        {
+            "acct_name": "giytoobtg4ge",
+            "bnt_balance": 4.647e-7,
+            "share_of_bnt": 5.626708078940128e-14,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "giztanbuhage",
+            "bnt_balance": 0.000001,
+            "share_of_bnt": 1.210825926176055e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "giztkobyhege",
+            "bnt_balance": 0.0018529378,
+            "share_of_bnt": 2.2435851278316218e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "giztkojygqge",
+            "bnt_balance": 0.0000358277,
+            "share_of_bnt": 4.338110803525785e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "giztonbrhege",
+            "bnt_balance": 0.0026248731,
+            "share_of_bnt": 3.178264402402112e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm2dqmbxgqge",
+            "bnt_balance": 0.2210532277,
+            "share_of_bnt": 2.6765697916405884e-8,
+            "to_drop": "0.0000000059"
+        },
+        {
+            "acct_name": "gm2dqobvhage",
+            "bnt_balance": 0.2905129529,
+            "share_of_bnt": 3.5176061526128314e-8,
+            "to_drop": "0.0000000102"
+        },
+        {
+            "acct_name": "gm2dsgenesis",
+            "bnt_balance": 0.000792464,
+            "share_of_bnt": 9.595359567611813e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm2tcgenesis",
+            "bnt_balance": 0.000792464,
+            "share_of_bnt": 9.595359567611813e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm2tigenesis",
+            "bnt_balance": 0.000792464,
+            "share_of_bnt": 9.595359567611813e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm3dkgenesis",
+            "bnt_balance": 0.000792464,
+            "share_of_bnt": 9.595359567611813e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm3dsgenesis",
+            "bnt_balance": 0.000792464,
+            "share_of_bnt": 9.595359567611813e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gm3dsmrygige",
+            "bnt_balance": 0.8051369207,
+            "share_of_bnt": 9.748806577051144e-8,
+            "to_drop": "0.0000000785"
+        },
+        {
+            "acct_name": "gm3tsnjrgage",
+            "bnt_balance": 0.4329965528,
+            "share_of_bnt": 5.242834520750991e-8,
+            "to_drop": "0.0000000227"
+        },
+        {
+            "acct_name": "gm4dqmzqhege",
+            "bnt_balance": 3.9988229885,
+            "share_of_bnt": 4.841878548664613e-7,
+            "to_drop": "0.0000019362"
+        },
+        {
+            "acct_name": "gm4tkojxgene",
+            "bnt_balance": 0.8797228725,
+            "share_of_bnt": 1.065191261873072e-7,
+            "to_drop": "0.0000000937"
+        },
+        {
+            "acct_name": "gmgenesis111",
+            "bnt_balance": 0.0023759327,
+            "share_of_bnt": 2.876840912009475e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gmydanbrgage",
+            "bnt_balance": 0.071,
+            "share_of_bnt": 8.59686407584999e-9,
+            "to_drop": "0.0000000006"
+        },
+        {
+            "acct_name": "gmydknjrhege",
+            "bnt_balance": 0.5847260964,
+            "share_of_bnt": 7.080015172328391e-8,
+            "to_drop": "0.0000000414"
+        },
+        {
+            "acct_name": "gmzdenrygage",
+            "bnt_balance": 2.5270915776,
+            "share_of_bnt": 3.0598679999792275e-7,
+            "to_drop": "0.0000007733"
+        },
+        {
+            "acct_name": "gmztgmjwgmge",
+            "bnt_balance": 0.3722866635,
+            "share_of_bnt": 4.507743441353808e-8,
+            "to_drop": "0.0000000168"
+        },
+        {
+            "acct_name": "gmztomjvg4ge",
+            "bnt_balance": 10.0000081283,
+            "share_of_bnt": 0.0000012108269103716924,
+            "to_drop": "0.0000121083"
+        },
+        {
+            "acct_name": "gq2dmnbtgmge",
+            "bnt_balance": 0.520883542,
+            "share_of_bnt": 6.30699297172014e-8,
+            "to_drop": "0.0000000329"
+        },
+        {
+            "acct_name": "gq2donzqgyge",
+            "bnt_balance": 0.7625385738,
+            "share_of_bnt": 9.23301474866353e-8,
+            "to_drop": "0.0000000704"
+        },
+        {
+            "acct_name": "gq2tcnzsguge",
+            "bnt_balance": 198.802586317,
+            "share_of_bnt": 0.000024071532570347662,
+            "to_drop": "0.0047854829"
+        },
+        {
+            "acct_name": "gq2tkojvguge",
+            "bnt_balance": 0.088609468,
+            "share_of_bnt": 1.072906411590675e-8,
+            "to_drop": "0.0000000010"
+        },
+        {
+            "acct_name": "gq3daobrhege",
+            "bnt_balance": 0.9466160426,
+            "share_of_bnt": 1.1461872465142569e-7,
+            "to_drop": "0.0000001085"
+        },
+        {
+            "acct_name": "gq3dmobygene",
+            "bnt_balance": 0.9558999724,
+            "share_of_bnt": 1.1574284694128953e-7,
+            "to_drop": "0.0000001106"
+        },
+        {
+            "acct_name": "gq3tembzgqge",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "gq3tinbugyge",
+            "bnt_balance": 4.0648202231,
+            "share_of_bnt": 4.921789711374215e-7,
+            "to_drop": "0.0000020006"
+        },
+        {
+            "acct_name": "gq4danzvgyge",
+            "bnt_balance": 51.9213095329,
+            "share_of_bnt": 0.000006286766770344727,
+            "to_drop": "0.0003264172"
+        },
+        {
+            "acct_name": "gq4dkmbthage",
+            "bnt_balance": 0.7371159118,
+            "share_of_bnt": 8.925190566043422e-8,
+            "to_drop": "0.0000000658"
+        },
+        {
+            "acct_name": "gq4tambsgige",
+            "bnt_balance": 0.9748873099,
+            "share_of_bnt": 1.1804188299269503e-7,
+            "to_drop": "0.0000001151"
+        },
+        {
+            "acct_name": "gq4tgmbrgqge",
+            "bnt_balance": 1708.506211343,
+            "share_of_bnt": 0.00020687036157269307,
+            "to_drop": "0.3534392977"
+        },
+        {
+            "acct_name": "gq4tgmbtgyge",
+            "bnt_balance": 929.2337013836,
+            "share_of_bnt": 0.0001125140257111801,
+            "to_drop": "0.1045518246"
+        },
+        {
+            "acct_name": "gq4tgmzugige",
+            "bnt_balance": 1351.679896253,
+            "share_of_bnt": 0.00016366490622740925,
+            "to_drop": "0.2212225635"
+        },
+        {
+            "acct_name": "gq4tgnzqg4ge",
+            "bnt_balance": 0.0343000579,
+            "share_of_bnt": 4.153139937465981e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "gq4timrtgige",
+            "bnt_balance": 306.0260740848,
+            "share_of_bnt": 0.000037054430458775,
+            "to_drop": "0.0113396219"
+        },
+        {
+            "acct_name": "gq4tmmjqgige",
+            "bnt_balance": 881.9043496313,
+            "share_of_bnt": 0.00010678326509410102,
+            "to_drop": "0.0941726260"
+        },
+        {
+            "acct_name": "gq4tsnqgenes",
+            "bnt_balance": 415.5291672763,
+            "share_of_bnt": 0.000050313348882049075,
+            "to_drop": "0.0209066640"
+        },
+        {
+            "acct_name": "gqydgmrugege",
+            "bnt_balance": 2,
+            "share_of_bnt": 2.42165185235211e-7,
+            "to_drop": "0.0000004843"
+        },
+        {
+            "acct_name": "gqytaobrgene",
+            "bnt_balance": 1299.0652444959,
+            "share_of_bnt": 0.00015729418778298715,
+            "to_drop": "0.2043354125"
+        },
+        {
+            "acct_name": "gqytqojxgage",
+            "bnt_balance": 0.6079044352,
+            "share_of_bnt": 7.360664507775716e-8,
+            "to_drop": "0.0000000447"
+        },
+        {
+            "acct_name": "gqzdenrqgage",
+            "bnt_balance": 0.9903270082,
+            "share_of_bnt": 1.1991136169209265e-7,
+            "to_drop": "0.0000001188"
+        },
+        {
+            "acct_name": "gqzdsmzrgmge",
+            "bnt_balance": 10.7586945304,
+            "share_of_bnt": 0.0000013026906269216836,
+            "to_drop": "0.0000140153"
+        },
+        {
+            "acct_name": "gqztemrrguge",
+            "bnt_balance": 0.093380721,
+            "share_of_bnt": 1.1306779799181279e-8,
+            "to_drop": "0.0000000011"
+        },
+        {
+            "acct_name": "gqztkmbuguge",
+            "bnt_balance": 0.7612511858,
+            "share_of_bnt": 9.217426720989051e-8,
+            "to_drop": "0.0000000702"
+        },
+        {
+            "acct_name": "grandchef223",
+            "bnt_balance": 8.219e-7,
+            "share_of_bnt": 9.951778287240996e-14,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "greenhatgirl",
+            "bnt_balance": 0.4994,
+            "share_of_bnt": 6.046864675323218e-8,
+            "to_drop": "0.0000000302"
+        },
+        {
+            "acct_name": "gregumalieos",
+            "bnt_balance": 0.4882459546,
+            "share_of_bnt": 5.91180860180257e-8,
+            "to_drop": "0.0000000289"
+        },
+        {
+            "acct_name": "gu2danjthege",
+            "bnt_balance": 0.2691335111,
+            "share_of_bnt": 3.258738328426711e-8,
+            "to_drop": "0.0000000088"
+        },
+        {
+            "acct_name": "gu2daojvguge",
+            "bnt_balance": 77.0918116048,
+            "share_of_bnt": 0.00000933447641869719,
+            "to_drop": "0.0007196117"
+        },
+        {
+            "acct_name": "gu2dinrugmge",
+            "bnt_balance": 0.3532549921,
+            "share_of_bnt": 4.277303029857975e-8,
+            "to_drop": "0.0000000151"
+        },
+        {
+            "acct_name": "gu2dqmrrgqge",
+            "bnt_balance": 0.6673493264,
+            "share_of_bnt": 8.080438662212464e-8,
+            "to_drop": "0.0000000539"
+        },
+        {
+            "acct_name": "gu2dsmbrguge",
+            "bnt_balance": 0.0000294899,
+            "share_of_bnt": 3.5707135480339244e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gu2dsojtgege",
+            "bnt_balance": 0.0000663147,
+            "share_of_bnt": 8.029555804658722e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gu2tanbxhege",
+            "bnt_balance": 100,
+            "share_of_bnt": 0.00001210825926176055,
+            "to_drop": "0.0012108259"
+        },
+        {
+            "acct_name": "gu2tenbtgyge",
+            "bnt_balance": 0.4481797559,
+            "share_of_bnt": 5.426676680309757e-8,
+            "to_drop": "0.0000000243"
+        },
+        {
+            "acct_name": "gu2tonrugage",
+            "bnt_balance": 38.4261694819,
+            "share_of_bnt": 0.0000046527402252319626,
+            "to_drop": "0.0001787870"
+        },
+        {
+            "acct_name": "gu2tqnzrgyge",
+            "bnt_balance": 44.7388390882,
+            "share_of_bnt": 0.000005417094627501126,
+            "to_drop": "0.0002423545"
+        },
+        {
+            "acct_name": "gu3dqobugyge",
+            "bnt_balance": 0.0335881601,
+            "share_of_bnt": 4.0669415061632116e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "gu3taoagenes",
+            "bnt_balance": 112.7059798413,
+            "share_of_bnt": 0.000013646732242692185,
+            "to_drop": "0.0015380683"
+        },
+        {
+            "acct_name": "gu3tmnzqguge",
+            "bnt_balance": 1123.1333765779,
+            "share_of_bnt": 0.00013599190109141757,
+            "to_drop": "0.1527370431"
+        },
+        {
+            "acct_name": "gu4dcojzgmge",
+            "bnt_balance": 3.2543176297,
+            "share_of_bnt": 3.9404121580525666e-7,
+            "to_drop": "0.0000012823"
+        },
+        {
+            "acct_name": "gu4deobxgmge",
+            "bnt_balance": 0.0629840674,
+            "share_of_bnt": 7.626274174394007e-9,
+            "to_drop": "0.0000000005"
+        },
+        {
+            "acct_name": "gu4dmnrqhege",
+            "bnt_balance": 3.9028006591,
+            "share_of_bnt": 4.725612222735275e-7,
+            "to_drop": "0.0000018443"
+        },
+        {
+            "acct_name": "gu4tgmzvgqge",
+            "bnt_balance": 0.9756277609,
+            "share_of_bnt": 1.1813153871948132e-7,
+            "to_drop": "0.0000001153"
+        },
+        {
+            "acct_name": "gu4tgnjxgige",
+            "bnt_balance": 0.173088453,
+            "share_of_bnt": 2.0957998641410555e-8,
+            "to_drop": "0.0000000036"
+        },
+        {
+            "acct_name": "gu4tgojshage",
+            "bnt_balance": 0.3085615987,
+            "share_of_bnt": 3.7361438352829166e-8,
+            "to_drop": "0.0000000115"
+        },
+        {
+            "acct_name": "gu4tknjzhege",
+            "bnt_balance": 270.7542254702,
+            "share_of_bnt": 0.00003278362358210354,
+            "to_drop": "0.0088763046"
+        },
+        {
+            "acct_name": "gu4tqnrqgege",
+            "bnt_balance": 0.0097112068,
+            "share_of_bnt": 1.1758580967897202e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "guessdqrrdtl",
+            "bnt_balance": 0.6998571727,
+            "share_of_bnt": 8.474052093254328e-8,
+            "to_drop": "0.0000000593"
+        },
+        {
+            "acct_name": "gugenesis111",
+            "bnt_balance": 0.0015850781,
+            "share_of_bnt": 1.9192536584938815e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "guydambtgege",
+            "bnt_balance": 25.5884294393,
+            "share_of_bnt": 0.0000030983133775231053,
+            "to_drop": "0.0000792810"
+        },
+        {
+            "acct_name": "guydamzxg4ge",
+            "bnt_balance": 138.7948686369,
+            "share_of_bnt": 0.00001680564253657583,
+            "to_drop": "0.0023325369"
+        },
+        {
+            "acct_name": "guydanbqgage",
+            "bnt_balance": 137.8617251998,
+            "share_of_bnt": 0.00001669265510992766,
+            "to_drop": "0.0023012782"
+        },
+        {
+            "acct_name": "guydanbqgige",
+            "bnt_balance": 135.5490478537,
+            "share_of_bnt": 0.000016412630140973867,
+            "to_drop": "0.0022247164"
+        },
+        {
+            "acct_name": "guydanbwgyge",
+            "bnt_balance": 660.9693621944,
+            "share_of_bnt": 0.00008003188401530306,
+            "to_drop": "0.0528986233"
+        },
+        {
+            "acct_name": "guydanjqhege",
+            "bnt_balance": 1264.2103758363,
+            "share_of_bnt": 0.00015307386992033666,
+            "to_drop": "0.1935175746"
+        },
+        {
+            "acct_name": "guydanjrgige",
+            "bnt_balance": 857.7797977181,
+            "share_of_bnt": 0.00010386220180271275,
+            "to_drop": "0.0890908985"
+        },
+        {
+            "acct_name": "guydgmjvguge",
+            "bnt_balance": 884.6151684086,
+            "share_of_bnt": 0.00010711149805977299,
+            "to_drop": "0.0947524559"
+        },
+        {
+            "acct_name": "guydgmzvgqge",
+            "bnt_balance": 92.9357592805,
+            "share_of_bnt": 0.00001125290268056863,
+            "to_drop": "0.0010457971"
+        },
+        {
+            "acct_name": "guydsnjxgege",
+            "bnt_balance": 1.1452517309,
+            "share_of_bnt": 1.3867004877717226e-7,
+            "to_drop": "0.0000001588"
+        },
+        {
+            "acct_name": "guytcmbygyge",
+            "bnt_balance": 93.541183331,
+            "share_of_bnt": 0.000011326208994236223,
+            "to_drop": "0.0010594670"
+        },
+        {
+            "acct_name": "guzdmnzzgyge",
+            "bnt_balance": 0.6063361185,
+            "share_of_bnt": 7.341674922567567e-8,
+            "to_drop": "0.0000000445"
+        },
+        {
+            "acct_name": "guzdqmzvgqge",
+            "bnt_balance": 0.0000745035,
+            "share_of_bnt": 9.02107693908577e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "guzdsobzgage",
+            "bnt_balance": 0.3190134746,
+            "share_of_bnt": 3.862697858451864e-8,
+            "to_drop": "0.0000000123"
+        },
+        {
+            "acct_name": "guztcnrxgqge",
+            "bnt_balance": 200,
+            "share_of_bnt": 0.0000242165185235211,
+            "to_drop": "0.0048433037"
+        },
+        {
+            "acct_name": "guztemrsgige",
+            "bnt_balance": 4.8811260327,
+            "share_of_bnt": 5.910193949326031e-7,
+            "to_drop": "0.0000028848"
+        },
+        {
+            "acct_name": "guztoojqgege",
+            "bnt_balance": 7004800,
+            "share_of_bnt": 0.848159344767803,
+            "to_drop": "5941186.5782295065"
+        },
+        {
+            "acct_name": "gy2tembrgage",
+            "bnt_balance": 0.3260309768,
+            "share_of_bnt": 3.947667594459439e-8,
+            "to_drop": "0.0000000129"
+        },
+        {
+            "acct_name": "gy2temrrgmge",
+            "bnt_balance": 0.5419236942,
+            "share_of_bnt": 6.561752589464641e-8,
+            "to_drop": "0.0000000356"
+        },
+        {
+            "acct_name": "gy2tinztgqge",
+            "bnt_balance": 4,
+            "share_of_bnt": 4.84330370470422e-7,
+            "to_drop": "0.0000019373"
+        },
+        {
+            "acct_name": "gy2tmnrsgene",
+            "bnt_balance": 0.8663834656,
+            "share_of_bnt": 1.0490395621587403e-7,
+            "to_drop": "0.0000000909"
+        },
+        {
+            "acct_name": "gy2tombvgene",
+            "bnt_balance": 5.4523874249,
+            "share_of_bnt": 6.601892053625218e-7,
+            "to_drop": "0.0000035996"
+        },
+        {
+            "acct_name": "gy2tonbygage",
+            "bnt_balance": 0.0000659281,
+            "share_of_bnt": 7.982745274352757e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gy2tqnbxgqge",
+            "bnt_balance": 0.1980934749,
+            "share_of_bnt": 2.398567152152256e-8,
+            "to_drop": "0.0000000048"
+        },
+        {
+            "acct_name": "gy3dgmjrgyge",
+            "bnt_balance": 0.8103919229,
+            "share_of_bnt": 9.812435506109866e-8,
+            "to_drop": "0.0000000795"
+        },
+        {
+            "acct_name": "gy3dgmrzhage",
+            "bnt_balance": 0.0023431237,
+            "share_of_bnt": 2.837114924197565e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gy3dgojqgage",
+            "bnt_balance": 843.0693545187,
+            "share_of_bnt": 0.00010208102320157537,
+            "to_drop": "0.0860613823"
+        },
+        {
+            "acct_name": "gy3dimzygege",
+            "bnt_balance": 54.0976313029,
+            "share_of_bnt": 0.000006550281452626463,
+            "to_drop": "0.0003543547"
+        },
+        {
+            "acct_name": "gy3dmmjygage",
+            "bnt_balance": 35,
+            "share_of_bnt": 0.000004237890741616193,
+            "to_drop": "0.0001483262"
+        },
+        {
+            "acct_name": "gy3dmojqgege",
+            "bnt_balance": 3.984095375,
+            "share_of_bnt": 4.824045972408112e-7,
+            "to_drop": "0.0000019219"
+        },
+        {
+            "acct_name": "gy3doojxgene",
+            "bnt_balance": 0.7984300969,
+            "share_of_bnt": 9.667598615657798e-8,
+            "to_drop": "0.0000000772"
+        },
+        {
+            "acct_name": "gy3dqnzrgage",
+            "bnt_balance": 3.0868638795,
+            "share_of_bnt": 3.737654815874998e-7,
+            "to_drop": "0.0000011538"
+        },
+        {
+            "acct_name": "gy3tcmrqgage",
+            "bnt_balance": 0.6257955614,
+            "share_of_bnt": 7.577294902290193e-8,
+            "to_drop": "0.0000000474"
+        },
+        {
+            "acct_name": "gy3tembtgmge",
+            "bnt_balance": 0.0000055354,
+            "share_of_bnt": 6.702405831754935e-13,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gy3tgmzwguge",
+            "bnt_balance": 2.5072229458,
+            "share_of_bnt": 3.035810545478142e-7,
+            "to_drop": "0.0000007611"
+        },
+        {
+            "acct_name": "gy3timzrgqge",
+            "bnt_balance": 0.7639073589,
+            "share_of_bnt": 9.249588353527966e-8,
+            "to_drop": "0.0000000707"
+        },
+        {
+            "acct_name": "gy3tmmzrhage",
+            "bnt_balance": 80.180210612,
+            "share_of_bnt": 0.000009708427777526605,
+            "to_drop": "0.0007784238"
+        },
+        {
+            "acct_name": "gy3tomzxg4ge",
+            "bnt_balance": 0.12831212,
+            "share_of_bnt": 1.553636415386131e-8,
+            "to_drop": "0.0000000020"
+        },
+        {
+            "acct_name": "gy3tqobxgqge",
+            "bnt_balance": 525.9958406129,
+            "share_of_bnt": 0.00006368894008748673,
+            "to_drop": "0.0335001176"
+        },
+        {
+            "acct_name": "gy4tcojqgige",
+            "bnt_balance": 0.1202429615,
+            "share_of_bnt": 1.4559329522438921e-8,
+            "to_drop": "0.0000000018"
+        },
+        {
+            "acct_name": "gy4tenzrguge",
+            "bnt_balance": 88.531958692,
+            "share_of_bnt": 0.000010719679087942114,
+            "to_drop": "0.0009490342"
+        },
+        {
+            "acct_name": "gy4tmobqhage",
+            "bnt_balance": 1701.5537944006,
+            "share_of_bnt": 0.00020602854490434872,
+            "to_drop": "0.3505686523"
+        },
+        {
+            "acct_name": "gy4tqnjugqge",
+            "bnt_balance": 0.601705907,
+            "share_of_bnt": 7.285611121288783e-8,
+            "to_drop": "0.0000000438"
+        },
+        {
+            "acct_name": "gygenesis111",
+            "bnt_balance": 0.0007925585,
+            "share_of_bnt": 9.596503798112049e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "gyytenqgenes",
+            "bnt_balance": 0.3934265534,
+            "share_of_bnt": 4.763710709028081e-8,
+            "to_drop": "0.0000000187"
+        },
+        {
+            "acct_name": "gyytkmjqgmge",
+            "bnt_balance": 0.1610938635,
+            "share_of_bnt": 1.9505662647366646e-8,
+            "to_drop": "0.0000000031"
+        },
+        {
+            "acct_name": "gyytmojqgige",
+            "bnt_balance": 39.5965892591,
+            "share_of_bnt": 0.000004794457686306259,
+            "to_drop": "0.0001898442"
+        },
+        {
+            "acct_name": "gyzdmnzugige",
+            "bnt_balance": 824.4805827584,
+            "share_of_bnt": 0.00009983024652326133,
+            "to_drop": "0.0823080998"
+        },
+        {
+            "acct_name": "gyztanbuguge",
+            "bnt_balance": 4.3264346357,
+            "share_of_bnt": 5.238559224811616e-7,
+            "to_drop": "0.0000022664"
+        },
+        {
+            "acct_name": "gyztcnbvg4ge",
+            "bnt_balance": 0.8597349045,
+            "share_of_bnt": 1.0409893120070947e-7,
+            "to_drop": "0.0000000895"
+        },
+        {
+            "acct_name": "gyztgmbrgige",
+            "bnt_balance": 0.1329603132,
+            "share_of_bnt": 1.6099179437504837e-8,
+            "to_drop": "0.0000000021"
+        },
+        {
+            "acct_name": "h.a.t.e",
+            "bnt_balance": 0.0002062674,
+            "share_of_bnt": 2.497539156449268e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ha2diobqgyge",
+            "bnt_balance": 177.1504652571,
+            "share_of_bnt": 0.000021449837616744713,
+            "to_drop": "0.0037998487"
+        },
+        {
+            "acct_name": "ha2dsmzqhage",
+            "bnt_balance": 110.5727887777,
+            "share_of_bnt": 0.00001338843993816279,
+            "to_drop": "0.0014803971"
+        },
+        {
+            "acct_name": "ha2tamjzgage",
+            "bnt_balance": 0.0000098152,
+            "share_of_bnt": 1.1884498630603215e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ha2taobvhage",
+            "bnt_balance": 3.9994920657,
+            "share_of_bnt": 4.842688684684986e-7,
+            "to_drop": "0.0000019368"
+        },
+        {
+            "acct_name": "ha2tsmztgege",
+            "bnt_balance": 549,
+            "share_of_bnt": 0.00006647434334706542,
+            "to_drop": "0.0364944145"
+        },
+        {
+            "acct_name": "ha3dmojqg4ge",
+            "bnt_balance": 0.8874615702,
+            "share_of_bnt": 1.0745614776830711e-7,
+            "to_drop": "0.0000000954"
+        },
+        {
+            "acct_name": "ha3dqnrwgyge",
+            "bnt_balance": 0.3902770312,
+            "share_of_bnt": 4.725575477679811e-8,
+            "to_drop": "0.0000000184"
+        },
+        {
+            "acct_name": "ha3tcnbrgige",
+            "bnt_balance": 4946.8404925442,
+            "share_of_bnt": 0.0005989762721030043,
+            "to_drop": "2.9630400769"
+        },
+        {
+            "acct_name": "ha3tiojshege",
+            "bnt_balance": 5,
+            "share_of_bnt": 6.054129630880274e-7,
+            "to_drop": "0.0000030271"
+        },
+        {
+            "acct_name": "ha3tmnzwgige",
+            "bnt_balance": 0.6748345112,
+            "share_of_bnt": 8.171071220393054e-8,
+            "to_drop": "0.0000000551"
+        },
+        {
+            "acct_name": "ha3tomjzguge",
+            "bnt_balance": 9.99,
+            "share_of_bnt": 0.000001209615100249879,
+            "to_drop": "0.0000120841"
+        },
+        {
+            "acct_name": "ha4demrrgige",
+            "bnt_balance": 0.9722230805,
+            "share_of_bnt": 1.1771929118961496e-7,
+            "to_drop": "0.0000001144"
+        },
+        {
+            "acct_name": "ha4dgmryhege",
+            "bnt_balance": 0.2409786019,
+            "share_of_bnt": 2.9178313883417835e-8,
+            "to_drop": "0.0000000070"
+        },
+        {
+            "acct_name": "ha4donqgenes",
+            "bnt_balance": 0.5728333653,
+            "share_of_bnt": 6.936014900839189e-8,
+            "to_drop": "0.0000000397"
+        },
+        {
+            "acct_name": "ha4dqnrtgyge",
+            "bnt_balance": 0.0064219964,
+            "share_of_bnt": 7.775919738929291e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ha4tgmztgene",
+            "bnt_balance": 0.0000335096,
+            "share_of_bnt": 4.0574292455789135e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ha4tmnrsgige",
+            "bnt_balance": 8.0087474395,
+            "share_of_bnt": 9.697199035942697e-7,
+            "to_drop": "0.0000077662"
+        },
+        {
+            "acct_name": "ha4unbhgfytw",
+            "bnt_balance": 0.0021731609,
+            "share_of_bnt": 2.631319559472089e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "hacker2xeros",
+            "bnt_balance": 3.4428988532,
+            "share_of_bnt": 4.1687511926563677e-7,
+            "to_drop": "0.0000014353"
+        },
+        {
+            "acct_name": "hagenesis111",
+            "bnt_balance": 0.0015853621,
+            "share_of_bnt": 1.9195975330569153e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "harrypark223",
+            "bnt_balance": 48.8959106602,
+            "share_of_bnt": 0.000005920443631135831,
+            "to_drop": "0.0002894855"
+        },
+        {
+            "acct_name": "haydcmjxhage",
+            "bnt_balance": 1.2027825079,
+            "share_of_bnt": 1.4563602441163758e-7,
+            "to_drop": "0.0000001752"
+        },
+        {
+            "acct_name": "haydembvgege",
+            "bnt_balance": 20,
+            "share_of_bnt": 0.0000024216518523521098,
+            "to_drop": "0.0000484330"
+        },
+        {
+            "acct_name": "haytemjzgyge",
+            "bnt_balance": 0.1084262494,
+            "share_of_bnt": 1.3128531385155092e-8,
+            "to_drop": "0.0000000014"
+        },
+        {
+            "acct_name": "haytimjuguge",
+            "bnt_balance": 0.3947784985,
+            "share_of_bnt": 4.7800804108065485e-8,
+            "to_drop": "0.0000000189"
+        },
+        {
+            "acct_name": "haytkmzqgmge",
+            "bnt_balance": 1770,
+            "share_of_bnt": 0.00021431618893316172,
+            "to_drop": "0.3793396544"
+        },
+        {
+            "acct_name": "haytknzuhage",
+            "bnt_balance": 0.3863506186,
+            "share_of_bnt": 4.6780334559503676e-8,
+            "to_drop": "0.0000000181"
+        },
+        {
+            "acct_name": "hazdanzsgqge",
+            "bnt_balance": 44.118097372,
+            "share_of_bnt": 0.000005341933611157727,
+            "to_drop": "0.0002356759"
+        },
+        {
+            "acct_name": "hazdkmbrguge",
+            "bnt_balance": 20.413,
+            "share_of_bnt": 0.000002471658963103181,
+            "to_drop": "0.0000504540"
+        },
+        {
+            "acct_name": "haztanbxg4ge",
+            "bnt_balance": 0.000625078,
+            "share_of_bnt": 7.568606482822762e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "haztenrzg4ge",
+            "bnt_balance": 0.271283242,
+            "share_of_bnt": 3.2847678275069285e-8,
+            "to_drop": "0.0000000089"
+        },
+        {
+            "acct_name": "haztgmzsgege",
+            "bnt_balance": 30.0713257281,
+            "share_of_bnt": 0.000003641114082606851,
+            "to_drop": "0.0001094931"
+        },
+        {
+            "acct_name": "haztimagenes",
+            "bnt_balance": 0.9999974363,
+            "share_of_bnt": 1.2108228219816282e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "hdhsvbsidbdv",
+            "bnt_balance": 0.0813239182,
+            "share_of_bnt": 9.846910857478073e-9,
+            "to_drop": "0.0000000008"
+        },
+        {
+            "acct_name": "he3dmmrsgene",
+            "bnt_balance": 0.6789315428,
+            "share_of_bnt": 8.220679141209479e-8,
+            "to_drop": "0.0000000558"
+        },
+        {
+            "acct_name": "heelareeama1",
+            "bnt_balance": 5.5697426338,
+            "share_of_bnt": 6.743988783133144e-7,
+            "to_drop": "0.0000037562"
+        },
+        {
+            "acct_name": "hefe3sftpso2",
+            "bnt_balance": 0.3905228699,
+            "share_of_bnt": 4.728552156395985e-8,
+            "to_drop": "0.0000000185"
+        },
+        {
+            "acct_name": "hegenesis111",
+            "bnt_balance": 0.0015853621,
+            "share_of_bnt": 1.9195975330569153e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "heydaojwg4ge",
+            "bnt_balance": 0.8089291208,
+            "share_of_bnt": 9.794723519034419e-8,
+            "to_drop": "0.0000000792"
+        },
+        {
+            "acct_name": "heydgojwg4ge",
+            "bnt_balance": 0.4162408192,
+            "share_of_bnt": 5.0399517542011985e-8,
+            "to_drop": "0.0000000210"
+        },
+        {
+            "acct_name": "heydonbyhege",
+            "bnt_balance": 0.1104493913,
+            "share_of_bnt": 1.3373498651640401e-8,
+            "to_drop": "0.0000000015"
+        },
+        {
+            "acct_name": "heydsobygyge",
+            "bnt_balance": 498.3590646296,
+            "share_of_bnt": 0.00006034260759983679,
+            "to_drop": "0.0300722855"
+        },
+        {
+            "acct_name": "heytamzwg4ge",
+            "bnt_balance": 16468,
+            "share_of_bnt": 0.0019939881352267273,
+            "to_drop": "32.8369966109"
+        },
+        {
+            "acct_name": "heytanjygige",
+            "bnt_balance": 10.7373549629,
+            "share_of_bnt": 0.0000013001067767634453,
+            "to_drop": "0.0000139597"
+        },
+        {
+            "acct_name": "heytcmjzguge",
+            "bnt_balance": 95.1223603745,
+            "share_of_bnt": 0.000011517662010050643,
+            "to_drop": "0.0010955872"
+        },
+        {
+            "acct_name": "heytcnzygige",
+            "bnt_balance": 413.9686369118,
+            "share_of_bnt": 0.00005012439581965692,
+            "to_drop": "0.0207499278"
+        },
+        {
+            "acct_name": "heytmmzxg4ge",
+            "bnt_balance": 0.48543297,
+            "share_of_bnt": 5.8777482549664315e-8,
+            "to_drop": "0.0000000285"
+        },
+        {
+            "acct_name": "heytqnjqgyge",
+            "bnt_balance": 0.3454003383,
+            "share_of_bnt": 4.182196845236202e-8,
+            "to_drop": "0.0000000144"
+        },
+        {
+            "acct_name": "heytsnrxgege",
+            "bnt_balance": 0.1947906006,
+            "share_of_bnt": 2.3585750938188502e-8,
+            "to_drop": "0.0000000046"
+        },
+        {
+            "acct_name": "hezdamjsgene",
+            "bnt_balance": 603.4069128991,
+            "share_of_bnt": 0.00007306207341720869,
+            "to_drop": "0.0440861602"
+        },
+        {
+            "acct_name": "hezdgnzwgqge",
+            "bnt_balance": 0.0001715438,
+            "share_of_bnt": 2.0770968051475992e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "hezdinzvhege",
+            "bnt_balance": 231.444473935,
+            "share_of_bnt": 0.000028023896951067618,
+            "to_drop": "0.0064859761"
+        },
+        {
+            "acct_name": "hezdomzvgyge",
+            "bnt_balance": 0.8437676257,
+            "share_of_bnt": 1.0216557168655734e-7,
+            "to_drop": "0.0000000862"
+        },
+        {
+            "acct_name": "hhcaiwhu1234",
+            "bnt_balance": 0.0025680288,
+            "share_of_bnt": 3.109435850206783e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "hypeviewtest",
+            "bnt_balance": 0.0315613151,
+            "share_of_bnt": 3.821525858729181e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "ilandodoilan",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "iloveloveeos",
+            "bnt_balance": 0.0000344583,
+            "share_of_bnt": 4.172300301195236e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "imliuyuanjun",
+            "bnt_balance": 38,
+            "share_of_bnt": 0.0000046011385194690084,
+            "to_drop": "0.0001748433"
+        },
+        {
+            "acct_name": "inkycaps4444",
+            "bnt_balance": 221.2541849187,
+            "share_of_bnt": 0.000026790030337451304,
+            "to_drop": "0.0059274063"
+        },
+        {
+            "acct_name": "investeosnow",
+            "bnt_balance": 20.1596,
+            "share_of_bnt": 0.00000244097663413388,
+            "to_drop": "0.0000492091"
+        },
+        {
+            "acct_name": "iwannatestit",
+            "bnt_balance": 2.0049049472,
+            "share_of_bnt": 2.4275908895883946e-7,
+            "to_drop": "0.0000004867"
+        },
+        {
+            "acct_name": "jameskirk111",
+            "bnt_balance": 2,
+            "share_of_bnt": 2.42165185235211e-7,
+            "to_drop": "0.0000004843"
+        },
+        {
+            "acct_name": "janaschiffer",
+            "bnt_balance": 0.9496300261,
+            "share_of_bnt": 1.1498366558771238e-7,
+            "to_drop": "0.0000001092"
+        },
+        {
+            "acct_name": "jangwgwallet",
+            "bnt_balance": 0.324924381,
+            "share_of_bnt": 3.934268645615063e-8,
+            "to_drop": "0.0000000128"
+        },
+        {
+            "acct_name": "jerryfanelli",
+            "bnt_balance": 4.1853543035,
+            "share_of_bnt": 5.067735500910325e-7,
+            "to_drop": "0.0000021210"
+        },
+        {
+            "acct_name": "jessicanixon",
+            "bnt_balance": 0.3246862604,
+            "share_of_bnt": 3.931385419654697e-8,
+            "to_drop": "0.0000000128"
+        },
+        {
+            "acct_name": "jesusrcedeno",
+            "bnt_balance": 0.7703744728,
+            "share_of_bnt": 9.3278938453045e-8,
+            "to_drop": "0.0000000719"
+        },
+        {
+            "acct_name": "jiangshixi33",
+            "bnt_balance": 0.00063,
+            "share_of_bnt": 7.628203334909146e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "johnathaneos",
+            "bnt_balance": 12.0088017356,
+            "share_of_bnt": 0.0000014540568483772487,
+            "to_drop": "0.0000174615"
+        },
+        {
+            "acct_name": "jordglobens1",
+            "bnt_balance": 1320.9272661081,
+            "share_of_bnt": 0.00015994129803965443,
+            "to_drop": "0.2112708216"
+        },
+        {
+            "acct_name": "juicyfruitzz",
+            "bnt_balance": 0.4998769419,
+            "share_of_bnt": 6.052639611501215e-8,
+            "to_drop": "0.0000000303"
+        },
+        {
+            "acct_name": "kedartheiyer",
+            "bnt_balance": 0.0022769832,
+            "share_of_bnt": 2.7570302920273173e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "keoskeoskeos",
+            "bnt_balance": 0.004,
+            "share_of_bnt": 4.84330370470422e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "killtheworld",
+            "bnt_balance": 0.4893337533,
+            "share_of_bnt": 5.924979950486777e-8,
+            "to_drop": "0.0000000290"
+        },
+        {
+            "acct_name": "kkhhaalil111",
+            "bnt_balance": 0.0346303707,
+            "share_of_bnt": 4.193135067664762e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "krakenkraken",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "kromosoomeos",
+            "bnt_balance": 2953.6998524581,
+            "share_of_bnt": 0.0003576416359498656,
+            "to_drop": "1.0563660473"
+        },
+        {
+            "acct_name": "kubrickian35",
+            "bnt_balance": 4,
+            "share_of_bnt": 4.84330370470422e-7,
+            "to_drop": "0.0000019373"
+        },
+        {
+            "acct_name": "kynuganpogau",
+            "bnt_balance": 2231.6399671279,
+            "share_of_bnt": 0.00027021275300891405,
+            "to_drop": "0.6030175792"
+        },
+        {
+            "acct_name": "lavictoireos",
+            "bnt_balance": 4.0186,
+            "share_of_bnt": 4.865825066931095e-7,
+            "to_drop": "0.0000019554"
+        },
+        {
+            "acct_name": "leoncolesnic",
+            "bnt_balance": 1.0763111172,
+            "share_of_bnt": 1.3032254053372744e-7,
+            "to_drop": "0.0000001403"
+        },
+        {
+            "acct_name": "liondani1234",
+            "bnt_balance": 20446.9684251446,
+            "share_of_bnt": 0.0024757719480868264,
+            "to_drop": "50.6220308504"
+        },
+        {
+            "acct_name": "lllllll11111",
+            "bnt_balance": 3.9880473562,
+            "share_of_bnt": 4.828831133704832e-7,
+            "to_drop": "0.0000019258"
+        },
+        {
+            "acct_name": "lllxxxqqq222",
+            "bnt_balance": 0.9941064404,
+            "share_of_bnt": 1.2036898514149112e-7,
+            "to_drop": "0.0000001197"
+        },
+        {
+            "acct_name": "localcoin111",
+            "bnt_balance": 0.3196870038,
+            "share_of_bnt": 3.87085312462583e-8,
+            "to_drop": "0.0000000124"
+        },
+        {
+            "acct_name": "localcoin114",
+            "bnt_balance": 2,
+            "share_of_bnt": 2.42165185235211e-7,
+            "to_drop": "0.0000004843"
+        },
+        {
+            "acct_name": "localcoin222",
+            "bnt_balance": 9.995136905,
+            "share_of_bnt": 0.0000012102370900253093,
+            "to_drop": "0.0000120965"
+        },
+        {
+            "acct_name": "localcoin333",
+            "bnt_balance": 6.0032497197,
+            "share_of_bnt": 7.268890401921895e-7,
+            "to_drop": "0.0000043637"
+        },
+        {
+            "acct_name": "localcoin444",
+            "bnt_balance": 20,
+            "share_of_bnt": 0.0000024216518523521098,
+            "to_drop": "0.0000484330"
+        },
+        {
+            "acct_name": "localcoin555",
+            "bnt_balance": 6.2244955184,
+            "share_of_bnt": 7.536780551045384e-7,
+            "to_drop": "0.0000046913"
+        },
+        {
+            "acct_name": "lockonthecha",
+            "bnt_balance": 8.5820739713,
+            "share_of_bnt": 0.0000010391397664810736,
+            "to_drop": "0.0000089180"
+        },
+        {
+            "acct_name": "loveeoschina",
+            "bnt_balance": 0.012048,
+            "share_of_bnt": 1.458803075856911e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "lswsaranghae",
+            "bnt_balance": 2.1e-9,
+            "share_of_bnt": 2.5427344449697156e-16,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "lukewarmness",
+            "bnt_balance": 0.951909601,
+            "share_of_bnt": 1.1525968242667039e-7,
+            "to_drop": "0.0000001097"
+        },
+        {
+            "acct_name": "lukewhoenas1",
+            "bnt_balance": 12,
+            "share_of_bnt": 0.000001452991111411266,
+            "to_drop": "0.0000174359"
+        },
+        {
+            "acct_name": "luxjugnlkimt",
+            "bnt_balance": 87.1744803721,
+            "share_of_bnt": 0.000010555312093546432,
+            "to_drop": "0.0009201538"
+        },
+        {
+            "acct_name": "lyy123123123",
+            "bnt_balance": 0.7877295786,
+            "share_of_bnt": 9.538033965846185e-8,
+            "to_drop": "0.0000000751"
+        },
+        {
+            "acct_name": "mangrovenssz",
+            "bnt_balance": 5.3232791443,
+            "share_of_bnt": 6.445564400190724e-7,
+            "to_drop": "0.0000034312"
+        },
+        {
+            "acct_name": "marktest1111",
+            "bnt_balance": 0.0023803483,
+            "share_of_bnt": 2.882187434969098e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "masterdjcool",
+            "bnt_balance": 0.412956735,
+            "share_of_bnt": 5.000187211270147e-8,
+            "to_drop": "0.0000000206"
+        },
+        {
+            "acct_name": "masterroller",
+            "bnt_balance": 2.5309411854,
+            "share_of_bnt": 3.0645292049090774e-7,
+            "to_drop": "0.0000007756"
+        },
+        {
+            "acct_name": "movedmoved22",
+            "bnt_balance": 20.310168356,
+            "share_of_bnt": 0.0000024592078410445303,
+            "to_drop": "0.0000499469"
+        },
+        {
+            "acct_name": "mpalanyivic1",
+            "bnt_balance": 0.0022334159,
+            "share_of_bnt": 2.7042778756538277e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "mryeateshere",
+            "bnt_balance": 395.8407735906,
+            "share_of_bnt": 0.00004792942713010843,
+            "to_drop": "0.0189724215"
+        },
+        {
+            "acct_name": "myeosgateway",
+            "bnt_balance": 0.0357038581,
+            "share_of_bnt": 4.323115705199094e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "mysteorrrrrr",
+            "bnt_balance": 21.972791161,
+            "share_of_bnt": 0.000002660522520819086,
+            "to_drop": "0.0000584591"
+        },
+        {
+            "acct_name": "nandemotoken",
+            "bnt_balance": 0.1912518612,
+            "share_of_bnt": 2.3157271197038433e-8,
+            "to_drop": "0.0000000044"
+        },
+        {
+            "acct_name": "nathanchen12",
+            "bnt_balance": 4.0199828478,
+            "share_of_bnt": 4.86749945489929e-7,
+            "to_drop": "0.0000019567"
+        },
+        {
+            "acct_name": "neothedogdog",
+            "bnt_balance": 0.57836546,
+            "share_of_bnt": 7.0029989377274e-8,
+            "to_drop": "0.0000000405"
+        },
+        {
+            "acct_name": "nnmnmmnmmnmn",
+            "bnt_balance": 0.0000843465,
+            "share_of_bnt": 1.0212892898220863e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "nottelling12",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "omerayd33333",
+            "bnt_balance": 0.0006115824,
+            "share_of_bnt": 7.405198259129745e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "onemarketeos",
+            "bnt_balance": 0.3034327652,
+            "share_of_bnt": 3.674042589554514e-8,
+            "to_drop": "0.0000000111"
+        },
+        {
+            "acct_name": "osdqkafl2sqr",
+            "bnt_balance": 0.0654589958,
+            "share_of_bnt": 7.92594492160895e-9,
+            "to_drop": "0.0000000005"
+        },
+        {
+            "acct_name": "ovallesergio",
+            "bnt_balance": 4.0019509533,
+            "share_of_bnt": 4.845665969540619e-7,
+            "to_drop": "0.0000019392"
+        },
+        {
+            "acct_name": "paulingers12",
+            "bnt_balance": 11.0520509255,
+            "share_of_bnt": 0.0000013382109798013462,
+            "to_drop": "0.0000147900"
+        },
+        {
+            "acct_name": "pegusdpegusd",
+            "bnt_balance": 37308,
+            "share_of_bnt": 0.004517349365377626,
+            "to_drop": "168.5332701235"
+        },
+        {
+            "acct_name": "piecesnbitss",
+            "bnt_balance": 2940.6809980739,
+            "share_of_bnt": 0.00035606527930811556,
+            "to_drop": "1.0470744009"
+        },
+        {
+            "acct_name": "piedpipernet",
+            "bnt_balance": 4.3472814262,
+            "share_of_bnt": 5.263801059226576e-7,
+            "to_drop": "0.0000022883"
+        },
+        {
+            "acct_name": "plane4wd1113",
+            "bnt_balance": 0.2370640663,
+            "share_of_bnt": 2.8704331764075917e-8,
+            "to_drop": "0.0000000068"
+        },
+        {
+            "acct_name": "poporoke4343",
+            "bnt_balance": 4,
+            "share_of_bnt": 4.84330370470422e-7,
+            "to_drop": "0.0000019373"
+        },
+        {
+            "acct_name": "praadvertise",
+            "bnt_balance": 0.1999999937,
+            "share_of_bnt": 2.4216517760700764e-8,
+            "to_drop": "0.0000000048"
+        },
+        {
+            "acct_name": "praeosdappup",
+            "bnt_balance": 1.7343155497,
+            "share_of_bnt": 2.0999542317470364e-7,
+            "to_drop": "0.0000003642"
+        },
+        {
+            "acct_name": "praliujiabin",
+            "bnt_balance": 0.0011649101,
+            "share_of_bnt": 1.4105033507443407e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "prapraprapra",
+            "bnt_balance": 0.0376520047,
+            "share_of_bnt": 4.559002346326267e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "prasanjitdey",
+            "bnt_balance": 0.1655564975,
+            "share_of_bnt": 2.0046009941990124e-8,
+            "to_drop": "0.0000000033"
+        },
+        {
+            "acct_name": "privacyfirst",
+            "bnt_balance": 0.4691584518,
+            "share_of_bnt": 5.68069216924059e-8,
+            "to_drop": "0.0000000267"
+        },
+        {
+            "acct_name": "prospectors2",
+            "bnt_balance": 0.9999658866,
+            "share_of_bnt": 1.210784620786905e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "proxymereoio",
+            "bnt_balance": 1.337870431,
+            "share_of_bnt": 1.619928203719133e-7,
+            "to_drop": "0.0000002167"
+        },
+        {
+            "acct_name": "puccahuan315",
+            "bnt_balance": 2.2885609617,
+            "share_of_bnt": 2.7710489460607656e-7,
+            "to_drop": "0.0000006342"
+        },
+        {
+            "acct_name": "qinxiaowaeos",
+            "bnt_balance": 0.1846857122,
+            "share_of_bnt": 2.2362224852604932e-8,
+            "to_drop": "0.0000000041"
+        },
+        {
+            "acct_name": "qqcoinqqcoin",
+            "bnt_balance": 0.0446086949,
+            "share_of_bnt": 5.401336431779756e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "qweasdzxc111",
+            "bnt_balance": 0.4359173581,
+            "share_of_bnt": 5.278200388576515e-8,
+            "to_drop": "0.0000000230"
+        },
+        {
+            "acct_name": "ramdeathtest",
+            "bnt_balance": 3.6306956285,
+            "share_of_bnt": 4.396140397041866e-7,
+            "to_drop": "0.0000015961"
+        },
+        {
+            "acct_name": "ramldeployer",
+            "bnt_balance": 0.0007575701,
+            "share_of_bnt": 9.172855179757865e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ramramramle1",
+            "bnt_balance": 0.0092016395,
+            "share_of_bnt": 1.1141583669925673e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ranjaniappu1",
+            "bnt_balance": 24.5332164866,
+            "share_of_bnt": 0.0000029705454574465107,
+            "to_drop": "0.0000728770"
+        },
+        {
+            "acct_name": "ranran352132",
+            "bnt_balance": 0.1690640929,
+            "share_of_bnt": 2.0470718686875707e-8,
+            "to_drop": "0.0000000035"
+        },
+        {
+            "acct_name": "raymetz12345",
+            "bnt_balance": 2.7990381404,
+            "share_of_bnt": 3.3891479487519323e-7,
+            "to_drop": "0.0000009486"
+        },
+        {
+            "acct_name": "relay.x",
+            "bnt_balance": 20094.7792737107,
+            "share_of_bnt": 0.002433127972539415,
+            "to_drop": "48.8931695529"
+        },
+        {
+            "acct_name": "rendezvous11",
+            "bnt_balance": 0.0004734045,
+            "share_of_bnt": 5.732104421684122e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "runforestrun",
+            "bnt_balance": 4.0092635209,
+            "share_of_bnt": 4.854520215977614e-7,
+            "to_drop": "0.0000019463"
+        },
+        {
+            "acct_name": "samodoprinos",
+            "bnt_balance": 0.4773953521,
+            "share_of_bnt": 5.7804266935862634e-8,
+            "to_drop": "0.0000000276"
+        },
+        {
+            "acct_name": "scottowen111",
+            "bnt_balance": 0.5459877791,
+            "share_of_bnt": 6.610961583095648e-8,
+            "to_drop": "0.0000000361"
+        },
+        {
+            "acct_name": "seablueoneos",
+            "bnt_balance": 0.4383095301,
+            "share_of_bnt": 5.3071654273512394e-8,
+            "to_drop": "0.0000000233"
+        },
+        {
+            "acct_name": "sendjaredeos",
+            "bnt_balance": 1.2182509557,
+            "share_of_bnt": 1.4750898417503168e-7,
+            "to_drop": "0.0000001797"
+        },
+        {
+            "acct_name": "sendrayeos11",
+            "bnt_balance": 0.7001186756,
+            "share_of_bnt": 8.477218438165229e-8,
+            "to_drop": "0.0000000594"
+        },
+        {
+            "acct_name": "sergiywallet",
+            "bnt_balance": 15,
+            "share_of_bnt": 0.0000018162388892640824,
+            "to_drop": "0.0000272436"
+        },
+        {
+            "acct_name": "six1rt4wf2dd",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "skavhingmain",
+            "bnt_balance": 0.004982404,
+            "share_of_bnt": 6.032823937883281e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "smillingbolt",
+            "bnt_balance": 4.0108506274,
+            "share_of_bnt": 4.856441925675416e-7,
+            "to_drop": "0.0000019478"
+        },
+        {
+            "acct_name": "someone55rat",
+            "bnt_balance": 0.4630195076,
+            "share_of_bnt": 5.606360241273509e-8,
+            "to_drop": "0.0000000260"
+        },
+        {
+            "acct_name": "soseoswallet",
+            "bnt_balance": 0.8761273129,
+            "share_of_bnt": 1.0608376650902809e-7,
+            "to_drop": "0.0000000929"
+        },
+        {
+            "acct_name": "spaceinvader",
+            "bnt_balance": 62.6799584002,
+            "share_of_bnt": 0.000007589451868259876,
+            "to_drop": "0.0004757065"
+        },
+        {
+            "acct_name": "spaninveos11",
+            "bnt_balance": 15.4834852737,
+            "share_of_bnt": 0.000001874780539696111,
+            "to_drop": "0.0000290281"
+        },
+        {
+            "acct_name": "sponheimtest",
+            "bnt_balance": 11.639870247,
+            "share_of_bnt": 0.0000014093856672392879,
+            "to_drop": "0.0000164051"
+        },
+        {
+            "acct_name": "steelydan222",
+            "bnt_balance": 0.8238573826,
+            "share_of_bnt": 9.975478783236254e-8,
+            "to_drop": "0.0000000822"
+        },
+        {
+            "acct_name": "superstarkru",
+            "bnt_balance": 5,
+            "share_of_bnt": 6.054129630880274e-7,
+            "to_drop": "0.0000030271"
+        },
+        {
+            "acct_name": "swisswatches",
+            "bnt_balance": 11,
+            "share_of_bnt": 0.0000013319085187936604,
+            "to_drop": "0.0000146510"
+        },
+        {
+            "acct_name": "technicalguy",
+            "bnt_balance": 4.9930277041,
+            "share_of_bnt": 6.045687394239584e-7,
+            "to_drop": "0.0000030186"
+        },
+        {
+            "acct_name": "teemuswallet",
+            "bnt_balance": 1.0001678033,
+            "share_of_bnt": 1.211029106762193e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "thedev.x",
+            "bnt_balance": 0.7177130539,
+            "share_of_bnt": 8.690255732171123e-8,
+            "to_drop": "0.0000000624"
+        },
+        {
+            "acct_name": "thekellygang",
+            "bnt_balance": 0.8355149316,
+            "share_of_bnt": 1.0116631408884932e-7,
+            "to_drop": "0.0000000845"
+        },
+        {
+            "acct_name": "themrtjgoooo",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "theolddriver",
+            "bnt_balance": 0.7473145135,
+            "share_of_bnt": 9.048677879534455e-8,
+            "to_drop": "0.0000000676"
+        },
+        {
+            "acct_name": "thisismoran2",
+            "bnt_balance": 0.0738630464,
+            "share_of_bnt": 8.943529156746492e-9,
+            "to_drop": "0.0000000007"
+        },
+        {
+            "acct_name": "thisismyeos1",
+            "bnt_balance": 5,
+            "share_of_bnt": 6.054129630880274e-7,
+            "to_drop": "0.0000030271"
+        },
+        {
+            "acct_name": "thisokyeah12",
+            "bnt_balance": 0.7924611409,
+            "share_of_bnt": 9.595324948887756e-8,
+            "to_drop": "0.0000000760"
+        },
+        {
+            "acct_name": "throwaway123",
+            "bnt_balance": 673.89897187,
+            "share_of_bnt": 0.0000815974346763584,
+            "to_drop": "0.0549884273"
+        },
+        {
+            "acct_name": "ticoticotico",
+            "bnt_balance": 24.4302092524,
+            "share_of_bnt": 0.0000029580730744712058,
+            "to_drop": "0.0000722663"
+        },
+        {
+            "acct_name": "towhomitmay1",
+            "bnt_balance": 1.0221286895,
+            "share_of_bnt": 1.2376199171349546e-7,
+            "to_drop": "0.0000001265"
+        },
+        {
+            "acct_name": "tptptptpray1",
+            "bnt_balance": 0.0000318721,
+            "share_of_bnt": 3.859156500167584e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "tustlilei123",
+            "bnt_balance": 0.0262556119,
+            "share_of_bnt": 3.179097559613655e-9,
+            "to_drop": "0.0000000001"
+        },
+        {
+            "acct_name": "twixxiamazix",
+            "bnt_balance": 12,
+            "share_of_bnt": 0.000001452991111411266,
+            "to_drop": "0.0000174359"
+        },
+        {
+            "acct_name": "ultrainhuntr",
+            "bnt_balance": 3.8367648732,
+            "share_of_bnt": 4.6456543811121437e-7,
+            "to_drop": "0.0000017824"
+        },
+        {
+            "acct_name": "undertakerik",
+            "bnt_balance": 1,
+            "share_of_bnt": 1.210825926176055e-7,
+            "to_drop": "0.0000001211"
+        },
+        {
+            "acct_name": "urithedragon",
+            "bnt_balance": 4.5752871826,
+            "share_of_bnt": 5.539876340393079e-7,
+            "to_drop": "0.0000025347"
+        },
+        {
+            "acct_name": "vannatten123",
+            "bnt_balance": 2.7620966884,
+            "share_of_bnt": 3.3444182809197447e-7,
+            "to_drop": "0.0000009238"
+        },
+        {
+            "acct_name": "vergilvergil",
+            "bnt_balance": 2.8718858732,
+            "share_of_bnt": 3.4773538722893184e-7,
+            "to_drop": "0.0000009987"
+        },
+        {
+            "acct_name": "viiruskillaa",
+            "bnt_balance": 4.0023171309,
+            "share_of_bnt": 4.846109346872284e-7,
+            "to_drop": "0.0000019396"
+        },
+        {
+            "acct_name": "vip.game",
+            "bnt_balance": 3.984543335,
+            "share_of_bnt": 4.824588373990002e-7,
+            "to_drop": "0.0000019224"
+        },
+        {
+            "acct_name": "vivianwithxx",
+            "bnt_balance": 16.96461,
+            "share_of_bnt": 0.0000020541189615465565,
+            "to_drop": "0.0000348473"
+        },
+        {
+            "acct_name": "walletholder",
+            "bnt_balance": 2e-10,
+            "share_of_bnt": 2.42165185235211e-17,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "wangzhihua22",
+            "bnt_balance": 0.0432059143,
+            "share_of_bnt": 5.231484119858076e-9,
+            "to_drop": "0.0000000002"
+        },
+        {
+            "acct_name": "wgnafevyjtbp",
+            "bnt_balance": 0.6851187563,
+            "share_of_bnt": 8.295595526375343e-8,
+            "to_drop": "0.0000000568"
+        },
+        {
+            "acct_name": "wildmanwalks",
+            "bnt_balance": 0.393636722,
+            "share_of_bnt": 4.7662554849255626e-8,
+            "to_drop": "0.0000000188"
+        },
+        {
+            "acct_name": "willeos12345",
+            "bnt_balance": 52,
+            "share_of_bnt": 0.000006296294816115486,
+            "to_drop": "0.0003274073"
+        },
+        {
+            "acct_name": "wizardmaster",
+            "bnt_balance": 617.5429454385,
+            "share_of_bnt": 0.00007477370088640608,
+            "to_drop": "0.0461759715"
+        },
+        {
+            "acct_name": "wuchengchao1",
+            "bnt_balance": 0.2665748923,
+            "share_of_bnt": 3.2277579086442956e-8,
+            "to_drop": "0.0000000086"
+        },
+        {
+            "acct_name": "xiawenhui123",
+            "bnt_balance": 0.0000793026,
+            "share_of_bnt": 9.602164409316921e-12,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "ymymymymymym",
+            "bnt_balance": 0.0002716981,
+            "share_of_bnt": 3.289791035727744e-11,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "yuvalthedude",
+            "bnt_balance": 0.001,
+            "share_of_bnt": 1.210825926176055e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "z5i3lgrtdkri",
+            "bnt_balance": 20,
+            "share_of_bnt": 0.0000024216518523521098,
+            "to_drop": "0.0000484330"
+        },
+        {
+            "acct_name": "zguopeng1212",
+            "bnt_balance": 0.0016209289,
+            "share_of_bnt": 1.9626627366080342e-10,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "zhengjingyi1",
+            "bnt_balance": 0.00999,
+            "share_of_bnt": 1.209615100249879e-9,
+            "to_drop": "0.0000000000"
+        },
+        {
+            "acct_name": "zigzagzigzag",
+            "bnt_balance": 3.9615065183,
+            "share_of_bnt": 4.796694799073076e-7,
+            "to_drop": "0.0000019002"
+        },
+        {
+            "acct_name": "zkcryptofund",
+            "bnt_balance": 4.512902977,
+            "share_of_bnt": 5.464339926868702e-7,
+            "to_drop": "0.0000024660"
+        }
+    ],
+    "total_bnt_supply": 8258825.470958732,
+    "num_bnt_accts": 1419
+}

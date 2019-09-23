@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "start": "ts-node .bin/easysnap.ts",
+    "bancor": "ts-node scripts/bancor/index.ts",
     "clean": "rimraf logs/* && rimraf db/*"
   },
   "bin": {
