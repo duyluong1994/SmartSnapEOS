@@ -1,7 +1,7 @@
-import benchmark from "./snapshot_78622974_benchmark.json"
+import benchmark from "./snapshot_82585562_benchmark.json"
 import { getTablesByScopes, getTableScopes } from "../../src/dfuse.js"
 import { AssetSymbol, decomposeAsset, formatAsset } from "../../src/asset.js"
-import { STAT_ROW, ACCOUNTS_ROW, TConverter, TSnapshot } from "./typings.js"
+import { STAT_ROW, ACCOUNTS_ROW, TConverter, TSnapshot, TCreatorConverter, RESERVES_ROW } from "./typings.js"
 import * as fs from "fs"
 import BigNumber from "bignumber.js"
 
@@ -9,7 +9,7 @@ import BigNumber from "bignumber.js"
 //   [c.acct_name]: c.token
 // }), {}))
 console.log(benchmark.accts.length, benchmark.converters.length)
-const BLOCK_NUMBER = 78622974 // 78617810
+const BLOCK_NUMBER = 82585562 // 78617810
 const MAX_SCOPES_TO_PROCESS = 100
 let BANCOR_SYMBOL: AssetSymbol = {
   symbolCode: `BNT`,
@@ -46,8 +46,8 @@ const converterTokenMap = {
   bancorc11214: 'bancorr11214',
   bancorc11215: 'bancorr11215',
   bancorc11223: 'bancorr11223',
+  bancorc11231: 'bancorr11231',
   bnt2eoscnvrt: 'bnt2eosrelay',
-  creatorcnvrt: 'creatortokns'
 } as {
   [key: string]: string
 }
@@ -91,7 +91,8 @@ async function getBancorBalances(totalBntSupplyAmount: BigNumber) {
 
   // filter out all 0 balances
   const converterAddresses = Object.keys(converterTokenMap)
-  return accts.filter(Boolean).filter(acc => !converterAddresses.includes(acc!.acct_name))
+  // filter out all converters
+  return accts.filter(Boolean).filter(acc => !converterAddresses.includes(acc!.acct_name) && acc!.acct_name !== `creatorcnvrt`)
 }
 
 async function getConverterBalances(totalBntSupplyAmount: BigNumber) {
@@ -161,19 +162,111 @@ async function getConverterBalances(totalBntSupplyAmount: BigNumber) {
   return converters
 }
 
+async function getCreatorcnvrtBalances(totalBntSupplyAmount: BigNumber) {
+  const creatorcnvrt = `creatorcnvrt`
+  const creatorcnvrtToken = 'creatortokns'
+  let converter: TCreatorConverter = {
+    bnt_balance: ``,
+    share_of_bnt: ``,
+    token: creatorcnvrtToken,
+    tokens: []
+  }
+
+  const bancorAccountsTables = await getTablesByScopes<ACCOUNTS_ROW>(bancorToken, `accounts`, [creatorcnvrt], BLOCK_NUMBER)
+  const accountRow = bancorAccountsTables.tables[0].rows[0]
+
+  const { amount } = decomposeAsset(accountRow.json.balance)
+  converter.bnt_balance = formatAsset({ amount, symbol: BANCOR_SYMBOL }, { withSymbol: false });
+  converter.share_of_bnt = amount.div(totalBntSupplyAmount).toNumber().toFixed(8)
+
+  const symbolScopes = (await getTableScopes(converter.token, `stat`, BLOCK_NUMBER)).scopes
+  const statResult = await getTablesByScopes<STAT_ROW>(converter.token, `stat`, symbolScopes, BLOCK_NUMBER)
+  const symbolsStatRow = statResult.tables.map(t => ({
+    ...t.rows[0].json,
+    scope: t.scope,
+  }))
+
+  const reservesResult = await getTablesByScopes<RESERVES_ROW>(creatorcnvrt, `reserves`, symbolScopes, BLOCK_NUMBER)
+
+  converter.tokens = symbolScopes.map(symbolScope => {
+    const stat = symbolsStatRow.find(({ scope }) => scope === symbolScope)
+    if (!stat) throw new Error(`${creatorcnvrt}: Cannot find stat row for for symbol code ${symbolScope}`)
+
+    const reserves = reservesResult.tables.find(({ scope }) => scope === symbolScope)
+    if (!reserves || reserves.rows.length === 0) throw new Error(`${creatorcnvrt}: Cannot find reserves row for for symbol code ${symbolScope}`)
+
+    const { amount, symbol } = decomposeAsset(stat.supply)
+
+    return {
+      smart_supply: formatAsset({ amount, symbol }, { withSymbol: false }),
+      tokenSymbol: `${symbol.symbolCode},${symbol.precision}`,
+      bnt_supply: reserves.rows[0].json.balance.split(` `)[0],
+      accts: [],
+    }
+  })
+
+  // now get all accounts and balances for converter token
+  const accountsScopes = (await getTableScopes(converter.token, `accounts`, BLOCK_NUMBER)).scopes
+  const converterAccountsTables = await getTablesByScopes<ACCOUNTS_ROW>(converter.token, `accounts`, accountsScopes, BLOCK_NUMBER)
+  converterAccountsTables.tables.forEach(table => {
+    table.rows.forEach(balanceRow => {
+      const { amount, symbol } = decomposeAsset(balanceRow.json.balance)
+
+      if (amount.isZero()) return;
+
+      const converterToken = converter.tokens.find(t => t.tokenSymbol.split(`,`)[0] === symbol.symbolCode)
+      if (!converterToken) throw new Error(`${creatorcnvrt}: There's a balance row for an unknown token ${symbol.symbolCode}`)
+
+      converterToken.accts.push(
+        {
+          acct_name: table.scope,
+          relay_token_balance: amount as any,
+          share_of_relays_bnt: `0`,
+          drop_hodl: `0`
+        }
+      )
+    })
+  })
+
+  // aggregate token -> accts and determine amount to drop
+  converter.tokens.forEach(token => {
+    const tokenSymbol = { symbolCode: token.tokenSymbol.split(`,`)[0], precision: Number.parseInt(token.tokenSymbol.split(`,`)[1]) }
+    const tokenBntSupply = token.bnt_supply // decomposeAsset(`${token.bnt_supply} ${BANCOR_SYMBOL.symbolCode}`).amount
+    let totalCirculatingTokens = token.accts.reduce((acc, acct) => acc.plus(acct.relay_token_balance  as unknown as BigNumber), new BigNumber(`0`))
+    token.accts.forEach(acct => {
+      const share = (acct.relay_token_balance as unknown as BigNumber).div(totalCirculatingTokens)
+      acct.share_of_relays_bnt = share.toNumber().toFixed(8)
+      acct.relay_token_balance = formatAsset({ amount: acct.relay_token_balance as any, symbol: tokenSymbol }, { withSymbol: false })
+      acct.drop_hodl = share.times(tokenBntSupply).toFixed(BANCOR_SYMBOL.precision, BigNumber.ROUND_DOWN)
+    })
+  })
+
+
+  return converter
+}
+
 async function addConverterAccountBalances(snapshot: TSnapshot) {
+  const upsertAccount = (acct:TConverter["accts"][0]) => {
+    const foundAcct = snapshot.accts.find(a => a.acct_name === acct.acct_name)
+    if (foundAcct) {
+      foundAcct.drop_hodl = new BigNumber(foundAcct.drop_hodl).plus(new BigNumber(acct.drop_hodl)).toFixed(BANCOR_SYMBOL.precision, BigNumber.ROUND_DOWN)
+    } else {
+      snapshot.accts.push({
+        acct_name: acct.acct_name,
+        bnt_balance: `0`,
+        drop_hodl: acct.drop_hodl
+      })
+    }
+  }
+
   for (const converter of snapshot.converters) {
     for (const acct of converter.accts) {
-      const foundAcct = snapshot.accts.find(a => a.acct_name === acct.acct_name)
-      if (foundAcct) {
-        foundAcct.drop_hodl = new BigNumber(foundAcct.drop_hodl).plus(new BigNumber(acct.drop_hodl)).toFixed(BANCOR_SYMBOL.precision, BigNumber.ROUND_DOWN)
-      } else {
-        snapshot.accts.push({
-          acct_name: acct.acct_name,
-          bnt_balance: `0`,
-          drop_hodl: acct.drop_hodl
-        })
-      }
+      upsertAccount(acct)
+    }
+  }
+  for (const token of snapshot.creatorcnvrt.tokens) {
+    for (const acct of token.accts) {
+      upsertAccount(acct)
     }
   }
 }
@@ -195,12 +288,17 @@ async function getSnapshot() {
   }
 
   snapshot = {
+    creatorcnvrt: await getCreatorcnvrtBalances(totalBntSupplyAmount),
+    ...snapshot,
+  }
+
+  
+  await addConverterAccountBalances(snapshot)
+  
+  snapshot = {
     ...snapshot,
     num_bnt_accts: snapshot.accts.length,
   }
-
-  await addConverterAccountBalances(snapshot)
-
 
   return snapshot
 }
