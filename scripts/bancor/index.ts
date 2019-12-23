@@ -9,7 +9,7 @@ import BigNumber from "bignumber.js"
 //   [c.acct_name]: c.token
 // }), {}))
 console.log(benchmark.accts.length, benchmark.converters.length)
-const BLOCK_NUMBER = 82585562 // 78617810
+const BLOCK_NUMBER = 96481976 // 82585562 // 78617810
 const MAX_SCOPES_TO_PROCESS = 100
 let BANCOR_SYMBOL: AssetSymbol = {
   symbolCode: `BNT`,
@@ -271,6 +271,23 @@ async function addConverterAccountBalances(snapshot: TSnapshot) {
   }
 }
 
+async function cleanupSnapshot(snapshot: TSnapshot) {
+  const copy = JSON.parse(JSON.stringify(snapshot)) as TSnapshot
+  copy.creatorcnvrt.tokens.forEach(token => {
+    delete token.accts;
+  });
+  copy.converters.forEach(converter => {
+    delete converter.accts;
+  });
+
+  (copy as any).accts = snapshot.accts.map(converter => ({
+    drop_hodl: converter.drop_hodl,
+    acct_name: converter.acct_name,
+  }));
+
+  return copy as any;
+}
+
 async function getSnapshot() {
   const { totalBntSupplyAmount } = await getBancorStats()
   let snapshot: any = {
@@ -300,7 +317,8 @@ async function getSnapshot() {
     num_bnt_accts: snapshot.accts.length,
   }
 
-  return snapshot
+  const cleanedSnapshot = await cleanupSnapshot(snapshot)
+  return cleanedSnapshot
 }
 
 async function createSnapshot() {

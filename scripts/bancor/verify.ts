@@ -24,9 +24,13 @@ async function compareSnapshot() {
     const benchmarkAcct = benchmark.accts.find(a => a.acct_name === acct.acct_name)!
     if(acct.drop_hodl === benchmarkAcct.drop_hodl) {
       const diff = new BigNumber(acct.drop_hodl).minus(new BigNumber(benchmarkAcct.drop_hodl))
-      console.log(`Diff for account ${acct.acct_name}: Diff ${diff} | Snapshot ${acct.drop_hodl} | Benchmark ${benchmarkAcct.drop_hodl}.`)
+      if(!diff.isZero()) {
+        console.log(`Diff for account ${acct.acct_name}: Diff ${diff} | Snapshot ${acct.drop_hodl} | Benchmark ${benchmarkAcct.drop_hodl}.`)
+      }
     }
   });
+
+  console.log(`Done`)
 }
 
 compareSnapshot().then(() => process.exit(0)).catch((err) => {
