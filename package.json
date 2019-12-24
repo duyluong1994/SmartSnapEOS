@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "start": "ts-node .bin/easysnap.ts",
+    "bancor": "ts-node scripts/bancor/index.ts",
     "clean": "rimraf logs/* && rimraf db/*"
   },
   "bin": {
@@ -41,6 +42,7 @@
     "eosjs": "^20.0.0",
     "ink": "^2.2.0",
     "lodash": "^4.17.11",
+    "long": "^4.0.0",
     "lowdb": "^1.0.0",
     "node-fetch": "^2.6.0",
     "react": "^16.8.6",

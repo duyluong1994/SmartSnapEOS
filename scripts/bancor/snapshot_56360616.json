@@ -1,0 +1,3349 @@
+{
+    "converters": [
+        {
+            "acct_name": "bancorc11111",
+            "bnt_balance": "21798.6786862345",
+            "share_of_bnt": "0.00263944",
+            "accts": [
+                {
+                    "acct_name": "blackbancorx",
+                    "relay_token_balance": "156276.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11111",
+            "tokenSymbol": "BNTBLK,10"
+        },
+        {
+            "acct_name": "bancorc11112",
+            "bnt_balance": "10965.8614875139",
+            "share_of_bnt": "0.00132777",
+            "accts": [
+                {
+                    "acct_name": "karmareserve",
+                    "relay_token_balance": "31254.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11112",
+            "tokenSymbol": "BNTKRM,10"
+        },
+        {
+            "acct_name": "bancorc11113",
+            "bnt_balance": "1.7166452599",
+            "share_of_bnt": "0.00000021",
+            "accts": [
+                {
+                    "acct_name": "prospectors2",
+                    "relay_token_balance": "133.8000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11113",
+            "tokenSymbol": "BNTPGL,10"
+        },
+        {
+            "acct_name": "bancorc11114",
+            "bnt_balance": "27765.9127268884",
+            "share_of_bnt": "0.00336197",
+            "accts": [
+                {
+                    "acct_name": "ha2tmmjygige",
+                    "relay_token_balance": "78138.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11114",
+            "tokenSymbol": "BNTCET,10"
+        },
+        {
+            "acct_name": "bancorc11121",
+            "bnt_balance": "9390.8430971138",
+            "share_of_bnt": "0.00113707",
+            "accts": [
+                {
+                    "acct_name": "horusxbancor",
+                    "relay_token_balance": "31254.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11121",
+            "tokenSymbol": "BNTHRUS,10"
+        },
+        {
+            "acct_name": "bancorc11122",
+            "bnt_balance": "22654.8623785795",
+            "share_of_bnt": "0.00274311",
+            "accts": [
+                {
+                    "acct_name": "meetmeetmore",
+                    "relay_token_balance": "31254.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11122",
+            "tokenSymbol": "BNTMEET,10"
+        },
+        {
+            "acct_name": "bancorc11123",
+            "bnt_balance": "63298.0638020861",
+            "share_of_bnt": "0.00766429",
+            "accts": [
+                {
+                    "acct_name": "guztoojqgege",
+                    "relay_token_balance": "140400.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11123",
+            "tokenSymbol": "BNTIQ,10"
+        },
+        {
+            "acct_name": "bancorc11124",
+            "bnt_balance": "24405.9887250888",
+            "share_of_bnt": "0.00295514",
+            "accts": [
+                {
+                    "acct_name": "epraofficial",
+                    "relay_token_balance": "49664.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11124",
+            "tokenSymbol": "BNTEPRA,10"
+        },
+        {
+            "acct_name": "bancorc11125",
+            "bnt_balance": "47808.4573945691",
+            "share_of_bnt": "0.00578877",
+            "accts": [
+                {
+                    "acct_name": "betdicesaver",
+                    "relay_token_balance": "156276.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11125",
+            "tokenSymbol": "BNTDICE,10"
+        },
+        {
+            "acct_name": "bancorc11131",
+            "bnt_balance": "8536.6472894619",
+            "share_of_bnt": "0.00103364",
+            "accts": [
+                {
+                    "acct_name": "hirevibesdev",
+                    "relay_token_balance": "30096.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11131",
+            "tokenSymbol": "BNTHVT,10"
+        },
+        {
+            "acct_name": "bancorc11132",
+            "bnt_balance": "14535.3317747508",
+            "share_of_bnt": "0.00175998",
+            "accts": [
+                {
+                    "acct_name": "bankofbancor",
+                    "relay_token_balance": "30968.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11132",
+            "tokenSymbol": "BNTOCT,10"
+        },
+        {
+            "acct_name": "bancorc11133",
+            "bnt_balance": "7.4420711919",
+            "share_of_bnt": "0.00000090",
+            "accts": [
+                {
+                    "acct_name": "bancorr11133",
+                    "relay_token_balance": "4000.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11133",
+            "tokenSymbol": "BNTPKR,10"
+        },
+        {
+            "acct_name": "bancorc11134",
+            "bnt_balance": "4075.7573416242",
+            "share_of_bnt": "0.00049350",
+            "accts": [
+                {
+                    "acct_name": "eosvegascorp",
+                    "relay_token_balance": "28672.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11134",
+            "tokenSymbol": "BNTMEV,10"
+        },
+        {
+            "acct_name": "bancorc11144",
+            "bnt_balance": "73174.6278513506",
+            "share_of_bnt": "0.00886017",
+            "accts": [
+                {
+                    "acct_name": "zksbntrelay1",
+                    "relay_token_balance": "361592.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11142",
+            "tokenSymbol": "BNTZKS,10"
+        },
+        {
+            "acct_name": "bancorc11145",
+            "bnt_balance": "2756.6295472624",
+            "share_of_bnt": "0.00033378",
+            "accts": [
+                {
+                    "acct_name": "coinflyerice",
+                    "relay_token_balance": "36848.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11145",
+            "tokenSymbol": "BNTTAEL,10"
+        },
+        {
+            "acct_name": "bancorc11151",
+            "bnt_balance": "97526.3732716592",
+            "share_of_bnt": "0.01180875",
+            "accts": [
+                {
+                    "acct_name": "bancorzos222",
+                    "relay_token_balance": "287844.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bancorr11151",
+            "tokenSymbol": "BNTZOS,10"
+        },
+        {
+            "acct_name": "bnt2eoscnvrt",
+            "bnt_balance": "530463.2711160427",
+            "share_of_bnt": "0.06422987",
+            "accts": [
+                {
+                    "acct_name": "guztoojqgege",
+                    "relay_token_balance": "735460.0000000000",
+                    "share_of_relays_bnt": "1.00000000"
+                }
+            ],
+            "token": "bnt2eosrelay",
+            "tokenSymbol": "BNTEOS,10"
+        },
+        {
+            "acct_name": "creatorcnvrt",
+            "bnt_balance": "",
+            "share_of_bnt": "",
+            "accts": [],
+            "token": "creatortokns",
+            "tokenSymbol": ""
+        }
+    ],
+    "accts": [
+        {
+            "acct_name": "11111ooooooo",
+            "bnt_balance": "0.1208336777",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "111chaka1111",
+            "bnt_balance": "0.0405399584",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "12345liushun",
+            "bnt_balance": "0.0000495872",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "14vkad3eosda",
+            "bnt_balance": "0.5610362386",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "1crk5dtgeosd",
+            "bnt_balance": "0.1907063764",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "213warren213",
+            "bnt_balance": "0.2547784147",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "2tdnx5ksbuwy",
+            "bnt_balance": "0.0764922426",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "4w3kerkpbaud",
+            "bnt_balance": "1.3458966374",
+            "share_of_bnt": "0.00000016"
+        },
+        {
+            "acct_name": "5lisqkvt1n2q",
+            "bnt_balance": "2.6580999998",
+            "share_of_bnt": "0.00000032"
+        },
+        {
+            "acct_name": "abarthdario1",
+            "bnt_balance": "0.7306966530",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "afurmanczyk1",
+            "bnt_balance": "200.0001077107",
+            "share_of_bnt": "0.00002422"
+        },
+        {
+            "acct_name": "alberdazizmu",
+            "bnt_balance": "0.3554970831",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "alisigumain1",
+            "bnt_balance": "23.0000000000",
+            "share_of_bnt": "0.00000278"
+        },
+        {
+            "acct_name": "am1234512345",
+            "bnt_balance": "0.3608391214",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "amandat54321",
+            "bnt_balance": "0.0463790772",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "angeleosnew1",
+            "bnt_balance": "3.0005567261",
+            "share_of_bnt": "0.00000036"
+        },
+        {
+            "acct_name": "apollo151515",
+            "bnt_balance": "0.6218549708",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "ar45pe14pa33",
+            "bnt_balance": "19.9998525332",
+            "share_of_bnt": "0.00000242"
+        },
+        {
+            "acct_name": "articulation",
+            "bnt_balance": "0.0923575732",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "avinashp1111",
+            "bnt_balance": "217.0000000000",
+            "share_of_bnt": "0.00002627"
+        },
+        {
+            "acct_name": "ayellowtabby",
+            "bnt_balance": "0.0192881619",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "b1",
+            "bnt_balance": "0.0015850782",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "babarimisato",
+            "bnt_balance": "0.1691033630",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "badoeredra12",
+            "bnt_balance": "0.6955396959",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "baishanshui5",
+            "bnt_balance": "0.0329070670",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bancorc11142",
+            "bnt_balance": "13351.0599576411",
+            "share_of_bnt": "0.00161658"
+        },
+        {
+            "acct_name": "bancorc11152",
+            "bnt_balance": "20260.2972788719",
+            "share_of_bnt": "0.00245317"
+        },
+        {
+            "acct_name": "bancorc11153",
+            "bnt_balance": "31283.9218292204",
+            "share_of_bnt": "0.00378794"
+        },
+        {
+            "acct_name": "bancorc11154",
+            "bnt_balance": "15497.6497014311",
+            "share_of_bnt": "0.00187650"
+        },
+        {
+            "acct_name": "bancorc11155",
+            "bnt_balance": "19594.1494668052",
+            "share_of_bnt": "0.00237251"
+        },
+        {
+            "acct_name": "bancorc11211",
+            "bnt_balance": "24869.7385135894",
+            "share_of_bnt": "0.00301129"
+        },
+        {
+            "acct_name": "bancorc11212",
+            "bnt_balance": "14891.6844759869",
+            "share_of_bnt": "0.00180312"
+        },
+        {
+            "acct_name": "bancoretheos",
+            "bnt_balance": "0.0159997732",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bcrealestate",
+            "bnt_balance": "10.0000000000",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "bigbluewhale",
+            "bnt_balance": "4.0327991697",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "bigmikeeosio",
+            "bnt_balance": "0.2081274691",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "binanceio111",
+            "bnt_balance": "0.0001748009",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "blackcrow.x",
+            "bnt_balance": "0.4831223328",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "blockone1111",
+            "bnt_balance": "0.0000354597",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bluevelvetus",
+            "bnt_balance": "0.7496033385",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "bnr113353133",
+            "bnt_balance": "30.7070615235",
+            "share_of_bnt": "0.00000372"
+        },
+        {
+            "acct_name": "bnr114314124",
+            "bnt_balance": "5.5000000000",
+            "share_of_bnt": "0.00000067"
+        },
+        {
+            "acct_name": "bnr114351441",
+            "bnt_balance": "2.3166068853",
+            "share_of_bnt": "0.00000028"
+        },
+        {
+            "acct_name": "bnr115314145",
+            "bnt_balance": "353.1472274918",
+            "share_of_bnt": "0.00004276"
+        },
+        {
+            "acct_name": "bnr121331234",
+            "bnt_balance": "0.1000000000",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr122323115",
+            "bnt_balance": "0.3057288686",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "bnr122434245",
+            "bnt_balance": "25.5124279198",
+            "share_of_bnt": "0.00000309"
+        },
+        {
+            "acct_name": "bnr122531311",
+            "bnt_balance": "0.1696813680",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "bnr125443451",
+            "bnt_balance": "213.9380332909",
+            "share_of_bnt": "0.00002590"
+        },
+        {
+            "acct_name": "bnr131315531",
+            "bnt_balance": "1.5388707145",
+            "share_of_bnt": "0.00000019"
+        },
+        {
+            "acct_name": "bnr131342412",
+            "bnt_balance": "0.5682552999",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "bnr132113352",
+            "bnt_balance": "0.2877243623",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "bnr133314145",
+            "bnt_balance": "0.0000021803",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr134421521",
+            "bnt_balance": "9.9163207808",
+            "share_of_bnt": "0.00000120"
+        },
+        {
+            "acct_name": "bnr141234424",
+            "bnt_balance": "0.0000902588",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr141323444",
+            "bnt_balance": "1.3235423650",
+            "share_of_bnt": "0.00000016"
+        },
+        {
+            "acct_name": "bnr144121214",
+            "bnt_balance": "0.3011117420",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "bnr144411451",
+            "bnt_balance": "9.2678256422",
+            "share_of_bnt": "0.00000112"
+        },
+        {
+            "acct_name": "bnr145324511",
+            "bnt_balance": "1.8354642126",
+            "share_of_bnt": "0.00000022"
+        },
+        {
+            "acct_name": "bnr151224453",
+            "bnt_balance": "5.0000000000",
+            "share_of_bnt": "0.00000061"
+        },
+        {
+            "acct_name": "bnr151312533",
+            "bnt_balance": "0.0776105311",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr151324145",
+            "bnt_balance": "15.1845991916",
+            "share_of_bnt": "0.00000184"
+        },
+        {
+            "acct_name": "bnr152122522",
+            "bnt_balance": "0.0000238068",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr152215415",
+            "bnt_balance": "0.3240471390",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "bnr152435511",
+            "bnt_balance": "22.2682494669",
+            "share_of_bnt": "0.00000270"
+        },
+        {
+            "acct_name": "bnr155313331",
+            "bnt_balance": "0.1522521081",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "bnr155425324",
+            "bnt_balance": "5.7801871623",
+            "share_of_bnt": "0.00000070"
+        },
+        {
+            "acct_name": "bnr213254141",
+            "bnt_balance": "0.4425950609",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "bnr215334143",
+            "bnt_balance": "0.0000125433",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr222144112",
+            "bnt_balance": "4.0417946240",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "bnr222511323",
+            "bnt_balance": "0.0000080540",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr223315535",
+            "bnt_balance": "1.9000000000",
+            "share_of_bnt": "0.00000023"
+        },
+        {
+            "acct_name": "bnr224145235",
+            "bnt_balance": "20.1395461233",
+            "share_of_bnt": "0.00000244"
+        },
+        {
+            "acct_name": "bnr225234311",
+            "bnt_balance": "0.0000978743",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr232414544",
+            "bnt_balance": "322.3235201645",
+            "share_of_bnt": "0.00003903"
+        },
+        {
+            "acct_name": "bnr232442315",
+            "bnt_balance": "0.0000529393",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr233221352",
+            "bnt_balance": "0.6647490409",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "bnr233411211",
+            "bnt_balance": "67.0953925869",
+            "share_of_bnt": "0.00000812"
+        },
+        {
+            "acct_name": "bnr235535233",
+            "bnt_balance": "0.0006707175",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr241415425",
+            "bnt_balance": "0.0000123981",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr241554555",
+            "bnt_balance": "5.2775860856",
+            "share_of_bnt": "0.00000064"
+        },
+        {
+            "acct_name": "bnr242142124",
+            "bnt_balance": "0.0000881519",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr251555242",
+            "bnt_balance": "0.0809096430",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr255353222",
+            "bnt_balance": "13.6959291497",
+            "share_of_bnt": "0.00000166"
+        },
+        {
+            "acct_name": "bnr311432311",
+            "bnt_balance": "0.3229348245",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "bnr311435154",
+            "bnt_balance": "0.0060848885",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr313342112",
+            "bnt_balance": "0.0000726913",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr313431421",
+            "bnt_balance": "0.0000046496",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr313513535",
+            "bnt_balance": "189.0000000000",
+            "share_of_bnt": "0.00002288"
+        },
+        {
+            "acct_name": "bnr315425453",
+            "bnt_balance": "4.8534031930",
+            "share_of_bnt": "0.00000059"
+        },
+        {
+            "acct_name": "bnr321122343",
+            "bnt_balance": "0.0067563866",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr321243313",
+            "bnt_balance": "5.2421235360",
+            "share_of_bnt": "0.00000063"
+        },
+        {
+            "acct_name": "bnr321344321",
+            "bnt_balance": "30.6617601620",
+            "share_of_bnt": "0.00000371"
+        },
+        {
+            "acct_name": "bnr321414155",
+            "bnt_balance": "2.4438943280",
+            "share_of_bnt": "0.00000030"
+        },
+        {
+            "acct_name": "bnr323153515",
+            "bnt_balance": "0.1577872737",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "bnr323435541",
+            "bnt_balance": "0.0405242995",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr323555134",
+            "bnt_balance": "1.0271817403",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "bnr324143414",
+            "bnt_balance": "1.0346636039",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "bnr325445554",
+            "bnt_balance": "0.0044166858",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr332511251",
+            "bnt_balance": "10.0259413769",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "bnr333233352",
+            "bnt_balance": "14.2045300895",
+            "share_of_bnt": "0.00000172"
+        },
+        {
+            "acct_name": "bnr333451522",
+            "bnt_balance": "0.0100000000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr334222455",
+            "bnt_balance": "0.0000952059",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr334323544",
+            "bnt_balance": "18.1904223445",
+            "share_of_bnt": "0.00000220"
+        },
+        {
+            "acct_name": "bnr343245151",
+            "bnt_balance": "0.9236172195",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "bnr343255554",
+            "bnt_balance": "0.0705545476",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr344311414",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "bnr352314513",
+            "bnt_balance": "0.0000416763",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr353144234",
+            "bnt_balance": "0.0000204564",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr353332251",
+            "bnt_balance": "0.9990000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "bnr355252425",
+            "bnt_balance": "9.9995224276",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "bnr355311252",
+            "bnt_balance": "36.0758654381",
+            "share_of_bnt": "0.00000437"
+        },
+        {
+            "acct_name": "bnr355545245",
+            "bnt_balance": "0.5903606338",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "bnr414344333",
+            "bnt_balance": "0.1009717569",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr415334252",
+            "bnt_balance": "350.4759540538",
+            "share_of_bnt": "0.00004244"
+        },
+        {
+            "acct_name": "bnr422244355",
+            "bnt_balance": "0.9433831334",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "bnr422413524",
+            "bnt_balance": "13.5301057543",
+            "share_of_bnt": "0.00000164"
+        },
+        {
+            "acct_name": "bnr425123424",
+            "bnt_balance": "0.0000436883",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr425243254",
+            "bnt_balance": "0.0000057126",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr425344541",
+            "bnt_balance": "6.1364577828",
+            "share_of_bnt": "0.00000074"
+        },
+        {
+            "acct_name": "bnr433122241",
+            "bnt_balance": "23.7293990484",
+            "share_of_bnt": "0.00000287"
+        },
+        {
+            "acct_name": "bnr433353311",
+            "bnt_balance": "429.7921899132",
+            "share_of_bnt": "0.00005204"
+        },
+        {
+            "acct_name": "bnr434525153",
+            "bnt_balance": "2.9967182109",
+            "share_of_bnt": "0.00000036"
+        },
+        {
+            "acct_name": "bnr435544453",
+            "bnt_balance": "100.0242261662",
+            "share_of_bnt": "0.00001211"
+        },
+        {
+            "acct_name": "bnr444152212",
+            "bnt_balance": "112.5316349013",
+            "share_of_bnt": "0.00001363"
+        },
+        {
+            "acct_name": "bnr444211354",
+            "bnt_balance": "270.5602474551",
+            "share_of_bnt": "0.00003276"
+        },
+        {
+            "acct_name": "bnr444332443",
+            "bnt_balance": "0.0990000000",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr444535154",
+            "bnt_balance": "49.1246252445",
+            "share_of_bnt": "0.00000595"
+        },
+        {
+            "acct_name": "bnr445553232",
+            "bnt_balance": "0.0511284775",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr451242511",
+            "bnt_balance": "3.8260683957",
+            "share_of_bnt": "0.00000046"
+        },
+        {
+            "acct_name": "bnr452144545",
+            "bnt_balance": "0.0000540626",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr452445353",
+            "bnt_balance": "0.1000000000",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "bnr513251431",
+            "bnt_balance": "0.9335343203",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "bnr513313242",
+            "bnt_balance": "4.5355130597",
+            "share_of_bnt": "0.00000055"
+        },
+        {
+            "acct_name": "bnr522325244",
+            "bnt_balance": "5.1923385428",
+            "share_of_bnt": "0.00000063"
+        },
+        {
+            "acct_name": "bnr524112253",
+            "bnt_balance": "2.4680485300",
+            "share_of_bnt": "0.00000030"
+        },
+        {
+            "acct_name": "bnr525513111",
+            "bnt_balance": "604.3104949108",
+            "share_of_bnt": "0.00007317"
+        },
+        {
+            "acct_name": "bnr531323333",
+            "bnt_balance": "7.2560658852",
+            "share_of_bnt": "0.00000088"
+        },
+        {
+            "acct_name": "bnr532415423",
+            "bnt_balance": "2.3197636484",
+            "share_of_bnt": "0.00000028"
+        },
+        {
+            "acct_name": "bnr533142445",
+            "bnt_balance": "6.0550786197",
+            "share_of_bnt": "0.00000073"
+        },
+        {
+            "acct_name": "bnr533224445",
+            "bnt_balance": "1.0896057918",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "bnr533523444",
+            "bnt_balance": "1.1000000000",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "bnr541433421",
+            "bnt_balance": "49.0430658181",
+            "share_of_bnt": "0.00000594"
+        },
+        {
+            "acct_name": "bnr542255142",
+            "bnt_balance": "0.2000000000",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "bnr543241143",
+            "bnt_balance": "0.0000324467",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr544351443",
+            "bnt_balance": "0.8999900000",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "bnr544523512",
+            "bnt_balance": "0.6697748564",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "bnr545311213",
+            "bnt_balance": "0.0200000000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr551224114",
+            "bnt_balance": "3.2415332091",
+            "share_of_bnt": "0.00000039"
+        },
+        {
+            "acct_name": "bnr552323532",
+            "bnt_balance": "3.5516986338",
+            "share_of_bnt": "0.00000043"
+        },
+        {
+            "acct_name": "bnr553451232",
+            "bnt_balance": "0.0008587582",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "bnr555134324",
+            "bnt_balance": "1224.4632492553",
+            "share_of_bnt": "0.00014826"
+        },
+        {
+            "acct_name": "bnr555245451",
+            "bnt_balance": "205.2753512123",
+            "share_of_bnt": "0.00002486"
+        },
+        {
+            "acct_name": "bntbntbntbnt",
+            "bnt_balance": "415.3769493457",
+            "share_of_bnt": "0.00005029"
+        },
+        {
+            "acct_name": "bohdanbohdan",
+            "bnt_balance": "833.5283997334",
+            "share_of_bnt": "0.00010093"
+        },
+        {
+            "acct_name": "bohemianrhap",
+            "bnt_balance": "0.3814831200",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "boqueronesia",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "butterflysun",
+            "bnt_balance": "0.0303727781",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "carlosbejarm",
+            "bnt_balance": "0.0007884064",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "cat2njskaowi",
+            "bnt_balance": "0.9526488514",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "chainceoneos",
+            "bnt_balance": "64.5900000000",
+            "share_of_bnt": "0.00000782"
+        },
+        {
+            "acct_name": "chainceout11",
+            "bnt_balance": "2357.1076350964",
+            "share_of_bnt": "0.00028540"
+        },
+        {
+            "acct_name": "chorviecroin",
+            "bnt_balance": "0.5866226221",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "cockblocksio",
+            "bnt_balance": "8.0681517479",
+            "share_of_bnt": "0.00000098"
+        },
+        {
+            "acct_name": "coffeeandeos",
+            "bnt_balance": "0.9688361551",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "coinflyerice",
+            "bnt_balance": "96.0000000000",
+            "share_of_bnt": "0.00001162"
+        },
+        {
+            "acct_name": "conceptskip1",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "cosmiccredit",
+            "bnt_balance": "239.0000000000",
+            "share_of_bnt": "0.00002894"
+        },
+        {
+            "acct_name": "cryptocoders",
+            "bnt_balance": "90.0000000000",
+            "share_of_bnt": "0.00001090"
+        },
+        {
+            "acct_name": "cryptomantis",
+            "bnt_balance": "3.8440292932",
+            "share_of_bnt": "0.00000047"
+        },
+        {
+            "acct_name": "cryptos4life",
+            "bnt_balance": "1.0466028176",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "cryptowolves",
+            "bnt_balance": "2.3513518252",
+            "share_of_bnt": "0.00000028"
+        },
+        {
+            "acct_name": "damianeosone",
+            "bnt_balance": "0.0000200999",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "darkiowallet",
+            "bnt_balance": "0.5763826295",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "dasvidaniya1",
+            "bnt_balance": "0.2940936007",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "davidthedude",
+            "bnt_balance": "4.0037203846",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "deathbreathc",
+            "bnt_balance": "20.3895068974",
+            "share_of_bnt": "0.00000247"
+        },
+        {
+            "acct_name": "decentralize",
+            "bnt_balance": "0.1089775812",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "def3jusiasos",
+            "bnt_balance": "0.0552023130",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "dexeosincome",
+            "bnt_balance": "0.0470493955",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "dexeoswallet",
+            "bnt_balance": "78.9621314340",
+            "share_of_bnt": "0.00000956"
+        },
+        {
+            "acct_name": "dexonchaince",
+            "bnt_balance": "360.3250100000",
+            "share_of_bnt": "0.00004363"
+        },
+        {
+            "acct_name": "dicetoken.x",
+            "bnt_balance": "0.7275559832",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "dimitriskons",
+            "bnt_balance": "5.9959577261",
+            "share_of_bnt": "0.00000073"
+        },
+        {
+            "acct_name": "dinosaureos1",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "dluffyshanks",
+            "bnt_balance": "0.0018796513",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "dopeyfounded",
+            "bnt_balance": "0.3722090311",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "duanbin12345",
+            "bnt_balance": "8.2631940786",
+            "share_of_bnt": "0.00000100"
+        },
+        {
+            "acct_name": "dw1hnjsiqosk",
+            "bnt_balance": "0.9088911419",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "ecececececec",
+            "bnt_balance": "5.8468451885",
+            "share_of_bnt": "0.00000071"
+        },
+        {
+            "acct_name": "efishtain111",
+            "bnt_balance": "7.9429687033",
+            "share_of_bnt": "0.00000096"
+        },
+        {
+            "acct_name": "efrds2gdsrwt",
+            "bnt_balance": "0.2890448296",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "emmycoins245",
+            "bnt_balance": "0.3694322501",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "eos4bitforex",
+            "bnt_balance": "0.5692261932",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "eosacawallet",
+            "bnt_balance": "0.8498408176",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "eosbandit123",
+            "bnt_balance": "0.9999098311",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "eosborec1234",
+            "bnt_balance": "1.0870554925",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "eosio1eosio1",
+            "bnt_balance": "0.0456578054",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "eosjamestown",
+            "bnt_balance": "100.0000000000",
+            "share_of_bnt": "0.00001211"
+        },
+        {
+            "acct_name": "eosmarusteel",
+            "bnt_balance": "0.7591376493",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "eosmurfineos",
+            "bnt_balance": "1.0691492311",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "eosnovaevent",
+            "bnt_balance": "0.4182170727",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "eosnovatest4",
+            "bnt_balance": "1.4883277118",
+            "share_of_bnt": "0.00000018"
+        },
+        {
+            "acct_name": "eosnovaxdapp",
+            "bnt_balance": "12.5951434336",
+            "share_of_bnt": "0.00000153"
+        },
+        {
+            "acct_name": "eospromdress",
+            "bnt_balance": "0.6740098982",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "eosrepublic4",
+            "bnt_balance": "0.0598354847",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "eosteseonico",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "eostrustfund",
+            "bnt_balance": "0.0731977841",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "eosunipsycho",
+            "bnt_balance": "100.0000000000",
+            "share_of_bnt": "0.00001211"
+        },
+        {
+            "acct_name": "eosvbstreetz",
+            "bnt_balance": "2.9658000000",
+            "share_of_bnt": "0.00000036"
+        },
+        {
+            "acct_name": "eosyouthclub",
+            "bnt_balance": "0.0039643840",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "europecrypto",
+            "bnt_balance": "0.7305697953",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "eyalshertzog",
+            "bnt_balance": "6.0000000000",
+            "share_of_bnt": "0.00000073"
+        },
+        {
+            "acct_name": "eyvecoitab55",
+            "bnt_balance": "0.0100000000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "fjsqlisfos1r",
+            "bnt_balance": "0.7683434374",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "fluffystufff",
+            "bnt_balance": "0.2102115692",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "foosp3lesiop",
+            "bnt_balance": "0.7248957563",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "fordfalcongt",
+            "bnt_balance": "20.0000000000",
+            "share_of_bnt": "0.00000242"
+        },
+        {
+            "acct_name": "forfunforeos",
+            "bnt_balance": "0.3460169440",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "frequencyhie",
+            "bnt_balance": "29.1652724283",
+            "share_of_bnt": "0.00000353"
+        },
+        {
+            "acct_name": "futureutopia",
+            "bnt_balance": "8.5390158412",
+            "share_of_bnt": "0.00000103"
+        },
+        {
+            "acct_name": "g42dcobtgene",
+            "bnt_balance": "0.0004807492",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "g42dkojtgige",
+            "bnt_balance": "60.0000000000",
+            "share_of_bnt": "0.00000726"
+        },
+        {
+            "acct_name": "g43dinzvgqge",
+            "bnt_balance": "0.0277197759",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "g43tgobrgene",
+            "bnt_balance": "0.7944896608",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "g43tinrsgege",
+            "bnt_balance": "153.7588000000",
+            "share_of_bnt": "0.00001862"
+        },
+        {
+            "acct_name": "g43tsobvgmge",
+            "bnt_balance": "0.1048591367",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "g44demjygege",
+            "bnt_balance": "0.1465352041",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "g44dinjqgige",
+            "bnt_balance": "0.1869887855",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "g44dkmrrgmge",
+            "bnt_balance": "3.9381717222",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "g44dqmzwg4ge",
+            "bnt_balance": "0.4777013709",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "g44tcnjyhage",
+            "bnt_balance": "0.5140471034",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "g44tinrxgyge",
+            "bnt_balance": "0.4010180427",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "g44tomjqgqge",
+            "bnt_balance": "0.8437728013",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "g44toobqhege",
+            "bnt_balance": "0.2801824676",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "g44tqnrvgige",
+            "bnt_balance": "123.5533895167",
+            "share_of_bnt": "0.00001496"
+        },
+        {
+            "acct_name": "g4ydgobuguge",
+            "bnt_balance": "229.1533687716",
+            "share_of_bnt": "0.00002775"
+        },
+        {
+            "acct_name": "g4ydgobxgqge",
+            "bnt_balance": "709.2899366498",
+            "share_of_bnt": "0.00008588"
+        },
+        {
+            "acct_name": "g4ydgojrgqge",
+            "bnt_balance": "117.8377522974",
+            "share_of_bnt": "0.00001427"
+        },
+        {
+            "acct_name": "g4ydimbuguge",
+            "bnt_balance": "117.2436301419",
+            "share_of_bnt": "0.00001420"
+        },
+        {
+            "acct_name": "g4ydmojshege",
+            "bnt_balance": "684.2165283888",
+            "share_of_bnt": "0.00008285"
+        },
+        {
+            "acct_name": "g4ydomzzhege",
+            "bnt_balance": "0.4039157363",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "g4ydoojzgege",
+            "bnt_balance": "4.0500602329",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "g4ydqnrshage",
+            "bnt_balance": "2909.6568430843",
+            "share_of_bnt": "0.00035231"
+        },
+        {
+            "acct_name": "g4ydqnzwgige",
+            "bnt_balance": "1905.6804933739",
+            "share_of_bnt": "0.00023074"
+        },
+        {
+            "acct_name": "g4ydsnjwg4ge",
+            "bnt_balance": "4.1152195240",
+            "share_of_bnt": "0.00000050"
+        },
+        {
+            "acct_name": "g4ytanbrggge",
+            "bnt_balance": "0.8086151261",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "g4ytkmbzgqge",
+            "bnt_balance": "554.2815296074",
+            "share_of_bnt": "0.00006711"
+        },
+        {
+            "acct_name": "g4ztcmrtguge",
+            "bnt_balance": "0.0023842195",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gallivanting",
+            "bnt_balance": "1.0674234569",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "gamerooteos1",
+            "bnt_balance": "3.0000000000",
+            "share_of_bnt": "0.00000036"
+        },
+        {
+            "acct_name": "gaudiumswell",
+            "bnt_balance": "0.0275848610",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ge2agenesis1",
+            "bnt_balance": "0.0015853621",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ge2doojxg4ge",
+            "bnt_balance": "0.2382322379",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "ge2tanbrgige",
+            "bnt_balance": "606.4016571824",
+            "share_of_bnt": "0.00007342"
+        },
+        {
+            "acct_name": "ge2temzrgene",
+            "bnt_balance": "0.2841741589",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "ge2tsnbrgege",
+            "bnt_balance": "0.1039499181",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "ge3dgmrqgqge",
+            "bnt_balance": "0.3294015832",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "ge3dmmbsgmge",
+            "bnt_balance": "6.5260981323",
+            "share_of_bnt": "0.00000079"
+        },
+        {
+            "acct_name": "ge3tsojshage",
+            "bnt_balance": "0.9486257022",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "ge4dmmbwgage",
+            "bnt_balance": "93.7303997373",
+            "share_of_bnt": "0.00001135"
+        },
+        {
+            "acct_name": "ge4doobug4ge",
+            "bnt_balance": "0.7417050821",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "ge4tcnbxgige",
+            "bnt_balance": "0.1826888334",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "ge4tenrsgege",
+            "bnt_balance": "0.7263305398",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "gegequstrlop",
+            "bnt_balance": "0.6625025689",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "geostrategic",
+            "bnt_balance": "0.3393068638",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "geyagenesis1",
+            "bnt_balance": "0.0007925585",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "geydeobsgene",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "geydgmzygyge",
+            "bnt_balance": "0.8143586342",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "geydomjxgige",
+            "bnt_balance": "1.5695528977",
+            "share_of_bnt": "0.00000019"
+        },
+        {
+            "acct_name": "geydonbqguge",
+            "bnt_balance": "0.0000265904",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "geydqmjtkgp2",
+            "bnt_balance": "0.2319234444",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "geydsnjshege",
+            "bnt_balance": "2.0001873234",
+            "share_of_bnt": "0.00000024"
+        },
+        {
+            "acct_name": "geydsnzzgene",
+            "bnt_balance": "204.7372943875",
+            "share_of_bnt": "0.00002479"
+        },
+        {
+            "acct_name": "geytcnztgage",
+            "bnt_balance": "0.0000000001",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "geytgmrzgyge",
+            "bnt_balance": "2180.3252434376",
+            "share_of_bnt": "0.00026400"
+        },
+        {
+            "acct_name": "geytgnbxhege",
+            "bnt_balance": "2.7201612954",
+            "share_of_bnt": "0.00000033"
+        },
+        {
+            "acct_name": "geytoobzg4ge",
+            "bnt_balance": "0.7486647333",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "geytqmjxhage",
+            "bnt_balance": "0.6504328254",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "gezdinjygyge",
+            "bnt_balance": "0.9013074797",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "gezdmobrgege",
+            "bnt_balance": "20.1108557990",
+            "share_of_bnt": "0.00000244"
+        },
+        {
+            "acct_name": "geztenbvgage",
+            "bnt_balance": "6.9701127668",
+            "share_of_bnt": "0.00000084"
+        },
+        {
+            "acct_name": "ghostbusters",
+            "bnt_balance": "106.4079000000",
+            "share_of_bnt": "0.00001288"
+        },
+        {
+            "acct_name": "gi2dqnbwgage",
+            "bnt_balance": "4.2774189272",
+            "share_of_bnt": "0.00000052"
+        },
+        {
+            "acct_name": "gi2taobvgmge",
+            "bnt_balance": "23.1241588037",
+            "share_of_bnt": "0.00000280"
+        },
+        {
+            "acct_name": "gi2tkmzygqge",
+            "bnt_balance": "100.2442956498",
+            "share_of_bnt": "0.00001214"
+        },
+        {
+            "acct_name": "gi2tsmbwgene",
+            "bnt_balance": "0.9118057939",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "gi3agenesis1",
+            "bnt_balance": "0.0007925585",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gi3tanrtgmge",
+            "bnt_balance": "0.9322200785",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "gi3tanzwgqge",
+            "bnt_balance": "100.0000000000",
+            "share_of_bnt": "0.00001211"
+        },
+        {
+            "acct_name": "gi3tgojvgege",
+            "bnt_balance": "10.4001426648",
+            "share_of_bnt": "0.00000126"
+        },
+        {
+            "acct_name": "gi4domjugege",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gi4tamjygqge",
+            "bnt_balance": "26.6990057778",
+            "share_of_bnt": "0.00000323"
+        },
+        {
+            "acct_name": "giydqmbxg4ge",
+            "bnt_balance": "0.2372962234",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "giytcnjuguge",
+            "bnt_balance": "8.9999465509",
+            "share_of_bnt": "0.00000109"
+        },
+        {
+            "acct_name": "giytembqgyge",
+            "bnt_balance": "0.2141308235",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "giytgmzug4ge",
+            "bnt_balance": "0.9370203677",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "giytoobtg4ge",
+            "bnt_balance": "0.0000004647",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "giztanbuhage",
+            "bnt_balance": "0.0000010000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "giztkobyhege",
+            "bnt_balance": "0.0018529378",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "giztkojygqge",
+            "bnt_balance": "0.0000358277",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "giztonbrhege",
+            "bnt_balance": "0.0026248731",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm2dqmbxgqge",
+            "bnt_balance": "0.2210532277",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "gm2dqobvhage",
+            "bnt_balance": "0.2905129529",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "gm2dsgenesis",
+            "bnt_balance": "0.0007924640",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm2tcgenesis",
+            "bnt_balance": "0.0007924640",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm2tigenesis",
+            "bnt_balance": "0.0007924640",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm3dkgenesis",
+            "bnt_balance": "0.0007924640",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm3dsgenesis",
+            "bnt_balance": "0.0007924640",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gm3dsmrygige",
+            "bnt_balance": "0.8051369207",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "gm3tsnjrgage",
+            "bnt_balance": "0.4329965528",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "gm4dqmzqhege",
+            "bnt_balance": "3.9988229885",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "gm4tkojxgene",
+            "bnt_balance": "0.8797228725",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "gmgenesis111",
+            "bnt_balance": "0.0023759327",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gmydanbrgage",
+            "bnt_balance": "0.0710000000",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "gmydknjrhege",
+            "bnt_balance": "0.5847260964",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "gmzdenrygage",
+            "bnt_balance": "2.5270915776",
+            "share_of_bnt": "0.00000031"
+        },
+        {
+            "acct_name": "gmztgmjwgmge",
+            "bnt_balance": "0.3722866635",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "gmztomjvg4ge",
+            "bnt_balance": "10.0000081283",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "gq2dmnbtgmge",
+            "bnt_balance": "0.5208835420",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "gq2donzqgyge",
+            "bnt_balance": "0.7625385738",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "gq2tcnzsguge",
+            "bnt_balance": "198.8025863170",
+            "share_of_bnt": "0.00002407"
+        },
+        {
+            "acct_name": "gq2tkojvguge",
+            "bnt_balance": "0.0886094680",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "gq3daobrhege",
+            "bnt_balance": "0.9466160426",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "gq3dmobygene",
+            "bnt_balance": "0.9558999724",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gq3tembzgqge",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gq3tinbugyge",
+            "bnt_balance": "4.0648202231",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "gq4danzvgyge",
+            "bnt_balance": "51.9213095329",
+            "share_of_bnt": "0.00000629"
+        },
+        {
+            "acct_name": "gq4dkmbthage",
+            "bnt_balance": "0.7371159118",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "gq4tambsgige",
+            "bnt_balance": "0.9748873099",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gq4tgmbrgqge",
+            "bnt_balance": "1708.5062113430",
+            "share_of_bnt": "0.00020687"
+        },
+        {
+            "acct_name": "gq4tgmbtgyge",
+            "bnt_balance": "929.2337013836",
+            "share_of_bnt": "0.00011251"
+        },
+        {
+            "acct_name": "gq4tgmzugige",
+            "bnt_balance": "1351.6798962530",
+            "share_of_bnt": "0.00016366"
+        },
+        {
+            "acct_name": "gq4tgnzqg4ge",
+            "bnt_balance": "0.0343000579",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gq4timrtgige",
+            "bnt_balance": "306.0260740848",
+            "share_of_bnt": "0.00003705"
+        },
+        {
+            "acct_name": "gq4tmmjqgige",
+            "bnt_balance": "881.9043496313",
+            "share_of_bnt": "0.00010678"
+        },
+        {
+            "acct_name": "gq4tsnqgenes",
+            "bnt_balance": "415.5291672763",
+            "share_of_bnt": "0.00005031"
+        },
+        {
+            "acct_name": "gqydgmrugege",
+            "bnt_balance": "2.0000000000",
+            "share_of_bnt": "0.00000024"
+        },
+        {
+            "acct_name": "gqytaobrgene",
+            "bnt_balance": "1299.0652444959",
+            "share_of_bnt": "0.00015729"
+        },
+        {
+            "acct_name": "gqytqojxgage",
+            "bnt_balance": "0.6079044352",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "gqzdenrqgage",
+            "bnt_balance": "0.9903270082",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gqzdsmzrgmge",
+            "bnt_balance": "10.7586945304",
+            "share_of_bnt": "0.00000130"
+        },
+        {
+            "acct_name": "gqztemrrguge",
+            "bnt_balance": "0.0933807210",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "gqztkmbuguge",
+            "bnt_balance": "0.7612511858",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "grandchef223",
+            "bnt_balance": "0.0000008219",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "greenhatgirl",
+            "bnt_balance": "0.4994000000",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "gregumalieos",
+            "bnt_balance": "0.4882459546",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "gu2danjthege",
+            "bnt_balance": "0.2691335111",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "gu2daojvguge",
+            "bnt_balance": "77.0918116048",
+            "share_of_bnt": "0.00000933"
+        },
+        {
+            "acct_name": "gu2dinrugmge",
+            "bnt_balance": "0.3532549921",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "gu2dqmrrgqge",
+            "bnt_balance": "0.6673493264",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "gu2dsmbrguge",
+            "bnt_balance": "0.0000294899",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gu2dsojtgege",
+            "bnt_balance": "0.0000663147",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gu2tanbxhege",
+            "bnt_balance": "100.0000000000",
+            "share_of_bnt": "0.00001211"
+        },
+        {
+            "acct_name": "gu2tenbtgyge",
+            "bnt_balance": "0.4481797559",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "gu2tonrugage",
+            "bnt_balance": "38.4261694819",
+            "share_of_bnt": "0.00000465"
+        },
+        {
+            "acct_name": "gu2tqnzrgyge",
+            "bnt_balance": "44.7388390882",
+            "share_of_bnt": "0.00000542"
+        },
+        {
+            "acct_name": "gu3dqobugyge",
+            "bnt_balance": "0.0335881601",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gu3taoagenes",
+            "bnt_balance": "112.7059798413",
+            "share_of_bnt": "0.00001365"
+        },
+        {
+            "acct_name": "gu3tmnzqguge",
+            "bnt_balance": "1123.1333765779",
+            "share_of_bnt": "0.00013599"
+        },
+        {
+            "acct_name": "gu4dcojzgmge",
+            "bnt_balance": "3.2543176297",
+            "share_of_bnt": "0.00000039"
+        },
+        {
+            "acct_name": "gu4deobxgmge",
+            "bnt_balance": "0.0629840674",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "gu4dmnrqhege",
+            "bnt_balance": "3.9028006591",
+            "share_of_bnt": "0.00000047"
+        },
+        {
+            "acct_name": "gu4tgmzvgqge",
+            "bnt_balance": "0.9756277609",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "gu4tgnjxgige",
+            "bnt_balance": "0.1730884530",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "gu4tgojshage",
+            "bnt_balance": "0.3085615987",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "gu4tknjzhege",
+            "bnt_balance": "270.7542254702",
+            "share_of_bnt": "0.00003278"
+        },
+        {
+            "acct_name": "gu4tqnrqgege",
+            "bnt_balance": "0.0097112068",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "guessdqrrdtl",
+            "bnt_balance": "0.6998571727",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "gugenesis111",
+            "bnt_balance": "0.0015850781",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "guydambtgege",
+            "bnt_balance": "25.5884294393",
+            "share_of_bnt": "0.00000310"
+        },
+        {
+            "acct_name": "guydamzxg4ge",
+            "bnt_balance": "138.7948686369",
+            "share_of_bnt": "0.00001681"
+        },
+        {
+            "acct_name": "guydanbqgage",
+            "bnt_balance": "137.8617251998",
+            "share_of_bnt": "0.00001669"
+        },
+        {
+            "acct_name": "guydanbqgige",
+            "bnt_balance": "135.5490478537",
+            "share_of_bnt": "0.00001641"
+        },
+        {
+            "acct_name": "guydanbwgyge",
+            "bnt_balance": "660.9693621944",
+            "share_of_bnt": "0.00008003"
+        },
+        {
+            "acct_name": "guydanjqhege",
+            "bnt_balance": "1264.2103758363",
+            "share_of_bnt": "0.00015307"
+        },
+        {
+            "acct_name": "guydanjrgige",
+            "bnt_balance": "857.7797977181",
+            "share_of_bnt": "0.00010386"
+        },
+        {
+            "acct_name": "guydgmjvguge",
+            "bnt_balance": "884.6151684086",
+            "share_of_bnt": "0.00010711"
+        },
+        {
+            "acct_name": "guydgmzvgqge",
+            "bnt_balance": "92.9357592805",
+            "share_of_bnt": "0.00001125"
+        },
+        {
+            "acct_name": "guydsnjxgege",
+            "bnt_balance": "1.1452517309",
+            "share_of_bnt": "0.00000014"
+        },
+        {
+            "acct_name": "guytcmbygyge",
+            "bnt_balance": "93.5411833310",
+            "share_of_bnt": "0.00001133"
+        },
+        {
+            "acct_name": "guzdmnzzgyge",
+            "bnt_balance": "0.6063361185",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "guzdqmzvgqge",
+            "bnt_balance": "0.0000745035",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "guzdsobzgage",
+            "bnt_balance": "0.3190134746",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "guztcnrxgqge",
+            "bnt_balance": "200.0000000000",
+            "share_of_bnt": "0.00002422"
+        },
+        {
+            "acct_name": "guztemrsgige",
+            "bnt_balance": "4.8811260327",
+            "share_of_bnt": "0.00000059"
+        },
+        {
+            "acct_name": "guztoojqgege",
+            "bnt_balance": "7004800.0000000000",
+            "share_of_bnt": "0.84815934"
+        },
+        {
+            "acct_name": "gy2tembrgage",
+            "bnt_balance": "0.3260309768",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "gy2temrrgmge",
+            "bnt_balance": "0.5419236942",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "gy2tinztgqge",
+            "bnt_balance": "4.0000000000",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "gy2tmnrsgene",
+            "bnt_balance": "0.8663834656",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "gy2tombvgene",
+            "bnt_balance": "5.4523874249",
+            "share_of_bnt": "0.00000066"
+        },
+        {
+            "acct_name": "gy2tonbygage",
+            "bnt_balance": "0.0000659281",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gy2tqnbxgqge",
+            "bnt_balance": "0.1980934749",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "gy3dgmjrgyge",
+            "bnt_balance": "0.8103919229",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "gy3dgmrzhage",
+            "bnt_balance": "0.0023431237",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gy3dgojqgage",
+            "bnt_balance": "843.0693545187",
+            "share_of_bnt": "0.00010208"
+        },
+        {
+            "acct_name": "gy3dimzygege",
+            "bnt_balance": "54.0976313029",
+            "share_of_bnt": "0.00000655"
+        },
+        {
+            "acct_name": "gy3dmmjygage",
+            "bnt_balance": "35.0000000000",
+            "share_of_bnt": "0.00000424"
+        },
+        {
+            "acct_name": "gy3dmojqgege",
+            "bnt_balance": "3.9840953750",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "gy3doojxgene",
+            "bnt_balance": "0.7984300969",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "gy3dqnzrgage",
+            "bnt_balance": "3.0868638795",
+            "share_of_bnt": "0.00000037"
+        },
+        {
+            "acct_name": "gy3tcmrqgage",
+            "bnt_balance": "0.6257955614",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "gy3tembtgmge",
+            "bnt_balance": "0.0000055354",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gy3tgmzwguge",
+            "bnt_balance": "2.5072229458",
+            "share_of_bnt": "0.00000030"
+        },
+        {
+            "acct_name": "gy3timzrgqge",
+            "bnt_balance": "0.7639073589",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "gy3tmmzrhage",
+            "bnt_balance": "80.1802106120",
+            "share_of_bnt": "0.00000971"
+        },
+        {
+            "acct_name": "gy3tomzxg4ge",
+            "bnt_balance": "0.1283121200",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "gy3tqobxgqge",
+            "bnt_balance": "525.9958406129",
+            "share_of_bnt": "0.00006369"
+        },
+        {
+            "acct_name": "gy4tcojqgige",
+            "bnt_balance": "0.1202429615",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "gy4tenzrguge",
+            "bnt_balance": "88.5319586920",
+            "share_of_bnt": "0.00001072"
+        },
+        {
+            "acct_name": "gy4tmobqhage",
+            "bnt_balance": "1701.5537944006",
+            "share_of_bnt": "0.00020603"
+        },
+        {
+            "acct_name": "gy4tqnjugqge",
+            "bnt_balance": "0.6017059070",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "gygenesis111",
+            "bnt_balance": "0.0007925585",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "gyytenqgenes",
+            "bnt_balance": "0.3934265534",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "gyytkmjqgmge",
+            "bnt_balance": "0.1610938635",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "gyytmojqgige",
+            "bnt_balance": "39.5965892591",
+            "share_of_bnt": "0.00000479"
+        },
+        {
+            "acct_name": "gyzdmnzugige",
+            "bnt_balance": "824.4805827584",
+            "share_of_bnt": "0.00009983"
+        },
+        {
+            "acct_name": "gyztanbuguge",
+            "bnt_balance": "4.3264346357",
+            "share_of_bnt": "0.00000052"
+        },
+        {
+            "acct_name": "gyztcnbvg4ge",
+            "bnt_balance": "0.8597349045",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "gyztgmbrgige",
+            "bnt_balance": "0.1329603132",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "h.a.t.e",
+            "bnt_balance": "0.0002062674",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ha2diobqgyge",
+            "bnt_balance": "177.1504652571",
+            "share_of_bnt": "0.00002145"
+        },
+        {
+            "acct_name": "ha2dsmzqhage",
+            "bnt_balance": "110.5727887777",
+            "share_of_bnt": "0.00001339"
+        },
+        {
+            "acct_name": "ha2tamjzgage",
+            "bnt_balance": "0.0000098152",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ha2taobvhage",
+            "bnt_balance": "3.9994920657",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "ha2tsmztgege",
+            "bnt_balance": "549.0000000000",
+            "share_of_bnt": "0.00006647"
+        },
+        {
+            "acct_name": "ha3dmojqg4ge",
+            "bnt_balance": "0.8874615702",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "ha3dqnrwgyge",
+            "bnt_balance": "0.3902770312",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "ha3tcnbrgige",
+            "bnt_balance": "4946.8404925442",
+            "share_of_bnt": "0.00059898"
+        },
+        {
+            "acct_name": "ha3tiojshege",
+            "bnt_balance": "5.0000000000",
+            "share_of_bnt": "0.00000061"
+        },
+        {
+            "acct_name": "ha3tmnzwgige",
+            "bnt_balance": "0.6748345112",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "ha3tomjzguge",
+            "bnt_balance": "9.9900000000",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "ha4demrrgige",
+            "bnt_balance": "0.9722230805",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "ha4dgmryhege",
+            "bnt_balance": "0.2409786019",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "ha4donqgenes",
+            "bnt_balance": "0.5728333653",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "ha4dqnrtgyge",
+            "bnt_balance": "0.0064219964",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ha4tgmztgene",
+            "bnt_balance": "0.0000335096",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ha4tmnrsgige",
+            "bnt_balance": "8.0087474395",
+            "share_of_bnt": "0.00000097"
+        },
+        {
+            "acct_name": "ha4unbhgfytw",
+            "bnt_balance": "0.0021731609",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "hacker2xeros",
+            "bnt_balance": "3.4428988532",
+            "share_of_bnt": "0.00000042"
+        },
+        {
+            "acct_name": "hagenesis111",
+            "bnt_balance": "0.0015853621",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "harrypark223",
+            "bnt_balance": "48.8959106602",
+            "share_of_bnt": "0.00000592"
+        },
+        {
+            "acct_name": "haydcmjxhage",
+            "bnt_balance": "1.2027825079",
+            "share_of_bnt": "0.00000015"
+        },
+        {
+            "acct_name": "haydembvgege",
+            "bnt_balance": "20.0000000000",
+            "share_of_bnt": "0.00000242"
+        },
+        {
+            "acct_name": "haytemjzgyge",
+            "bnt_balance": "0.1084262494",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "haytimjuguge",
+            "bnt_balance": "0.3947784985",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "haytkmzqgmge",
+            "bnt_balance": "1770.0000000000",
+            "share_of_bnt": "0.00021432"
+        },
+        {
+            "acct_name": "haytknzuhage",
+            "bnt_balance": "0.3863506186",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "hazdanzsgqge",
+            "bnt_balance": "44.1180973720",
+            "share_of_bnt": "0.00000534"
+        },
+        {
+            "acct_name": "hazdkmbrguge",
+            "bnt_balance": "20.4130000000",
+            "share_of_bnt": "0.00000247"
+        },
+        {
+            "acct_name": "haztanbxg4ge",
+            "bnt_balance": "0.0006250780",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "haztenrzg4ge",
+            "bnt_balance": "0.2712832420",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "haztgmzsgege",
+            "bnt_balance": "30.0713257281",
+            "share_of_bnt": "0.00000364"
+        },
+        {
+            "acct_name": "haztimagenes",
+            "bnt_balance": "0.9999974363",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "hdhsvbsidbdv",
+            "bnt_balance": "0.0813239182",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "he3dmmrsgene",
+            "bnt_balance": "0.6789315428",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "heelareeama1",
+            "bnt_balance": "5.5697426338",
+            "share_of_bnt": "0.00000067"
+        },
+        {
+            "acct_name": "hefe3sftpso2",
+            "bnt_balance": "0.3905228699",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "hegenesis111",
+            "bnt_balance": "0.0015853621",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "heydaojwg4ge",
+            "bnt_balance": "0.8089291208",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "heydgojwg4ge",
+            "bnt_balance": "0.4162408192",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "heydonbyhege",
+            "bnt_balance": "0.1104493913",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "heydsobygyge",
+            "bnt_balance": "498.3590646296",
+            "share_of_bnt": "0.00006034"
+        },
+        {
+            "acct_name": "heytamzwg4ge",
+            "bnt_balance": "16468.0000000000",
+            "share_of_bnt": "0.00199399"
+        },
+        {
+            "acct_name": "heytanjygige",
+            "bnt_balance": "10.7373549629",
+            "share_of_bnt": "0.00000130"
+        },
+        {
+            "acct_name": "heytcmjzguge",
+            "bnt_balance": "95.1223603745",
+            "share_of_bnt": "0.00001152"
+        },
+        {
+            "acct_name": "heytcnzygige",
+            "bnt_balance": "413.9686369118",
+            "share_of_bnt": "0.00005012"
+        },
+        {
+            "acct_name": "heytmmzxg4ge",
+            "bnt_balance": "0.4854329700",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "heytqnjqgyge",
+            "bnt_balance": "0.3454003383",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "heytsnrxgege",
+            "bnt_balance": "0.1947906006",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "hezdamjsgene",
+            "bnt_balance": "603.4069128991",
+            "share_of_bnt": "0.00007306"
+        },
+        {
+            "acct_name": "hezdgnzwgqge",
+            "bnt_balance": "0.0001715438",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "hezdinzvhege",
+            "bnt_balance": "231.4444739350",
+            "share_of_bnt": "0.00002802"
+        },
+        {
+            "acct_name": "hezdomzvgyge",
+            "bnt_balance": "0.8437676257",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "hhcaiwhu1234",
+            "bnt_balance": "0.0025680288",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "hypeviewtest",
+            "bnt_balance": "0.0315613151",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ilandodoilan",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "iloveloveeos",
+            "bnt_balance": "0.0000344583",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "imliuyuanjun",
+            "bnt_balance": "38.0000000000",
+            "share_of_bnt": "0.00000460"
+        },
+        {
+            "acct_name": "inkycaps4444",
+            "bnt_balance": "221.2541849187",
+            "share_of_bnt": "0.00002679"
+        },
+        {
+            "acct_name": "investeosnow",
+            "bnt_balance": "20.1596000000",
+            "share_of_bnt": "0.00000244"
+        },
+        {
+            "acct_name": "iwannatestit",
+            "bnt_balance": "2.0049049472",
+            "share_of_bnt": "0.00000024"
+        },
+        {
+            "acct_name": "jameskirk111",
+            "bnt_balance": "2.0000000000",
+            "share_of_bnt": "0.00000024"
+        },
+        {
+            "acct_name": "janaschiffer",
+            "bnt_balance": "0.9496300261",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "jangwgwallet",
+            "bnt_balance": "0.3249243810",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "jerryfanelli",
+            "bnt_balance": "4.1853543035",
+            "share_of_bnt": "0.00000051"
+        },
+        {
+            "acct_name": "jessicanixon",
+            "bnt_balance": "0.3246862604",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "jesusrcedeno",
+            "bnt_balance": "0.7703744728",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "jiangshixi33",
+            "bnt_balance": "0.0006300000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "johnathaneos",
+            "bnt_balance": "12.0088017356",
+            "share_of_bnt": "0.00000145"
+        },
+        {
+            "acct_name": "jordglobens1",
+            "bnt_balance": "1320.9272661081",
+            "share_of_bnt": "0.00015994"
+        },
+        {
+            "acct_name": "juicyfruitzz",
+            "bnt_balance": "0.4998769419",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "kedartheiyer",
+            "bnt_balance": "0.0022769832",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "keoskeoskeos",
+            "bnt_balance": "0.0040000000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "killtheworld",
+            "bnt_balance": "0.4893337533",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "kkhhaalil111",
+            "bnt_balance": "0.0346303707",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "krakenkraken",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "kromosoomeos",
+            "bnt_balance": "2953.6998524581",
+            "share_of_bnt": "0.00035764"
+        },
+        {
+            "acct_name": "kubrickian35",
+            "bnt_balance": "4.0000000000",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "kynuganpogau",
+            "bnt_balance": "2231.6399671279",
+            "share_of_bnt": "0.00027021"
+        },
+        {
+            "acct_name": "lavictoireos",
+            "bnt_balance": "4.0186000000",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "leoncolesnic",
+            "bnt_balance": "1.0763111172",
+            "share_of_bnt": "0.00000013"
+        },
+        {
+            "acct_name": "liondani1234",
+            "bnt_balance": "20446.9684251446",
+            "share_of_bnt": "0.00247577"
+        },
+        {
+            "acct_name": "lllllll11111",
+            "bnt_balance": "3.9880473562",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "lllxxxqqq222",
+            "bnt_balance": "0.9941064404",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "localcoin111",
+            "bnt_balance": "0.3196870038",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "localcoin114",
+            "bnt_balance": "2.0000000000",
+            "share_of_bnt": "0.00000024"
+        },
+        {
+            "acct_name": "localcoin222",
+            "bnt_balance": "9.9951369050",
+            "share_of_bnt": "0.00000121"
+        },
+        {
+            "acct_name": "localcoin333",
+            "bnt_balance": "6.0032497197",
+            "share_of_bnt": "0.00000073"
+        },
+        {
+            "acct_name": "localcoin444",
+            "bnt_balance": "20.0000000000",
+            "share_of_bnt": "0.00000242"
+        },
+        {
+            "acct_name": "localcoin555",
+            "bnt_balance": "6.2244955184",
+            "share_of_bnt": "0.00000075"
+        },
+        {
+            "acct_name": "lockonthecha",
+            "bnt_balance": "8.5820739713",
+            "share_of_bnt": "0.00000104"
+        },
+        {
+            "acct_name": "loveeoschina",
+            "bnt_balance": "0.0120480000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "lswsaranghae",
+            "bnt_balance": "0.0000000021",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "lukewarmness",
+            "bnt_balance": "0.9519096010",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "lukewhoenas1",
+            "bnt_balance": "12.0000000000",
+            "share_of_bnt": "0.00000145"
+        },
+        {
+            "acct_name": "luxjugnlkimt",
+            "bnt_balance": "87.1744803721",
+            "share_of_bnt": "0.00001056"
+        },
+        {
+            "acct_name": "lyy123123123",
+            "bnt_balance": "0.7877295786",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "mangrovenssz",
+            "bnt_balance": "5.3232791443",
+            "share_of_bnt": "0.00000064"
+        },
+        {
+            "acct_name": "marktest1111",
+            "bnt_balance": "0.0023803483",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "masterdjcool",
+            "bnt_balance": "0.4129567350",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "masterroller",
+            "bnt_balance": "2.5309411854",
+            "share_of_bnt": "0.00000031"
+        },
+        {
+            "acct_name": "movedmoved22",
+            "bnt_balance": "20.3101683560",
+            "share_of_bnt": "0.00000246"
+        },
+        {
+            "acct_name": "mpalanyivic1",
+            "bnt_balance": "0.0022334159",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "mryeateshere",
+            "bnt_balance": "395.8407735906",
+            "share_of_bnt": "0.00004793"
+        },
+        {
+            "acct_name": "myeosgateway",
+            "bnt_balance": "0.0357038581",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "mysteorrrrrr",
+            "bnt_balance": "21.9727911610",
+            "share_of_bnt": "0.00000266"
+        },
+        {
+            "acct_name": "nandemotoken",
+            "bnt_balance": "0.1912518612",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "nathanchen12",
+            "bnt_balance": "4.0199828478",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "neothedogdog",
+            "bnt_balance": "0.5783654600",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "nnmnmmnmmnmn",
+            "bnt_balance": "0.0000843465",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "nottelling12",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "omerayd33333",
+            "bnt_balance": "0.0006115824",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "onemarketeos",
+            "bnt_balance": "0.3034327652",
+            "share_of_bnt": "0.00000004"
+        },
+        {
+            "acct_name": "osdqkafl2sqr",
+            "bnt_balance": "0.0654589958",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "ovallesergio",
+            "bnt_balance": "4.0019509533",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "paulingers12",
+            "bnt_balance": "11.0520509255",
+            "share_of_bnt": "0.00000134"
+        },
+        {
+            "acct_name": "pegusdpegusd",
+            "bnt_balance": "37308.0000000000",
+            "share_of_bnt": "0.00451735"
+        },
+        {
+            "acct_name": "piecesnbitss",
+            "bnt_balance": "2940.6809980739",
+            "share_of_bnt": "0.00035607"
+        },
+        {
+            "acct_name": "piedpipernet",
+            "bnt_balance": "4.3472814262",
+            "share_of_bnt": "0.00000053"
+        },
+        {
+            "acct_name": "plane4wd1113",
+            "bnt_balance": "0.2370640663",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "poporoke4343",
+            "bnt_balance": "4.0000000000",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "praadvertise",
+            "bnt_balance": "0.1999999937",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "praeosdappup",
+            "bnt_balance": "1.7343155497",
+            "share_of_bnt": "0.00000021"
+        },
+        {
+            "acct_name": "praliujiabin",
+            "bnt_balance": "0.0011649101",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "prapraprapra",
+            "bnt_balance": "0.0376520047",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "prasanjitdey",
+            "bnt_balance": "0.1655564975",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "privacyfirst",
+            "bnt_balance": "0.4691584518",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "prospectors2",
+            "bnt_balance": "0.9999658866",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "proxymereoio",
+            "bnt_balance": "1.3378704310",
+            "share_of_bnt": "0.00000016"
+        },
+        {
+            "acct_name": "puccahuan315",
+            "bnt_balance": "2.2885609617",
+            "share_of_bnt": "0.00000028"
+        },
+        {
+            "acct_name": "qinxiaowaeos",
+            "bnt_balance": "0.1846857122",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "qqcoinqqcoin",
+            "bnt_balance": "0.0446086949",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "qweasdzxc111",
+            "bnt_balance": "0.4359173581",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "ramdeathtest",
+            "bnt_balance": "3.6306956285",
+            "share_of_bnt": "0.00000044"
+        },
+        {
+            "acct_name": "ramldeployer",
+            "bnt_balance": "0.0007575701",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ramramramle1",
+            "bnt_balance": "0.0092016395",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ranjaniappu1",
+            "bnt_balance": "24.5332164866",
+            "share_of_bnt": "0.00000297"
+        },
+        {
+            "acct_name": "ranran352132",
+            "bnt_balance": "0.1690640929",
+            "share_of_bnt": "0.00000002"
+        },
+        {
+            "acct_name": "raymetz12345",
+            "bnt_balance": "2.7990381404",
+            "share_of_bnt": "0.00000034"
+        },
+        {
+            "acct_name": "relay.x",
+            "bnt_balance": "20094.7792737107",
+            "share_of_bnt": "0.00243313"
+        },
+        {
+            "acct_name": "rendezvous11",
+            "bnt_balance": "0.0004734045",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "runforestrun",
+            "bnt_balance": "4.0092635209",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "samodoprinos",
+            "bnt_balance": "0.4773953521",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "scottowen111",
+            "bnt_balance": "0.5459877791",
+            "share_of_bnt": "0.00000007"
+        },
+        {
+            "acct_name": "seablueoneos",
+            "bnt_balance": "0.4383095301",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "sendjaredeos",
+            "bnt_balance": "1.2182509557",
+            "share_of_bnt": "0.00000015"
+        },
+        {
+            "acct_name": "sendrayeos11",
+            "bnt_balance": "0.7001186756",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "sergiywallet",
+            "bnt_balance": "15.0000000000",
+            "share_of_bnt": "0.00000182"
+        },
+        {
+            "acct_name": "six1rt4wf2dd",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "skavhingmain",
+            "bnt_balance": "0.0049824040",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "smillingbolt",
+            "bnt_balance": "4.0108506274",
+            "share_of_bnt": "0.00000049"
+        },
+        {
+            "acct_name": "someone55rat",
+            "bnt_balance": "0.4630195076",
+            "share_of_bnt": "0.00000006"
+        },
+        {
+            "acct_name": "soseoswallet",
+            "bnt_balance": "0.8761273129",
+            "share_of_bnt": "0.00000011"
+        },
+        {
+            "acct_name": "spaceinvader",
+            "bnt_balance": "62.6799584002",
+            "share_of_bnt": "0.00000759"
+        },
+        {
+            "acct_name": "spaninveos11",
+            "bnt_balance": "15.4834852737",
+            "share_of_bnt": "0.00000187"
+        },
+        {
+            "acct_name": "sponheimtest",
+            "bnt_balance": "11.6398702470",
+            "share_of_bnt": "0.00000141"
+        },
+        {
+            "acct_name": "steelydan222",
+            "bnt_balance": "0.8238573826",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "superstarkru",
+            "bnt_balance": "5.0000000000",
+            "share_of_bnt": "0.00000061"
+        },
+        {
+            "acct_name": "swisswatches",
+            "bnt_balance": "11.0000000000",
+            "share_of_bnt": "0.00000133"
+        },
+        {
+            "acct_name": "technicalguy",
+            "bnt_balance": "4.9930277041",
+            "share_of_bnt": "0.00000060"
+        },
+        {
+            "acct_name": "teemuswallet",
+            "bnt_balance": "1.0001678033",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "thedev.x",
+            "bnt_balance": "0.7177130539",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "thekellygang",
+            "bnt_balance": "0.8355149316",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "themrtjgoooo",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "theolddriver",
+            "bnt_balance": "0.7473145135",
+            "share_of_bnt": "0.00000009"
+        },
+        {
+            "acct_name": "thisismoran2",
+            "bnt_balance": "0.0738630464",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "thisismyeos1",
+            "bnt_balance": "5.0000000000",
+            "share_of_bnt": "0.00000061"
+        },
+        {
+            "acct_name": "thisokyeah12",
+            "bnt_balance": "0.7924611409",
+            "share_of_bnt": "0.00000010"
+        },
+        {
+            "acct_name": "throwaway123",
+            "bnt_balance": "673.8989718700",
+            "share_of_bnt": "0.00008160"
+        },
+        {
+            "acct_name": "ticoticotico",
+            "bnt_balance": "24.4302092524",
+            "share_of_bnt": "0.00000296"
+        },
+        {
+            "acct_name": "towhomitmay1",
+            "bnt_balance": "1.0221286895",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "tptptptpray1",
+            "bnt_balance": "0.0000318721",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "tustlilei123",
+            "bnt_balance": "0.0262556119",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "twixxiamazix",
+            "bnt_balance": "12.0000000000",
+            "share_of_bnt": "0.00000145"
+        },
+        {
+            "acct_name": "ultrainhuntr",
+            "bnt_balance": "3.8367648732",
+            "share_of_bnt": "0.00000046"
+        },
+        {
+            "acct_name": "undertakerik",
+            "bnt_balance": "1.0000000000",
+            "share_of_bnt": "0.00000012"
+        },
+        {
+            "acct_name": "urithedragon",
+            "bnt_balance": "4.5752871826",
+            "share_of_bnt": "0.00000055"
+        },
+        {
+            "acct_name": "vannatten123",
+            "bnt_balance": "2.7620966884",
+            "share_of_bnt": "0.00000033"
+        },
+        {
+            "acct_name": "vergilvergil",
+            "bnt_balance": "2.8718858732",
+            "share_of_bnt": "0.00000035"
+        },
+        {
+            "acct_name": "viiruskillaa",
+            "bnt_balance": "4.0023171309",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "vip.game",
+            "bnt_balance": "3.9845433350",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "vivianwithxx",
+            "bnt_balance": "16.9646100000",
+            "share_of_bnt": "0.00000205"
+        },
+        {
+            "acct_name": "walletholder",
+            "bnt_balance": "0.0000000002",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "wangzhihua22",
+            "bnt_balance": "0.0432059143",
+            "share_of_bnt": "0.00000001"
+        },
+        {
+            "acct_name": "wgnafevyjtbp",
+            "bnt_balance": "0.6851187563",
+            "share_of_bnt": "0.00000008"
+        },
+        {
+            "acct_name": "wildmanwalks",
+            "bnt_balance": "0.3936367220",
+            "share_of_bnt": "0.00000005"
+        },
+        {
+            "acct_name": "willeos12345",
+            "bnt_balance": "52.0000000000",
+            "share_of_bnt": "0.00000630"
+        },
+        {
+            "acct_name": "wizardmaster",
+            "bnt_balance": "617.5429454385",
+            "share_of_bnt": "0.00007477"
+        },
+        {
+            "acct_name": "wuchengchao1",
+            "bnt_balance": "0.2665748923",
+            "share_of_bnt": "0.00000003"
+        },
+        {
+            "acct_name": "xiawenhui123",
+            "bnt_balance": "0.0000793026",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "ymymymymymym",
+            "bnt_balance": "0.0002716981",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "yuvalthedude",
+            "bnt_balance": "0.0010000000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "z5i3lgrtdkri",
+            "bnt_balance": "20.0000000000",
+            "share_of_bnt": "0.00000242"
+        },
+        {
+            "acct_name": "zguopeng1212",
+            "bnt_balance": "0.0016209289",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "zhengjingyi1",
+            "bnt_balance": "0.0099900000",
+            "share_of_bnt": "0.00000000"
+        },
+        {
+            "acct_name": "zigzagzigzag",
+            "bnt_balance": "3.9615065183",
+            "share_of_bnt": "0.00000048"
+        },
+        {
+            "acct_name": "zkcryptofund",
+            "bnt_balance": "4.5129029770",
+            "share_of_bnt": "0.00000055"
+        }
+    ],
+    "total_bnt_supply": "8258825.4709587325",
+    "num_bnt_accts": 619
+}
