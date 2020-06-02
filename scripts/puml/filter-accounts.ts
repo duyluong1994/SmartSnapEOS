@@ -115,9 +115,6 @@ async function start() {
     }
     i++;
     console.log(`${i} / ${accountEOSMap.size}`);
-    if (i === 5) {
-      break;
-    }
   }
 
   const records = Array.from(accountEOSMap.values()).sort(
