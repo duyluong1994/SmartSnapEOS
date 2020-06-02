@@ -3,8 +3,8 @@ import fs from "fs";
 import CsvReadableStream from "csv-reader";
 import { createObjectCsvWriter } from "csv-writer";
 // import { settings } from "../src/config";
-let settings ={
-  BLOCK_NUMBER: 72888888
+let settings = {
+  BLOCK_NUMBER: 123670027,
 };
 
 import BigNumber from "bignumber.js";
@@ -53,7 +53,7 @@ const getFileNames = () => {
     liquid: `snapshots/eosio.token-accounts-${settings.BLOCK_NUMBER}.csv`,
     stake: `snapshots/eosio-delband-${settings.BLOCK_NUMBER}.csv`,
     rexbal: `snapshots/eosio-rexbal-${settings.BLOCK_NUMBER}.csv`,
-    rexfund: `snapshots/eosio-rexfund-${settings.BLOCK_NUMBER}.csv`
+    rexfund: `snapshots/eosio-rexfund-${settings.BLOCK_NUMBER}.csv`,
   };
 };
 
@@ -70,14 +70,14 @@ const getOrCreateAccount = (name: string) => {
       liquidEOS: new BigNumber(0),
       stakedEOS: new BigNumber(0),
       rexEOS: new BigNumber(0),
-      totalEOS: new BigNumber(0)
+      totalEOS: new BigNumber(0),
     });
   }
   return accountEOSMap.get(name)!;
 };
 
 const aggregateLiquidEOS = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     if (!fs.existsSync(fileNames[`liquid`])) {
       throw new Error(`File "${fileNames[`liquid`]}" does not exist`);
     }
@@ -88,7 +88,7 @@ const aggregateLiquidEOS = async () =>
         CsvReadableStream({
           parseNumbers: false,
           parseBooleans: true,
-          trim: true
+          trim: true,
         })
       )
       .on("data", (_row: any) => {
@@ -97,7 +97,7 @@ const aggregateLiquidEOS = async () =>
           row = {
             scope: _row[0],
             ramPayer: _row[1],
-            balance: _row[2]
+            balance: _row[2],
           };
         } else {
           throw new Error(`Something is wrong with this row: ${_row}`);
@@ -111,7 +111,7 @@ const aggregateLiquidEOS = async () =>
   });
 
 const aggregateStakedEOS = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     if (!fs.existsSync(fileNames[`stake`])) {
       throw new Error(`File "${fileNames[`stake`]}" does not exist`);
     }
@@ -122,7 +122,7 @@ const aggregateStakedEOS = async () =>
         CsvReadableStream({
           parseNumbers: false,
           parseBooleans: true,
-          trim: true
+          trim: true,
         })
       )
       .on("data", (_row: any) => {
@@ -134,7 +134,7 @@ const aggregateStakedEOS = async () =>
             cpu_weight: _row[2],
             net_weight: _row[3],
             to: _row[4],
-            from: _row[5]
+            from: _row[5],
           };
         } else {
           throw new Error(`Something is wrong with this row: ${_row}`);
@@ -151,7 +151,7 @@ const aggregateStakedEOS = async () =>
   });
 
 const aggregateRexBalance = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     if (!fs.existsSync(fileNames[`rexbal`])) {
       throw new Error(`File "${fileNames[`rexbal`]}" does not exist`);
     }
@@ -162,7 +162,7 @@ const aggregateRexBalance = async () =>
         CsvReadableStream({
           parseNumbers: false,
           parseBooleans: true,
-          trim: true
+          trim: true,
         })
       )
       .on("data", (_row: any) => {
@@ -176,7 +176,7 @@ const aggregateRexBalance = async () =>
             rex_balance: _row[4],
             vote_stake: _row[5],
             owner: _row[6],
-            version: _row[7]
+            version: _row[7],
           };
         } else {
           throw new Error(`Something is wrong with this row: ${_row}`);
@@ -190,7 +190,7 @@ const aggregateRexBalance = async () =>
   });
 
 const aggregateRexFund = async () =>
-  new Promise(resolve => {
+  new Promise((resolve) => {
     if (!fs.existsSync(fileNames[`rexfund`])) {
       throw new Error(`File "${fileNames[`rexfund`]}" does not exist`);
     }
@@ -201,7 +201,7 @@ const aggregateRexFund = async () =>
         CsvReadableStream({
           parseNumbers: false,
           parseBooleans: true,
-          trim: true
+          trim: true,
         })
       )
       .on("data", (_row: any) => {
@@ -212,7 +212,7 @@ const aggregateRexFund = async () =>
             ramPayer: _row[1],
             balance: _row[2],
             owner: _row[3],
-            version: _row[4]
+            version: _row[4],
           };
         } else {
           throw new Error(`Something is wrong with this row: ${_row}`);
@@ -252,18 +252,18 @@ async function start() {
   const outputFile = ``;
   const csvWriter = createObjectCsvWriter({
     path: `snapshots/EOS_${settings.BLOCK_NUMBER}.csv`,
-    header: [`account`, `total`, `liquid`, `stake`, `rex`].map(header => ({
+    header: [`account`, `total`, `liquid`, `stake`, `rex`].map((header) => ({
       id: header,
-      title: header
+      title: header,
     })),
-    append: false
+    append: false,
   });
 
   do {
     // need to write in chunks, otherwise out of memory
     let chunk = records.splice(0, 1000);
     await csvWriter.writeRecords(
-      chunk.map(val => ({
+      chunk.map((val) => ({
         account: val.name,
         total: formatAsset(
           { amount: val.totalEOS, symbol: EOS_SYMBOL },
@@ -280,7 +280,7 @@ async function start() {
         rex: formatAsset(
           { amount: val.rexEOS, symbol: EOS_SYMBOL },
           { withSymbol: false }
-        )
+        ),
       }))
     );
   } while (records.length > 0);

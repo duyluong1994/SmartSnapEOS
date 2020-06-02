@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "ts-node .bin/easysnap.ts",
-    "bancor": "ts-node scripts/bancor/index.ts",
+    "puml": "tsc && ts-node scripts/puml/filter-accounts.ts",
     "clean": "rimraf logs/* && rimraf db/*"
   },
   "bin": {
@@ -25,13 +25,14 @@
     "@types/debug": "^4.1.4",
     "@types/dotenv": "*",
     "@types/lowdb": "^1.0.9",
-    "@types/node-fetch": "^2.3.4",
+    "@types/node-fetch": "^2.5.7",
     "rimraf": "^2.6.3",
     "ts-node": "*",
     "typescript": "*"
   },
   "dependencies": {
-    "@dfuse/client": "^0.2.6",
+    "@dfuse/client": "^0.3.10",
+    "@types/ws": "^7.2.4",
     "axios": "*",
     "bignumber.js": "*",
     "commander": "*",
@@ -46,6 +47,7 @@
     "lowdb": "^1.0.0",
     "node-fetch": "^2.6.0",
     "react": "^16.8.6",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "ws": "^7.3.0"
   }
 }

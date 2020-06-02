@@ -50,7 +50,7 @@ async function cli() {
     EOSIO_ENDPOINT: program.url,
     DFUSE_API_KEY: program.dfuse_api_key,
     CSV_HEADERS: program.csv_headers,
-    JSON: program.json
+    JSON: program.json,
   });
 
   // Error handling
@@ -66,7 +66,7 @@ async function cli() {
   const csv_headers = settings.CSV_HEADERS;
   const json = settings.JSON;
 
-  directoriesToCreate.forEach(dir => {
+  directoriesToCreate.forEach((dir) => {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir);
   });
 
@@ -87,9 +87,9 @@ async function cli() {
   const { unmount } = render();
 
   // fetch ABI
-  const { abi } = (await getAbi(code)).data
-  store.setAbi(abi, table)
-  logger.info(JSON.stringify(abi))
+  const { abi } = (await getAbi(code)).data;
+  store.setAbi(abi, table);
+  logger.info(JSON.stringify(abi));
 
   // Download Snapshot
   for await (const rows of snapshot(code, table, block_num)) {
@@ -105,6 +105,6 @@ async function cli() {
   logger.info(
     `Statistics (${filepath}): ${JSON.stringify(store.getState(), null, 2)}`
   );
-  unmount()
+  unmount();
 }
 cli();
