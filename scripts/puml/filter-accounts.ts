@@ -137,7 +137,7 @@ async function start() {
       batches,
       (batch: any, index: any) => {
         if (index % 5 === 0) {
-          console.log("ETA:", index, batches.length - index);
+          console.log("ETA:", index, batches.length - index, " 🤙");
         }
         return dropBatch(batch);
       },
@@ -189,7 +189,7 @@ const dropBatch = async (batch: any, tries = 0): Promise<any> => {
     }
   } catch (err) {
     //ignore avoid spam accounts
-    console.error(`Error at: ${runningAccount.name}`);
+    console.error(`Error at: ${runningAccount.name} 👎`);
     if (
       err.json &&
       err.json.error &&
