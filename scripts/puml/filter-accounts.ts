@@ -3,18 +3,20 @@ import fs from "fs";
 import CsvReadableStream from "csv-reader";
 import { createObjectCsvWriter } from "csv-writer";
 import { JsonRpc, RpcError } from "eosjs";
+
 // import { settings } from "../src/config";
 let settings = {
   LOW_BLOCK: 61132662,
   HIGH_BLOCK: 123670027,
-  min_EOS: 20.0,
+  lastAccounts: "",
+  version: 1,
 };
 
 import BigNumber from "bignumber.js";
 import { decomposeAsset, AssetSymbol, formatAsset } from "../../src/asset";
+const pMap = require("p-map");
 const fetch = require("node-fetch");
 const rpc = new JsonRpc("https://eos.greymass.com", { fetch });
-const EOS_SYMBOL: AssetSymbol = { symbolCode: `EOS`, precision: 4 };
 
 type Account = {
   name: string;
@@ -84,11 +86,19 @@ const aggregateActionsEOS = async () =>
 
         const amount = row.totalEOS;
         const acc = getOrCreateAccount(row);
-
         acc.totalEOS = amount;
       })
       .on("end", () => resolve());
   });
+
+const csvWriter = createObjectCsvWriter({
+  path: `snapshots/EOS_PUML_v${settings.version}.csv`,
+  header: [`account`, `balance`, `actions`].map((header) => ({
+    id: header,
+    title: header,
+  })),
+  append: false,
+});
 
 async function start() {
   try {
@@ -98,55 +108,105 @@ async function start() {
     console.log(`Add number action for EOS Account`, accountEOSMap.size);
   } catch (err) {
     console.error(err.stack);
+    process.exit(1);
   }
-  let i = 0;
-  for (const [key, value] of accountEOSMap) {
-    const data = await rpc
-      .history_get_actions(value.name, -1, -1)
-      .catch((error) => {
-        console.error(error);
-        console.log(value.name);
-      });
 
-    if (data.actions) {
-      if (data.actions.length > 0) {
-        value.totalActions = data.actions[0].account_action_seq;
+  let records = Array.from(accountEOSMap.values()).sort((a: any, b: any) => {
+    return a.totalEOS - b.totalEOS;
+  });
+  console.log(`Sorted`);
+  //start From last account
+  if (settings.lastAccounts.length > 0) {
+    records = records.splice(
+      records.findIndex((item: any) => {
+        return item.name === settings.lastAccounts;
+      })
+    );
+  }
+
+  try {
+    const batches = [];
+    const getBatch = (size: any) => {
+      return records.splice(0, size);
+    };
+
+    while (records.length > 0) {
+      batches.push(getBatch(10));
+    }
+    await pMap(
+      batches,
+      (batch: any, index: any) => {
+        if (index % 5 === 0) {
+          console.log("ETA:", index, batches.length - index);
+        }
+        return dropBatch(batch);
+      },
+      { concurrency: 5 }
+    );
+  } catch (error) {
+    console.log(error.message);
+    process.exit(1);
+  }
+}
+
+const dropBatch = async (batch: any, tries = 0): Promise<any> => {
+  if (tries > 3) {
+    process.exit(1);
+    return false;
+  }
+
+  if (!batch.length) {
+    console.log("no batch");
+    return false;
+  }
+  let runningAccount: FilterAccount = {
+    name: "",
+    totalEOS: new BigNumber(0),
+    totalActions: 0,
+  };
+
+  try {
+    for (let item of batch) {
+      runningAccount = item;
+      let data: any;
+      await rpc.history_get_actions(item.name, -1, -1).then((res) => {
+        data = res;
+      });
+      if (data) {
+        if (data.actions) {
+          if (data.actions.length > 0) {
+            item.totalActions = data.actions[0].account_action_seq;
+            csvWriter.writeRecords([
+              {
+                account: item.name,
+                balance: item.totalEOS,
+                actions: item.totalActions,
+              },
+            ]);
+          }
+        }
       }
     }
-    i++;
-    console.log(`${i} / ${accountEOSMap.size}`);
+  } catch (err) {
+    //ignore avoid spam accounts
+    console.error(`Error at: ${runningAccount.name}`);
+    if (
+      err.json &&
+      err.json.error &&
+      err.json.error.includes("non-existant account")
+    ) {
+      batch = batch.filter((item: any) => item.name !== runningAccount.name);
+      return await dropBatch(batch);
+    } else {
+      batch = batch.splice(
+        batch.findIndex((item: any) => {
+          return item.name === runningAccount.name;
+        })
+      );
+      return await dropBatch(batch, tries + 1);
+    }
   }
-
-  const records = Array.from(accountEOSMap.values()).sort(
-    (a, b) => b.totalActions - a.totalActions
-  );
-
-  console.log(`Sorted`);
-
-  const outputFile = ``;
-  const csvWriter = createObjectCsvWriter({
-    path: `snapshots/EOS_${settings.LOW_BLOCK}_${settings.HIGH_BLOCK}.csv`,
-    header: [`account`, `balance`, `actions`].map((header) => ({
-      id: header,
-      title: header,
-    })),
-    append: false,
-  });
-
-  do {
-    // need to write in chunks, otherwise out of memory
-    let chunk = records.splice(0, 1000);
-    await csvWriter.writeRecords(
-      chunk.map((val) => ({
-        account: val.name,
-        balance: formatAsset(
-          { amount: val.totalEOS, symbol: EOS_SYMBOL },
-          { withSymbol: false }
-        ),
-        actions: val.totalActions,
-      }))
-    );
-  } while (records.length > 0);
-}
+  return true;
+};
 
 start();
