@@ -8,7 +8,7 @@ import { JsonRpc, RpcError } from "eosjs";
 let settings = {
   LOW_BLOCK: 61132662,
   HIGH_BLOCK: 123670027,
-  lastAccounts: "",
+  lastAccounts: "eidosgotoken",
   version: 1,
 };
 
@@ -190,6 +190,7 @@ const dropBatch = async (batch: any, tries = 0): Promise<any> => {
   } catch (err) {
     //ignore avoid spam accounts
     console.error(`Error at: ${runningAccount.name} 👎`);
+    console.log(err.message);
     if (
       err.json &&
       err.json.error &&
