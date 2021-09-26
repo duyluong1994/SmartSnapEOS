@@ -55,7 +55,7 @@ async function webSocketFactory(url: string, protocols: string[] = []) {
 
 const client = createDfuseClient({
   apiKey: settings.DFUSE_API_KEY,
-  network: `mainnet`,
+  network: settings.DFUSE_ENDPOINT,
   httpClientOptions: {
     fetch: nodeFetch,
   },
@@ -82,11 +82,12 @@ export async function getTableScopes(
 ) {
   logger.debug(`getTableScopes ${JSON.stringify({ code, table, block_num })}`);
   try {
-    const response = await client.stateTableScopes(code, table, {
-      blockNum: block_num,
+  
+    const response = await client.stateTableScopes(code, table).catch((e:any) =>{
+      console.log(e);
     });
     return (response as unknown) as TableScopes;
-  } catch (e) {
+  } catch (e:any) {
     throw e;
   }
 }
@@ -136,6 +137,7 @@ export async function getTablesByScopes<T>(
       block_num,
     })}`
   );
+  
   try {
     const response = await client.stateTablesForScopes<T>(code, scopes, table, {
       blockNum: block_num,

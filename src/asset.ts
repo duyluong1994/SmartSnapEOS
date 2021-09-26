@@ -73,7 +73,7 @@ export function decomposeAsset(assetString: string): Asset {
         symbolCode: symbolName,
       },
     };
-  } catch (error) {
+  } catch (error:any) {
     throw new Error(
       `Invalid asset passed to decomposeAsset: ${JSON.stringify(assetString)}. ${error.message}`,
     );

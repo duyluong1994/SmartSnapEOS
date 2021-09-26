@@ -274,10 +274,10 @@ async function addConverterAccountBalances(snapshot: TSnapshot) {
 async function cleanupSnapshot(snapshot: TSnapshot) {
   const copy = JSON.parse(JSON.stringify(snapshot)) as TSnapshot
   copy.creatorcnvrt.tokens.forEach(token => {
-    delete token.accts;
+    token.accts = [];
   });
   copy.converters.forEach(converter => {
-    delete converter.accts;
+    converter.accts = [];
   });
 
   (copy as any).accts = snapshot.accts.map(converter => ({

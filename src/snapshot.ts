@@ -99,6 +99,8 @@ export async function* snapshot(
         currentScopes,
         block_num
       );
+      
+      
       for (const table of stateTableScopes.tables) {
         for (const row of table.rows) {
           // Total stats
@@ -120,7 +122,7 @@ export async function* snapshot(
       db.set("rowStats", store.getState().rowStats).cloneDeep().write();
 
       currentScopes = tableScopes.splice(0, MAX_SCOPES_TO_PROCESS);
-    } catch (error) {
+    } catch (error:any) {
       sleep(1000);
       logger.error(`Could not fetch scopes. ${error.message}`);
     }

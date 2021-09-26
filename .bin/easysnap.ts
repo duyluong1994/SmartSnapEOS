@@ -76,6 +76,7 @@ async function cli() {
     `snapshots/${code}-${table}_${format(new Date(), `yyyy-MM-dd_HH:mm:ss`)}.${
       json ? "json" : "csv"
     }`;
+    
   addLogFile(`${code}-${table}-${block_num}`);
   initDatabase(`${code}-${table}-${block_num}`);
   let csvWriter;
@@ -90,7 +91,7 @@ async function cli() {
   const { abi } = (await getAbi(code)).data;
   store.setAbi(abi, table);
   logger.info(JSON.stringify(abi));
-
+  
   // Download Snapshot
   for await (const rows of snapshot(code, table, block_num)) {
     if (!csvWriter)

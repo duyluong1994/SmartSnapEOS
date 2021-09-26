@@ -29,7 +29,7 @@ export async function getTableByScope(code: string, table: string, limit = 1000,
     }
     try {
         return await axios.post<Table<Scope>>(url, data);
-    } catch (e) {
+    } catch (e:any) {
         throw new Error(e)
     }
 }
@@ -67,7 +67,7 @@ export async function getInfo() {
     const url = `${settings.EOSIO_ENDPOINT}/v1/chain/get_info`;
     try {
         return await axios.post<Info>(url);
-    } catch (e) {
+    } catch (e:any) {
         throw new Error(e)
     }
 }
@@ -85,7 +85,7 @@ export async function getAbi(name: string) {
 
     try {
         return await axios.post<GetAbiResult>(url, data);
-    } catch (e) {
+    } catch (e:any) {
         throw new Error(e)
     }
 }

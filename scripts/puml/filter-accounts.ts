@@ -88,7 +88,7 @@ const aggregateActionsEOS = async () =>
         const acc = getOrCreateAccount(row);
         acc.totalEOS = amount;
       })
-      .on("end", () => resolve());
+      .on("end", () => resolve({}));
   });
 
 const csvWriter = createObjectCsvWriter({
@@ -106,7 +106,7 @@ async function start() {
     await aggregateActionsEOS();
 
     console.log(`Add number action for EOS Account`, accountEOSMap.size);
-  } catch (err) {
+  } catch (err:any) {
     console.error(err.stack);
     process.exit(1);
   }
@@ -143,7 +143,7 @@ async function start() {
       },
       { concurrency: 5 }
     );
-  } catch (error) {
+  } catch (error:any) {
     console.log(error.message);
     process.exit(1);
   }
@@ -187,7 +187,7 @@ const dropBatch = async (batch: any, tries = 0): Promise<any> => {
         }
       }
     }
-  } catch (err) {
+  } catch (err:any) {
     //ignore avoid spam accounts
     console.error(`Error at: ${runningAccount.name} 👎`);
     console.log(err.message);

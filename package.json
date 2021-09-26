@@ -31,7 +31,7 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@dfuse/client": "^0.3.10",
+    "@dfuse/client": "^0.3.20",
     "@types/ws": "^7.2.4",
     "axios": "*",
     "bignumber.js": "*",

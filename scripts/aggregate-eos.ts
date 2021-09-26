@@ -4,7 +4,7 @@ import CsvReadableStream from "csv-reader";
 import { createObjectCsvWriter } from "csv-writer";
 // import { settings } from "../src/config";
 let settings = {
-  BLOCK_NUMBER: 123670027,
+  BLOCK_NUMBER: 206957657,
 };
 
 import BigNumber from "bignumber.js";
@@ -107,7 +107,7 @@ const aggregateLiquidEOS = async () =>
         const acc = getOrCreateAccount(row.scope);
         acc.liquidEOS = new BigNumber(amount).plus(acc.liquidEOS);
       })
-      .on("end", () => resolve());
+      .on("end", () => resolve({}));
   });
 
 const aggregateStakedEOS = async () =>
@@ -132,8 +132,8 @@ const aggregateStakedEOS = async () =>
             scope: _row[0],
             ramPayer: _row[1],
             cpu_weight: _row[2],
-            net_weight: _row[3],
-            to: _row[4],
+            to: _row[3],
+            net_weight: _row[4],
             from: _row[5],
           };
         } else {
@@ -147,7 +147,7 @@ const aggregateStakedEOS = async () =>
           new BigNumber(amountCpu).plus(new BigNumber(amountNet))
         );
       })
-      .on("end", () => resolve());
+      .on("end", () => resolve({}));
   });
 
 const aggregateRexBalance = async () =>
@@ -171,12 +171,12 @@ const aggregateRexBalance = async () =>
           row = {
             scope: _row[0],
             ramPayer: _row[1],
-            rex_maturities: _row[2],
-            matured_rex: _row[3],
+            matured_rex: _row[2],
+            owner: _row[3],
             rex_balance: _row[4],
-            vote_stake: _row[5],
-            owner: _row[6],
-            version: _row[7],
+            rex_maturities: _row[5],
+            version: _row[6],
+            vote_stake: _row[7],
           };
         } else {
           throw new Error(`Something is wrong with this row: ${_row}`);
@@ -186,7 +186,7 @@ const aggregateRexBalance = async () =>
         const acc = getOrCreateAccount(row.owner);
         acc.rexEOS = acc.rexEOS.plus(new BigNumber(amount));
       })
-      .on("end", () => resolve());
+      .on("end", () => resolve({}));
   });
 
 const aggregateRexFund = async () =>
@@ -222,7 +222,7 @@ const aggregateRexFund = async () =>
         const acc = getOrCreateAccount(row.owner);
         acc.rexEOS = acc.rexEOS.plus(new BigNumber(amount));
       })
-      .on("end", () => resolve());
+      .on("end", () => resolve({}));
   });
 
 async function start() {
@@ -233,9 +233,10 @@ async function start() {
     await aggregateStakedEOS();
     console.log(`Parsed Staked EOS`, accountEOSMap.size);
     await aggregateRexBalance();
+    console.log(`Parsed REX1`, accountEOSMap.size);
     await aggregateRexFund();
-    console.log(`Parsed REX`, accountEOSMap.size);
-  } catch (err) {
+    console.log(`Parsed REX2`, accountEOSMap.size);
+  } catch (err:any) {
     console.error(err.stack);
   }
 
@@ -290,7 +291,7 @@ async function start() {
  * Requires the following snapshots to be there for the blocknumber
  * eosio.token-accounts
  * eosio-delband
- * eosio.rexbal
- * eosio.rexfund
+ * eosio-rexbal
+ * eosio-rexfund
  */
 start();
